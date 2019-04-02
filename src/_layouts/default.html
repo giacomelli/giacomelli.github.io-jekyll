@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
+    {% include meta.html %}
+    {% include resources-begin.html %}
+    {% include share-buttons.html %}
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <nav class="greedy">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl}}/assets/avatar-transparent.png" /></a>
+            <ul class='links'>
+              <li><a href="{{ site.baseurl }}/" class="menu-item">Blog</a></li>
+              <li><a href="{{ site.baseurl }}/projects" class="menu-item">Projects</a></li>
+              <li><a href="{{ site.baseurl }}/about" class="menu-item">About</a></li>
+            </ul>
+            <button><i class="fas fa-bars"></i></button>
+            <ul class='hidden-links hidden'></ul>
+          </nav>
+          <div class="site-info">
+              <p class="site-description">{{ site.description }}</p>
+            </div>  
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <div class="content-container">
+        {{ content }}
+      </div>
+      <div class="right-bar-container">
+          {% include ad.html %}
+          {% include search-input.html %}
+          {% include highlight-box.html title="GeneticSharp" posts=site.posts tag="geneticsharp" %}
+          {% include highlight-box.html title="Gamedev" posts=site.posts tag="gamedev" %}
+          {% include see-too-box.html %}
+      </div>
+  </div>
+  
+    <footer class="footer">
+    </footer>
+    {% include resources-end.html %}
+    {% include analytics.html %}
+    {% include lazy-load.html %}
+  </body>
+</html>

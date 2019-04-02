@@ -1,0 +1,76 @@
+{% if page.gallery != false %}
+{% assign galleryName = page.path | galleryname %} 
+{% assign gallery = site.data['galleries'][galleryName] %} 
+
+{% assign pictures = "" | split: ',' %} 
+{% if gallery.size > 1 %}
+  {% for pic in gallery %}
+    {% if gallery.first == null %}
+    {% elsif pic contains 'logo' %}
+    {% else %}
+      {% assign pictures = pictures | push: pic %}
+    {% endif %}
+  {% endfor %}
+{% elsif gallery.size == 1  %}
+  {% if gallery.first == null %}
+  {% elsif gallery.first contains 'logo' %} 
+  {% else %}
+    {% assign pictures = pictures | push: pic %}
+  {% endif %}
+{% endif %}
+
+{% if pictures.size > 0 %}
+<h2 id="gallery-title">Galeria de imagens</h2>
+<center>
+  {% if pictures.size > 1 %}
+  <ul id="lightSlider">
+    {% for pic in pictures %}
+        <li data-thumb="{{ site.baseurl }}/{{ pic }}">
+          <img class="lazy" src="{{ site.baseurl }}/assets/loading-image.png" data-src="{{ site.baseurl }}/{{ pic }}" alt="Screenshot do post"/>        
+        </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+      <img class="lazy" src="{{ site.baseurl }}/assets/loading-image.png" data-src="{{ site.baseurl }}/{{ pictures.first }}" alt="Screenshot do post"/> 
+  {% endif %}
+ </center>
+ {% endif %}
+
+{% if pictures.size > 1 %}
+
+<script type="text/javascript">
+var initialized = false;
+
+$(document).ready(function() {
+  var inview = new Waypoint.Inview({
+    element: document.getElementById('gallery-title'),
+    enter: function(direction) {
+      initializeGallery();
+    }
+  });
+});
+
+function initializeGallery() {
+  if(initialized) return;
+  
+  initialized = true;
+
+  $('#lightSlider').lightSlider({
+    gallery: true,
+    pager: true,
+    controls: false,
+    thumbItem: 8,
+    item: 1,
+    loop: false,
+    slideMargin: 0,
+    autoWidth: true,
+    adaptiveHeight: true,
+    mode: "fade",
+    useCSS: true,
+    cssEasing: 'ease',
+    easing: 'linear'
+  });
+}
+</script>
+{% endif %}
+{% endif %}

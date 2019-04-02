@@ -1,0 +1,11 @@
+<div class="highlight-box">
+    <div class="highlight-box-title">{{ include.title }}</div>
+    <hr>
+    <ul list="{{ include.title }}">
+    <script>
+        $(document).ready(function() {
+            jd.initializeHightlightBox('{{ include.title }}', '{{ include.category }}', '{{ include.tag }}');
+        });        
+    </script>
+    </ul>
+</div>

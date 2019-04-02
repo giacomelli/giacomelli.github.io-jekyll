@@ -1,0 +1,13 @@
+{% assign imageHeight = include.imageHeight | default:"200px" %}
+{% assign imageWidth = include.imageWidth | default:"100%" %}
+{% assign centralized = include.centralized | default:true %}
+
+{% if include.logo != null %}
+  {%if centralized %}
+    <center>
+  {% endif %} 
+    <img src="{{ site.baseurl }}/assets/loading-image.png" data-src="{{ site.baseurl }}/{{ include.logo }}" class="lazy" style="max-height: {{ imageHeight }};max-width: {{ imageWidth }};" alt="Logo do post"/> 
+  {%if centralized %}
+    </center>
+  {% endif %} 
+{% endif %} 
