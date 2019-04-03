@@ -3,6 +3,8 @@ published: true
 title: Improving your debug with DebuggerDisplay
 image: http://diegogiacomelli.com.br/images/NoDebuggerDisplay.png
 layout: post
+categories: Tutorial
+tags: dotnet csharp debug
 ---
 
 There is an amazing and easy to use custom attribute on .NET Framework stack that I rarely see in use. It helps and improve the way you can debug your code and you just need a line of code to use it: **DebuggerDisplay**.
@@ -24,7 +26,7 @@ public class Tweet
 
 You are debugging a list of Tweets, let me say 200 tweets, and all tweets in the debugger view looks like the image below:
 
-![NoDebuggerDisplay.png](../images/NoDebuggerDisplay.png)
+{% screenshot NoDebuggerDisplay.png %}
 
 It's clear that is not easy to know what tweets are inside that list. Of course you can use breakpoint conditions, trace, logs and many others resources to help the debug process, but DebuggerDisplay is an easier and very cheap solution.
 
@@ -42,9 +44,12 @@ public class Tweet
 ```
 
 **Now, that "secret" tweet list looks like:**
-![DebuggerDisplayInAction.png](../images/DebuggerDisplayInAction.png)
+{% screenshot DebuggerDisplayInAction.png %}
 
-_When debugging is easier than expected_
-![When debugging is easier than expected](../images/whenDebugIsEasyThanExpected.gif)
+<br>
+
+{% screenshot whenDebugIsEasyThanExpected.gif %}
+{% caption When debugging is easier than expected %}
+
 
 _More information about DebuggerDisplay on official documentation: [msdn.microsoft.com/en-us/library/ms228992(v=vs.110).aspx](http://msdn.microsoft.com/en-us/library/ms228992(v=vs.110).aspx)_

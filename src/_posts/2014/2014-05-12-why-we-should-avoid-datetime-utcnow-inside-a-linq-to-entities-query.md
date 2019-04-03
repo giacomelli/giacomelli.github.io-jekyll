@@ -2,11 +2,9 @@
 published: true
 layout: post
 title: "Why we should avoid DateTime.UtcNow inside a Linq to Entities query?"
-type: post
+categories: Article
+tags: dotnet csharp linq-to-entities
 ---
-
-
-
 **Because we can get unexpected results! (after read this tip, will be expected results ;))**
 
 ### What is the diference between these two Linq queries?
