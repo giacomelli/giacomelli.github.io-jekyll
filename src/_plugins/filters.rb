@@ -5,7 +5,7 @@ module Jekyll
     end
 
     def categorytitle(input)
-      def sanitizedTitle = input.gsub /[\[\]"]/, '';
+      sanitizedTitle = input.gsub /[\[\]"]/, '';
 
       case sanitizedTitle 
       when 'Article'
