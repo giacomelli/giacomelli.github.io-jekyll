@@ -11,23 +11,25 @@ module Jekyll
       when 'Article'
         return 'Articles'
       when 'Tutorial'
-        return 'Tutorials'     
+        return 'Tutorials'  
+      when 'Lab'
+        return 'Labs'     
       else
-        return input
+        return sanitizedTitle
       end
     end
 
     def categoryicon(input)
       case input.gsub /[\[\]"]/, ''
-      when 'Article'
+      when 'News'
         iconName = 'newspaper'
-      when 'Tutorial'
+      when 'Lab'
         iconName = 'eye'
       when 'Game'
         iconName = 'gamepad'
-      when 'Interview'
+      when 'Article'
         iconName = 'comments'
-      when 'Event'
+      when 'Tutorial'
         iconName = 'chalkboard-teacher'
       when 'Column'
         iconName = 'comment-alt'
@@ -37,7 +39,6 @@ module Jekyll
       
       return "<i class='fas fa-#{iconName}'></i>"
     end
-
   end
 end
   

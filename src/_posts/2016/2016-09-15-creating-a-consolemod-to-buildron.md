@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: Creating a ConsoleMod to Buildron
-image: http://diegogiacomelli.com.br/images/BuildronLogo.png
+categories: Tutorial
+tags: buildron unity3d open-source dotnet mods
 ---
 In this post we’ll create a mod that adds a console window to Buildron and let you monitor its events. Our ConsoleMod will have 2 classes: ModController and Mod.
 
@@ -204,12 +205,12 @@ Open SimulatorScene.
 Hit the "Play" button.
 
 You should see a scene like this:
-![](../images/ConsoleMod-SimulationScene-opened.png)
+{% screenshot ConsoleMod-SimulationScene-opened.png %}
 
 In the menu "Buildron", click on "Show Simulator".
 
 Click on "BuildFound", "BuildStatusChanged" and "BuildRemoved" buttons, you should see these events been registered on ConsoledMod window.
-![](../images/ConsoleMod-SimulationScene-events-registered.png)
+{% screenshot ConsoleMod-SimulationScene-events-registered.png %}
 
 Hit the "Play" button again to stop playing the scene.
 
@@ -224,7 +225,7 @@ Go to folder ConsoleMod/build and open the Buildron of your platform.
 Hit the play button on Buildron.
 
 You should see the ConsoleMod window registering a lot of Buildron events.
-![](../images/ConsoleMod-Buildron.png)
+{% screenshot ConsoleMod-Buildron.png %}
 
 ## Conclusion
 That's it! We created a Buildron mod that can help to debug what is happening in Buildron and mods in runtime.

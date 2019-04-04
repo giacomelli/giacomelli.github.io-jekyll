@@ -2,8 +2,8 @@
 published: true
 layout: post
 title: "Testing js-dos"
-image: https://raw.githubusercontent.com/giacomelli/Nibble/master/docs/screenshots/nibble_002.png
-published: true
+categories: Lab
+tags: dosbox javascript
 ---
 Recenlty I discovered the project [Emscripten](https://github.com/kripken/emscripten):
 
@@ -33,10 +33,9 @@ var dosbox = new Dosbox({
 ```
 
 Below is the result. Enjoy it!
+<iframe src="{%  asset nibble.html %}" frameborder="0" allowfullscreen style="width:100%; height:500px"></iframe>
 
-<iframe width="100%" height="480" src="../labs/testing-js-dos/nibble.html" frameborder="0" allowfullscreen></iframe>
-
-The full sample can be download here: [sample](../labs/testing-js-dos/sample.zip).
+The full sample can be download here: [sample]({%  asset sample.zip %}).
 
 *Note: tested on Chrome 64 bits.*
 

@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: Sending a Slackbot message from Unity3d
-image: http://diegogiacomelli.com.br/images/SlackBot.png
+categories: Tutorial
+tags: slack unity3d open-source gist dotnet bot
 ---
 
 I was looking for a way to send a message to a Slack channel using the Slackbot API. 
@@ -14,7 +15,7 @@ I could have tried to compile those client libraries projects using a older .NET
 Then I decided to try a very raw solution using the Unity3d WWWForm and it worked well, very simple, but can be useful to someone. The result is the code bellow:
 
 
-![](../images/SlackBotMessage.png)
+{% screenshot SlackBotMessage.png %}
 
 BotController
 ======

@@ -6,11 +6,14 @@ module Jekyll
     end
 
     def render(context)
-      galleryDir = GalleryGenerator::getRelativeDir(context.environments.first['page']['path'])
-      site = context.registers[:site]
+      unless @text.include? "/"
+        galleryDir = GalleryGenerator::getRelativeDir(context.environments.first['page']['path'])
+        @text = "#{galleryDir}/#{@text}"
+      end
 
+      site = context.registers[:site]
       "<center>
-        <img class='lazy' src='#{site.baseurl}/assets/#{galleryDir}/#{@text}'>
+        <img class='lazy' src='#{site.baseurl}/assets/#{@text}'>
       </center>"
     end
   end

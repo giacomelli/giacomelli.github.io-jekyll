@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Getting your code documentation at runtime
-categories: Article
+categories: Tutorial
 tags: dotnet csharp docsbyreflection open-source
 ---
 

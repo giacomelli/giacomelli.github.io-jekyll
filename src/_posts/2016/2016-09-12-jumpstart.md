@@ -2,16 +2,13 @@
 published: true
 layout: post
 title: jumpstart
-image: http://diegogiacomelli.com.br/images/jumpstart-logo.png
+categories: News
+tags: jumpstart open-source dotnet command-line
 ---
 
 I present to you my newest tool...
 
-![](../images/jumpstart-icon.png)jumpstart
-===
-
-
-![](../images/jumpstart-convention-sample.gif)
+{% screenshot jumpstart-convention-sample.gif %}
 
 [jumpstart](https://github.com/giacomelli/jumpstart) is a command-line tool to create new C# projects from prebuilt/templates.
 
@@ -21,7 +18,7 @@ I created [jumpstart](https://github.com/giacomelli/jumpstart) to simplify the p
 
 The idea of the tool was born a long time ago and became a little stronger every time that I had to create a new solution and all the projects by hand, but when I saw the message bellow in the [http://xamarin.com/prebuilt](http://xamarin.com/prebuilt ) page I decided to finally write the tool... and the name was very clear, almost.
 
-![](../images/jumpstart-Xamarin-jumpstart-message.png)
+{% screenshot jumpstart-Xamarin-jumpstart-message.png %}
 
 > The first name that I thought to the tool was prebuilt, but later, my friend [Giusepe Casagrande](https://twitter.com/giusepe) convinced me that jumpstart was really better name... and he was right!
 
