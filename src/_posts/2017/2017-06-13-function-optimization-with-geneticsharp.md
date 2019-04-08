@@ -2,16 +2,15 @@
 published: true
 layout: post
 title: Function optimization with GeneticSharp
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: Tutorial
+tags: geneticsharp dotnet genetic-algorithm
 ---
 In this tutorial we will learn how to use GeneticSharp to optimize the inputs of math function and more about genetic algorithms meanwhile.
 
 ## Introduction
 I created [GeneticSharp](https://github.com/giacomelli/GeneticSharp) a long time ago because three main reasons:
 
-<center>
-<img src="../images/GeneticSharp-logo.png">
-</center>
+{% logo GeneticSharp.png default %}
 
 * I needed a fast, extensible, multi-platform and multithreading C# genetic algorithm library to use in my GA experiments;
 * I wanted to study and understand GA better;  
@@ -21,18 +20,18 @@ I created [GeneticSharp](https://github.com/giacomelli/GeneticSharp) a long time
 As far as I know GeneticSharp has been used in a lot of different projects, since card games deck optimization, self managing distributed file system, context-sensitive code completion, even in airplanes trajectories optimization. These are pretty cool and exciting topics, but this tutorial is not about this advanced topics. Here I want to take a very simple sample and show how easy and fast you can add genetic algorithms on your project using GeneticSharp. So, let's evolve!
 
 ## The problem
-![](../images/problem.png)
+{% screenshot problem.png %}
 
 In our sample we will optimize the input of a mathematical function, this function will be used as our fitness evaluation function. For this sample we will use a function that everyone saw in school time, the famous [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) or commonly know as distance of two points function: 
 
-![](../images/GeneticSharp-EuclideanDistanceFunction.png)
+{% screenshot GeneticSharp-EuclideanDistanceFunction.png %}
 
 We will consider our chromosome fitness as the result of this function. The higher the result, the better is the chromosome fitness.
 
 Our chromosome will be the Euclidean distance function arguments, the X1, Y1, X2 and Y2.
 
 ## What our genetic algorithm is looking for?
-![](../images/telescope.png)
+{% screenshot telescope.png %}
 
 The goal of our genetic algortim is **find the input values of Euclidean distance function: X1, Y1 and X2, Y2 that result in the greatest distance in a rectangular area**. 
 
@@ -41,7 +40,7 @@ What? You can think: *"this is a stupid goal"*, because everyone knows that the 
 > We can easly create a brute force solution with four nested loops that will find the solution of our problem, but as I mencioned before this 'problem' is just for the tutorial purpose, because in normal applications genetic algoritm find solutions to problems that the solution is not so obvious or in some cases the solutions are even unknow.
 
 ## Creating the project
-![](../images/project.png)
+{% screenshot project.png %}
 
 Open your IDE (Visual Studio/Xamarin Studio) and create a new console project.
 
@@ -56,7 +55,7 @@ install-package GeneticSharp
 GeneticSharp implements all the classic components of a genetic algorithm, like gene, chromosome, population, fitness, selection, crossover, mutation, reinsetion and termination. When you use it to build your genetic algorithm code you just need to implement a few things, mostly you will need to code just your solution's chromosome and fitness. 
 
 ## Creating an Euclidean distance chromosome
-![](../images/chromosome.png)
+{% screenshot chromosome.png %}
 
 Chromosome is the representation of a possible solution in genetic algoritms.
 
@@ -87,7 +86,7 @@ The constructor receive four arrays, they are:
 4) The number of fraction (scale or decimal) part of the number. In our case we will not use any.
 
 ## Creating the population
-![](../images/population.png)
+{% screenshot population.png %}
 
 The population represents the possible solutions to our problem, so we need to create a population of our Euclidean distance chromosome.
 
@@ -98,7 +97,7 @@ In GeneticSharp a population is represented by the [IPopulation](https://github.
 We created a population that will have a minimum number of 50 chromosomes and a maximum number of 100 and used our chromosome template as the "Adam chromosome" (yeah, you get the reference) of our GA.
 
 ## Creating the fitness function
-![](../images/score.png)
+{% screenshot score.png %}
 
 The fitness function is where the genetic algoritm will evaluate and give a value (fitness) to each chromosome generated inside it. A good fitness function can guide your GA to a fast and optimum solution.
 
@@ -113,7 +112,7 @@ To allow us to evaluate the chromosome we need to convert it from its genotype (
 {% include ad.html %} 
 
 ## Creating the selection
-![](../images/podium.png)
+{% screenshot podium.png %}
 
 A selection is the genetic algorithm operator responsible for decing which chromosomes of current population will be selected as parent of the next population.
 
@@ -126,7 +125,7 @@ Besides this, you can use the already implemented classic selections: [Elite](ht
 Elite selection is a good option, because it will select the chromosomes with the best fitness (greatest distance). You can try the others selection options too and see how they change the GA speed and results.
 
 ## Creating the crossover
-![](../images/cross.png)
+{% screenshot cross.png %}
 
 The chromosomes selected by the selection need to cross to generate new possible solutions of the next generation of the GA. The crossover operator is responsible for crossing these selected chromosomes.
 
@@ -141,7 +140,7 @@ Uniform Crossover enables the parent chromosomes to contribute the gene level ra
 So, in our case Uniform crossover is a very good option, because using the 0.5f mix probability it will generate new chromosomes that are combination of X1, Y1 from one parent and X2, Y2 from another parent.
 
 ## Creating the mutation
-![](../images/mutation.png)
+{% screenshot mutation.png %}
 
 The biology definition of mutations is: 
 *"In genetics, mutation may be small scale (affecting a gene) or large scale (involving a change in the chromosome). It may arise from faulty deletions, insertions, or exchanges of the genetic material. Such a change may result in the creation of a new character or trait."* 
@@ -157,7 +156,7 @@ Like the other operators, you can create your own mutation implementing the [IMu
 Flip-bit mutation is a mutation specific to chromosomes that implement [IBinaryChromosome](https://github.com/giacomelli/GeneticSharp/blob/master/src/GeneticSharp.Domain/Chromosomes/IBinaryChromosome.cs) interface, as our FloatingPointChromosome does. It will randomly chose a gene and flip it bit, so a gene with value 0 will turn to 1 and vice-versa.
 
 ## Creating the termination
-![](../images/end.png)
+{% screenshot end.png %}
 
 A termination decide when a GA should be stopped. GeneticSharp use the generation number termination with just one generation as default termination. This mean that the genetic algoritm will run just one generation when you call the Start method, after this you can increment the expected generation number of the termination and call the method Resume how many times you want.
 
@@ -170,7 +169,7 @@ If you have some special condition to terminate your GA you can implement the [I
 In our tutorial we will use the fitness stagnation termination with a expected stagnant generations number of 100, this mean that if our GA generate the same best chromsome fitness in the last 100 generations then it will be terminated. 
 
 ## Running the GA
-![](../images/running.png)
+{% screenshot running.png %}
 
 Now that everything is set up, we just need to instantiate and start our genetic algorithm and watch it run.
 
@@ -203,19 +202,19 @@ Generation 23: (998,680),(0,1) = 1207.08119030991
 Generation 32: (998,680),(0,0) = 1207.6439872744
 ```
 If we plot these generations the output image will be like this:
-![](../images/GeneticSharpFunctionOptimizatonPlot.png)
+{% screenshot GeneticSharpFunctionOptimizatonPlot.png %}
 
 We can see that in the first generations (black lines) the genetic algorithm as some intermediate results and at the end (red line) **it found the best possible solution: a diagonal.**
 
 ## Complete source code
-![](../images/programmer.png)
+{% screenshot programmer.png %}
 
 When you finish the tutorial your source code will be this one:
 
 {% gist b6861313762464fe62b652ef7d03b91c CompleteSourceCode.cs %}
 
 ## Conclusion
-![](../images/conclusion.png)
+{% screenshot conclusion.png %}
 
 In this tutorial we learn how genetic algoritm works and how to use GeneticSharp to solve a very simple sample. Now you can try it to solve more complex problems.
 

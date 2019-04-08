@@ -2,17 +2,18 @@
 published: true
 layout: post
 title: GeneticSharp v1.1.0 - Binary chromosomes
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: News
+tags: geneticsharp dotnet release
 ---
 The **[GeneticSharp v1.1.0](https://github.com/giacomelli/GeneticSharp)** is out. The greatest additions of this version are the binary chromosomes: **FloatingPointChromosome and IntegerChromosome.**
 
-![](../images/GeneticSharp-logo.png)
+{% logo GeneticSharp.png default %}
 
 Binary chromosomes can be directly used when your solution chromosome can be represented as numbers or a string representation of 0 and 1.
 
 A new sample has been added to the GeneticSharp.Runner.GtkApp, this sample called "Function optimization" show the FloatingPointChromsome in action:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Q62tGjEDsYM" frameborder="0" allowfullscreen></iframe>
+{% youtube Q62tGjEDsYM %}
 
 Besides these new chromosomes, there is a new mutation: FlipBit, a special mutation to IBinaryChromosome that takes the chosen gene and inverts the bits.
 	
