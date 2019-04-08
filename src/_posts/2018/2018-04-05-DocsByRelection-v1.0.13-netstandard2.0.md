@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: DocsByReflection v1.0.13 - .NET Standard 2.0
-image: http://diegogiacomelli.com.br/images/netcore.svg
+categories: News
+tags: DocsByReflection dotnet release
 ---
 The **[DocsByReflection v1.0.13](https://github.com/giacomelli/DocsByReflection/releases/tag/v1.0.13)** is out.
 

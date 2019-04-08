@@ -2,7 +2,8 @@
 published: true
 layout: post
 title: TSP with GeneticSharp and Unity3D  
-image: http://diegogiacomelli.com.br/images/city.png
+categories: Tutorial
+tags: geneticsharp unity3d tsp dotnet release
 ---
 <style>
 div.gist-meta { display:none; }
@@ -11,9 +12,7 @@ In this post I will show how to use GeneticSharp and Unity3D to solve the TSP (T
  
 ## Introduction
 
-<center>
-<img src="../images/city.png" width="128">
-</center>
+{% logo city.png default %}
 
 According to Wikipedia _**"The travelling salesman problem (TSP) asks the following question: "Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?"**_
 
@@ -30,14 +29,14 @@ To better understand this tutorial, you need to have some experiences/knowledges
 ## Creating the Unity3D project
 Using Unity 2018.1+, create a new project called TspSample.
 
-![](../labs/tsp-with-GeneticSharp-and-Unity3d/creating-project.png)
+{% screenshot creating-project.png %}
 
 ## Using .NET Standard 2.0
 Go to "Player settings" / "Other settings" / "Configuration", select ".NET 4.x Equivalent" on "Scripting Runtime Version". Unity will ask to restart, you can confirm.
 
 After restart, go back to "Player settings", select ".NET Standard 2.0" on "Api Compability Level".
 
-![](../labs/tsp-with-GeneticSharp-and-Unity3d/player-settings.png)
+{% screenshot player-settings.png %}
 
 ## Installing GeneticSharp
 Install GeneticSharp using the .unitypackage available on [GeneticSharp release page](https://github.com/giacomelli/GeneticSharp/releases).
@@ -78,7 +77,7 @@ Save the scene.
 
 Run the scene on editor and take a look on the console window, you will see the distance to reach all cities getting smaller as the generations ran.
 
-![](../labs/tsp-with-GeneticSharp-and-Unity3d/console-window.png)
+{% screenshot console-window.png %}
 
 
 ## Drawing the cities
@@ -106,10 +105,10 @@ And then call it from Start method:
 {% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change3.cs %}
 
 Now, select the GAController game object on hierarchy and set the CityPrefab property.
-![](../labs/tsp-with-GeneticSharp-and-Unity3d/setting-cityprefab.png)
+{% screenshot setting-cityprefab.png %}
 
 Try to run the scene, you should see something like this:
-![](../labs/tsp-with-GeneticSharp-and-Unity3d/draw-cities.png)
+{% screenshot draw-cities.png %}
 
 ## Drawing the route
 In the previous step we drawn the cities and we have the visual of the problem: the cities.
@@ -132,7 +131,7 @@ Before run the scene, we need to add a LineRenderer component to our GAControlle
 > Change the width property of the LineRenderer from 1 to 0.1.
 
 Run the scene again, now you should see the route been optimizing as the generations are ran:
-![](../labs/tsp-with-GeneticSharp-and-Unity3d/draw-route.png)
+{% screenshot draw-route.png %}
 
 
 ## Changing the cities positions
@@ -148,7 +147,9 @@ Change the GAController.cs script adding the line below to the end of the for lo
 {% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change7.cs %}
 
 Finally, our sample is really done and you should be capable to change the cities positions, by dragging the pins around, and genetic algorithm will try to figure out the best route in real time.
-![GeneticSharp sample running on Android](../labs/tsp-with-GeneticSharp-and-Unity3d/tsp-sample.gif)
+
+{% screenshot tsp-sample.gif %}
+
 
 ## Conclusion
 With only 5 C# scripts and 1 prefab we built a pretty nice sample of genetic algorithms using in Unity3D with GeneticSharp. Now you can improve it with your own ideas or use some of mine ;):

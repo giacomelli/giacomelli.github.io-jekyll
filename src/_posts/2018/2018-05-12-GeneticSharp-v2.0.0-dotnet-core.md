@@ -2,15 +2,14 @@
 published: true
 layout: post
 title: GeneticSharp v2.0.0 - .NET Core  
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: News
+tags: geneticsharp dotnet release
 ---
 The **[GeneticSharp v2.0.0](https://github.com/giacomelli/GeneticSharp/releases/tag/v2.0.0)** is out with support to .NET Standard 2.0 and .NET Framework 4.6.2.
  
 ## Introduction
 
-<center>
-<img src="../images/netcore.svg" width="128">
-</center>
+{% logo netcore.svg default %}
 
 In march GenetichSharp start to support .NET Standard 2.0 in the 2.0.0-rc version. Two months have pass and in the meanwhile the community have time to test that release candidate version and now Unity3D has an official .NET Standard 2.0 profile.
 
@@ -36,9 +35,7 @@ install-package GeneticSharp -Version 1.2.0
 ```
 
 ## Breaking changes
-<center>
-<img src="../images/breaking-changes.png" >
-</center>
+{% logo breaking-changes.png default %}
 
 > I've already talk about these breaking changes on the post about the release candidate version, but I guess is good to point them again:
 

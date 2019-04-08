@@ -2,17 +2,15 @@
 published: true
 layout: post
 title: GeneticSharp Car2D  
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: Article
+tags: geneticsharp unity3d tsp car2d dotnet
 ---
 
 I made an Unity3D sample for [GeneticSharp](https://github.com/giacomelli/GeneticSharp) inspired by amazing [BoxCar2D](http://boxcar2d.com/about.html) where a genetic algorithm tries to design 2D cars to overcome roads challenges.
 
  
 ## Introduction
-
-<center>
-<img src="../labs/GeneticSharp-Car2D/car.png" width="256">
-</center>
+{% screenshot car.png %}
 
 I was always amazed by the 2D cars designed by [BoxCar2D](http://boxcar2d.com/about.html)  and see how genetic algorithm make new and (probably) better cars each new generation and I always wanted make a sample inspired by it using GeneticSharp.
  
@@ -59,9 +57,7 @@ A road is defined by its points quantity and distance, height, rotation, gaps, a
 ## The fitness function
 The fitness of each car (chromosome) to the road will be the **sum of the max distance** reach by it **plus the average velocity** at that moment.
 
-<center>
-<img src="../labs/GeneticSharp-Car2D/FitnessFunction.png">
-</center>
+{% screenshot FitnessFunction.png %}
 
 ## Genetic algorithm and the simulation
 The genetic algorithm to evaluate the simulation is configured with this operators:
@@ -73,9 +69,7 @@ The genetic algorithm to evaluate the simulation is configured with this operato
 * Termination: Time evolving
 
 Besides that, the chromosomes are evaluated in parallel using the GeneticSharp's ParallelTaskExecutor and you can see all them in 4x4 grid:
-<center>
-<img src="../labs/GeneticSharp-Car2D/SimulationGrid.png">
-</center>
+{% screenshot SimulationGrid.png %}
 
 > If you are running the sample inside Unity3D editor you can change the size of the simulation grid in the SampleController game object from CarScene.
 
@@ -88,9 +82,7 @@ Besides the roads that are different, the car setup is the same. This way we can
 The first is a road with gaps that getting greater. 
 The next video resumes how GeneticSharp designs the car for the gap road.
 
-<center>
-<iframe width="640" height="480" src="https://www.youtube.com/embed/hxt2E3QGZw4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</center>
+{% youtube hxt2E3QGZw4 %}
 
 > All videos are recording running the GeneticSharp Car2D on my Android. I used the [DU Recorder](https://play.google.com/store/apps/details?id=com.duapps.recorder&hl=en_US) to record them. Amazing app BTW.
 
@@ -100,9 +92,7 @@ About 100 generations, GeneticSharp generate a car that has a front wheel suspen
 ### Hill road
 This road has some hills that increase as the car travels.
 
-<center>
-<iframe width="640" height="480" src="https://www.youtube.com/embed/x0zCDyGc80s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</center>
+{% youtube x0zCDyGc80s %}
 
 For hill road, the genetic algorithm creates a car with enough length to touch the two sides of the downhills at the same time, this allows the car to keep the velocity needed to overcome the hill part. The middle wheel is what allows the car to pass the hill part of the road.
 
@@ -110,9 +100,7 @@ For hill road, the genetic algorithm creates a car with enough length to touch t
 ### Obstacle road
 Some fixed obstacles are placed on the road and force the cars to pass over them
 
-<center>
-<iframe width="640" height="480" src="https://www.youtube.com/embed/gJCz79xdCFY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</center>
+{% youtube gJCz79xdCFY %}
 
 This is probably the most curious design because the genetic algorithm found out that to overcome the obstacle, the car needed to reach it at high velocity and needs to have a back support to avoid car rollover.
 

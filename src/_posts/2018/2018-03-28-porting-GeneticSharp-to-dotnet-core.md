@@ -2,16 +2,15 @@
 published: true
 layout: post
 title: Porting GeneticSharp to .NET Core  
-image: hhttp://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: Article
+tags: geneticsharp dotnet release
 ---
 The **[GeneticSharp v2.0.0-rc1](https://github.com/giacomelli/GeneticSharp/releases/tag/v2.0.0-rc1)** is out.
 
 In this version GeneticSharp starts to support .NET Standard 2.0 and .NET Framework 4.6.2.
  
-<center>
-Porting <img src="../images/GeneticSharp-logo.png">
-to <img src="../images/netcore.svg" width="128">
-</center>
+Porting {% logo GeneticSharp.png default %}
+to {% logo netcore.svg default %}
 
 
 ## Introduction
@@ -45,9 +44,7 @@ install-package GeneticSharp -Version 1.2.0
 ```
 
 ## Porting
-<center>
-<img src="../images/porting.png">
-</center>
+{% screenshot porting.png %}
 
 ### Warmup
 
@@ -128,9 +125,7 @@ Test Run Aborted
 Delete the "obj" and "bin" folders from unit test project will "fix" the problem.
 
 ## Breaking changes
-<center>
-<img src="../images/breaking-changes.png" >
-</center>
+{% logo breaking-changes.png default %}
 
 * The GeneticSharp NuGet package was split into two packages:
     * GeneticSharp: only GeneticSharp.Domain.dll and GeneticSharp.Infrastructure.Framework.dll
@@ -142,9 +137,7 @@ Delete the "obj" and "bin" folders from unit test project will "fix" the problem
 
 
 ## Reads during the porting
-<center>
-<img src="../images/conclusion.png">
-</center>
+{% screenshot conclusion.png %}
 
 Some readings I did during the whole process, maybe can be useful to someone porting a library to .NET Core too.
 
@@ -166,7 +159,7 @@ Some readings I did during the whole process, maybe can be useful to someone por
 * [Feature : Allow project reference DLLs to be added to the parent nupkg for pack target like IncludeReferencedProjects in nuget.exe](https://github.com/NuGet/Home/issues/3891#issuecomment-375501212)
 * [https://github.com/dotnet/cli/issues/5504](https://github.com/dotnet/cli/issues/5504)
 
-![](../images/GeneticSharp-dotnet-build.png)
+{% screenshot GeneticSharp-dotnet-build.png %}
 
 Now I'm planning to create a GeneticSharp's sample using Unity3d's new beta features, like the new ECS (Entity Component System), C# Job System and the Burst compiler. 
 

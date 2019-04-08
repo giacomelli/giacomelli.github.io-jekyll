@@ -2,17 +2,17 @@
 published: true
 layout: post
 title: GeneticSharp Unity3d Samples released on Google Play  
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: Article
+tags: geneticsharp unity3d dotnet android google-play
 ---
  
 I published on Google Play the **GeneticSharp Unity3d Samples**. 
 
-<center>
-<iframe src="https://www.youtube.com/embed/pJpZwCW2m4s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</center>
+{% youtube pJpZwCW2m4s %}
+
 <center>
 	<a href="https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.geneticsharprunnersunityapp">
-		<img src="../images/google-play-badge.png" width="256">
+		{% logo google-play-badge.png default %}
 	</a>
 </center>
 
