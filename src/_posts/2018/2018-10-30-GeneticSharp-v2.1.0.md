@@ -2,15 +2,14 @@
 published: true
 layout: post
 title: GeneticSharp v2.1.0
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: News
+tags: geneticsharp dotnet release
 ---
 The **[GeneticSharp v2.1.0](https://github.com/giacomelli/GeneticSharp)** is out.
 
 ### Features
 
-<center>
-<img src="../images/GeneticSharp-logo.png">
-</center>
+{% logo GeneticSharp.png default %}
 
 * Add constructor with values to FloatingPointChromosome [#33](https://github.com/giacomelli/GeneticSharp/issues/33)
 

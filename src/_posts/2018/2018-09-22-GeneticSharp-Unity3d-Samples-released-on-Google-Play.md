@@ -21,28 +21,22 @@ In this app you can see GeneticSharp running on Unity3d in three different sampl
 
 ## Car2D
 Based on famous BoxCar2D, this sample uses a genetic algorithm to create car designs to overcome road challenges, like gaps, hills, and obstacles.
-<center>
-<img src="../images/GeneticSharp-Unity3d-Samples-Car2d.png" width="512">
-</center>
+
+{% screenshot GeneticSharp-Unity3d-Samples-Car2d.png %}
 
 ## TSP
 The classic TSP sample, but in this, we can change the cities positions while the genetic algorithm is running and see how it finds the best route.
 
-This sample inspired this post [TSP with GeneticSharp and Unity3D](http://diegogiacomelli.com.br/tsp-with-GeneticSharp-and-Unity3d/).
+This sample inspired this post {% post TSP with GeneticSharp and Unity3D %}.
 
-<center>
-<img src="../images/GeneticSharp-Unity3d-Samples-TSP.png" width="512">
-</center>
+{% screenshot GeneticSharp-Unity3d-Samples-TSP.png %}
 
 ## Wall builder
 This sample tries to build a higher wall using random initial bricks positions.
 
-<center>
-<img src="../images/GeneticSharp-Unity3d-Samples-Wall-Builder.png" width="512">
-</center>
+{% screenshot GeneticSharp-Unity3d-Samples-Wall-Builder.png %}
 
 
 You can get the full source code here: [https://github.com/giacomelli/GeneticSharp/tree/master/src/GeneticSharp.Runner.UnityApp](https://github.com/giacomelli/GeneticSharp/tree/master/src/GeneticSharp.Runner.UnityApp)
 
 Let's evolve!
-

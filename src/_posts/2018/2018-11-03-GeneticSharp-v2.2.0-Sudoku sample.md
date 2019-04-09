@@ -2,16 +2,15 @@
 published: true
 layout: post
 title: GeneticSharp v2.2.0 - Sudoku sample
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: News
+tags: geneticsharp dotnet release
 ---
 The **[GeneticSharp v2.2.0](https://github.com/giacomelli/GeneticSharp)** is out.
 
 
 The additions of this version are the new whole sample and extensions showing how to use GeneticSharp to solve a Sudoku.
 
-<center>
-<img src="../images/GeneticSharp-logo.png">
-</center>
+{% logo GeneticSharp.png default %}
 
 The GeneticSharp.Extensions project receive those new features:
 
