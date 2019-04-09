@@ -31,10 +31,6 @@ module Jekyll
         iconName = 'comments'
       when 'Tutorial'
         iconName = 'chalkboard-teacher'
-      when 'Column'
-        iconName = 'comment-alt'
-      when 'Promo'
-        iconName = 'money-bill-alt'
       end
       
       return "<i class='fas fa-#{iconName}'></i>"
