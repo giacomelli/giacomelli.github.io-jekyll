@@ -56,7 +56,7 @@ var jd = {
 
                     var indexes = [];
 
-                    for(var i = 0; i < 3 && i < posts.length; i++)
+                    for(var i = 0; i < 5 && i < posts.length; i++)
                     {
                         
                         do {
