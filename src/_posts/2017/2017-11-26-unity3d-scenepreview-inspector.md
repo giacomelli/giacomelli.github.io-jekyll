@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Unity3D ScenePreview inspector
 categories: News
-tags: unity3d open-source
+tags: unity3d gamedev open-source
 ---
 I'm working in a new game prototype and in this process I was creating some experimental levels to test the mechanics, but by the name of scene I was having dificult to remember which mechanic the level was about and I had to open each level to discover that one was looking for, so I thought: it will be cool have an image preview of the scene when we select the file in hierarchy.
 

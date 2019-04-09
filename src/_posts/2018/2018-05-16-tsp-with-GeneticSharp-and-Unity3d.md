@@ -3,7 +3,7 @@ published: true
 layout: post
 title: TSP with GeneticSharp and Unity3D  
 categories: Tutorial
-tags: geneticsharp unity3d tsp dotnet release
+tags: geneticsharp unity3d tsp dotnet
 ---
 <style>
 div.gist-meta { display:none; }

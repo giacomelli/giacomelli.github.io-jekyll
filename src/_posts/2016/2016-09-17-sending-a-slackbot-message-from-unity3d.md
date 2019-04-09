@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Sending a Slackbot message from Unity3d
 categories: Tutorial
-tags: slack unity3d open-source gist dotnet bot
+tags: slack unity3d gamedev open-source gist dotnet bot
 ---
 
 I was looking for a way to send a message to a Slack channel using the Slackbot API. 

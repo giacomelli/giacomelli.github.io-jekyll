@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: dotnet new templates for GeneticSharp
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+tags: geneticsharp dotnet
 ---
 Now GeneticSharp has a NuGet package called GeneticSharp.Templates, this package allows you to install GeneticSharp templates using the **dotnet new** command.
 
@@ -18,7 +18,7 @@ dotnet new GeneticSharp --list
 
 The GeneticSharp templates will be listed:
 
-![](../labs/dotnet-new-templates-for-GeneticSharp/dotnet-new-list-output.png)
+{% screenshot dotnet-new-list-output.png %}
 
 # Creating a new GeneticSharp project from templates
 
@@ -27,7 +27,7 @@ Create a new console application template with GeneticSharp where you just need 
 ```shell
 dotnet new GeneticSharpConsoleApp -n MyNamespace -o MyOutoputFolder
 ```
-![](../labs/dotnet-new-templates-for-GeneticSharp/consoleapp-project.png)
+{% screenshot consoleapp-project.png %}
 
 
 ### TSP Console application
@@ -35,13 +35,13 @@ Create a new console application template with GeneticSharp ready to run a Trave
 ```shell
 dotnet new GeneticSharpTspConsoleApp -n MyNamespace -o MyOutoputFolder
 ```
-![](../labs/dotnet-new-templates-for-GeneticSharp/tspconsoleapp-project.png)
+{% screenshot tspconsoleapp-project.png %}
 
 ### TSP Unity3D
 Create an Unity3D template with GeneticSharp ready to run a Travelling Salesman Problem (TSP).
 ```shell
 dotnet new GeneticSharpTspUnity3d -n MyNamespace -o MyOutoputFolder
 ```
-![](../labs/dotnet-new-templates-for-GeneticSharp/tspunity3d-project.png)
+{% screenshot tspunity3d-project.png %}
 
 Let's evolve!

@@ -2,15 +2,14 @@
 published: true
 layout: post
 title: GeneticSharp v2.4.0 - New crossovers and TPL implementations
-image: http://diegogiacomelli.com.br/images/GeneticSharp-logo.png
+categories: News
+tags: geneticsharp dotnet release
 ---
 The **[GeneticSharp v2.4.0](https://github.com/giacomelli/GeneticSharp)** is out.
 
 The additions of this version are the two new crossovers implementations and a new option of ITaskExecutor that use TPL.
 
-<center>
-<img src="../images/GeneticSharp-logo.png">
-</center>
+{% logo GeneticSharp.png default %}
 
 # Crossovers
 ### Alternating-position (AP)

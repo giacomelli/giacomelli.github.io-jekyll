@@ -3,7 +3,7 @@ published: true
 layout: post
 title: GeneticSharp - Unity3d sample  
 categories: Tutorial
-tags: geneticsharp unity3d tsp car2d dotnet
+tags: geneticsharp unity3d gamedev tsp car2d dotnet
 ---
  
 I just pushed to GeneticSharp master branch the [GeneticSharp.Runners.UnityApp](https://github.com/giacomelli/GeneticSharp/tree/master/src/GeneticSharp.Runner.UnityApp). 
