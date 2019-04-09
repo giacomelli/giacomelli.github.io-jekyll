@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /pesquisa/
-title: Pesquisa
+permalink: /search/
+title: Search
 ---
 
 <h3 id="search-result-title"></h3>
@@ -11,10 +11,10 @@ title: Pesquisa
 var urlParams = new URLSearchParams(window.location.search);
 var query = urlParams.get('q').toString();
 
-$('title').text($('title').text().replace('Pesquisa', query));
-$('#search-result-title').text("Resultado da pesquisa por \"" + query + "\"");
+$('title').text($('title').text().replace('Search', query));
+$('#search-result-title').text("Search result for \"" + query + "\"");
 var resultElement = $("#search-result");
-resultElement.html("<i>Carregando...</i>");
+resultElement.html("<i>Loading...</i>");
 var regex = new RegExp(jd.escapeRegex(jd.removeAccents(query)), "i");
 
 
@@ -36,7 +36,7 @@ $.getJSON("{{ site.baseurl }}/search.json", function(json) {
     });       
 
     if (resultElement.text().length == 0)
-        resultElement.html("<i>nenhum resultado encontrado</i>");
+        resultElement.html("<i>No result found.</i>");
 });
 
 function hasQuery(post, regex) {

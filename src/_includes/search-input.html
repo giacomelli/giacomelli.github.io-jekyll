@@ -1,6 +1,6 @@
 <!-- HTML elements for search -->
 <div class="highlight-box search-box">
-    <div class="highlight-box-title">Pesquisa</div>
+    <div class="highlight-box-title">Search</div>
     <hr>
     <input type="text" id="search-input"><input id="search-button" type="submit" value=">" class="button">
 </div>
@@ -17,6 +17,6 @@
     });
 
     function goToSearch() {
-      window.location.href = "{{ site.baseurl }}/pesquisa?q=" + $('#search-input').val();
+      window.location.href = "{{ site.baseurl }}/search?q=" + $('#search-input').val();
     }
 </script>
