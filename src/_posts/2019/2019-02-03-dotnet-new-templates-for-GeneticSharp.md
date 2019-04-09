@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: dotnet new templates for GeneticSharp
+categories: News
 tags: geneticsharp dotnet
 ---
 Now GeneticSharp has a NuGet package called GeneticSharp.Templates, this package allows you to install GeneticSharp templates using the **dotnet new** command.
