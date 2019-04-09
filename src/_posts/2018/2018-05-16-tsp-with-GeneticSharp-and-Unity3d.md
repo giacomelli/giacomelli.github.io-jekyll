@@ -24,7 +24,7 @@ To better understand this tutorial, you need to have some experiences/knowledges
 * Unity3D (beginner)
 * Genetic algorithms (beginner). 
 
-> If you need an introduction to genetic algorithms, take a look at this tutorial [Function optimization with GeneticSharp](http://diegogiacomelli.com.br/function-optimization-with-geneticsharp/).
+> If you need an introduction to genetic algorithms, take a look at this tutorial  {% post Function optimization with GeneticSharp %}.
 
 ## Creating the Unity3D project
 Using Unity 2018.1+, create a new project called TspSample.

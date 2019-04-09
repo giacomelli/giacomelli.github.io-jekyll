@@ -7,7 +7,7 @@ tags: DocsByReflection dotnet release
 ---
 The **[DocsByReflection v1.0.13](https://github.com/giacomelli/DocsByReflection/releases/tag/v1.0.13)** is out.
 
-> If you don't know what is DocsByReflection or what you can do with it, take a look in my previous post about it ["Getting your code documentation at runtime"](http://diegogiacomelli.com.br/getting-your-code-documentation-at-runtime).
+> If you don't know what is DocsByReflection or what you can do with it, take a look in my previous post about it "{% post Getting your code documentation at runtime %}".
 
 ## .NET Standard 2.0 and .NET Framework 4.6
 In this version [DocsByReflection](https://github.com/giacomelli/DocsByReflection) starts to support .NET Standard 2.0.

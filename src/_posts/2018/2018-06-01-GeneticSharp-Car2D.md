@@ -18,8 +18,8 @@ I was always amazed by the 2D cars designed by [BoxCar2D](http://boxcar2d.com/ab
 The sample that I will talk about is available on the GeneticSharp repository at GeneticSharp.Runner.UnityApp. You can fork GeneticSharp and open it on Unity3D editor, then run the MenuScene. 
 
 > If you need some introduction to genetic algorithms or GeneticSharp:
-> * Introduction to genetic algorithms: [Function optimization with GeneticSharp](http://diegogiacomelli.com.br/function-optimization-with-geneticsharp/).
-> * Using GeneticSharp on Unity3D: [TSP with GeneticSharp and Unity3D](http://diegogiacomelli.com.br/tsp-with-GeneticSharp-and-Unity3d/).
+> * Introduction to genetic algorithms: {% post Function optimization with GeneticSharp %}.
+> * Using GeneticSharp on Unity3D: {% post TSP with GeneticSharp and Unity3D %}.
 
 ## What is our 2D car?
 In GeneticSharp Car2D, a car is composed of:
