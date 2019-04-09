@@ -26,6 +26,7 @@ build_script:
 - sh: ./generate-bundle.sh
 - sh: cd src
 - sh: bundle exec jekyll build
+- sh: cp ../CNAME _site/CNAME
 - ps: | 
       cd _site
       echo "{ `"date`": `"$(Get-Date -Format g)`", `"branch`": `"$($env:APPVEYOR_REPO_BRANCH)`" }" > version.json
