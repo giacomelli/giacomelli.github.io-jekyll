@@ -5,6 +5,8 @@
     {% include meta.html %}
     {% include resources-begin.html %}
     {% include share-buttons.html %}
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
   </head>
 
   <body>
@@ -14,16 +16,19 @@
           <nav class="greedy">
             <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl}}/assets/avatar-transparent.png" /></a>
             <ul class='links'>
-              <li><a href="{{ site.baseurl }}/" class="menu-item">Blog</a></li>
-              <li><a href="{{ site.baseurl }}/projects" class="menu-item">Projects</a></li>
+              <li><a href="{{ site.baseurl }}/news" class="menu-item">News</a></li>
+              <li><a href="{{ site.baseurl }}/tutorials" class="menu-item">Tutorials</a></li>
+              <li><a href="{{ site.baseurl }}/articles" class="menu-item">Articles</a></li>
+              <li><a href="{{ site.baseurl }}/labs" class="menu-item">Labs</a></li>
+              <li><a href="{{ site.baseurl }}/open-source" class="menu-item">Open source</a></li>
               <li><a href="{{ site.baseurl }}/about" class="menu-item">About</a></li>
             </ul>
             <button><i class="fas fa-bars"></i></button>
             <ul class='hidden-links hidden'></ul>
           </nav>
           <div class="site-info">
-              <p class="site-description">{{ site.description }}</p>
-            </div>  
+              <p class="site-description"><a class="github-button" href="https://github.com/giacomelli" aria-label="Follow @giacomelli on GitHub">Follow @giacomelli</a> <a href="https://twitter.com/ogiacomelli" class="twitter-follow-button" data-show-count="false">Follow @ogiacomelli</a></p> 
+          </div>  
         </header>
       </div>
     </div>

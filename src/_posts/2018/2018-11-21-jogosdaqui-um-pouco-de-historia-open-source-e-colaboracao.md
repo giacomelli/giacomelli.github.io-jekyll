@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: jogosdaqui - um pouco de história, open source e colaboração (pt-BR)
-categories: News
+categories: Article
 tags: jogosdaqui pt-br brasil
 ---
 Muitos não sabem, mas além de programar, sempre gostei de ajudar a divulgar a indústria brasileira de desenvolvimento de jogos. 

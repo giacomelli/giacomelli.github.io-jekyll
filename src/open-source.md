@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Open source
+permalink: /open-source/
 published: true
 ---
-My open source projects:
-
+<br>
+Some of my open source projects:
+<hr>
 
 ## [GeneticSharp](https://github.com/giacomelli/GeneticSharp)
 [https://github.com/giacomelli/GeneticSharp](https://github.com/giacomelli/GeneticSharp)

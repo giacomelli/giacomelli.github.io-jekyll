@@ -5,7 +5,11 @@ permalink: /about/
 published: true
 ---
 
-Programmer since 2001.
+<br>
+Programmer since 2001.<br>
+Backend, libraries, Unity3D and C# development in general.
+
+<hr>
 Below you can see some links about me:
 
 - Twitter: [ogiacomelli](http://twitter.com/ogiacomelli)

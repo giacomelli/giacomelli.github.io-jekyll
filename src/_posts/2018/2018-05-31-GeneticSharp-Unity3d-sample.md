@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: GeneticSharp - Unity3d sample  
-categories: Tutorial
+categories: News
 tags: geneticsharp unity3d gamedev tsp car2d dotnet
 ---
  

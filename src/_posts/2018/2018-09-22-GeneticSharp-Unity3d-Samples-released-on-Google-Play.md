@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: GeneticSharp Unity3d Samples released on Google Play  
-categories: Article
+categories: News
 tags: geneticsharp unity3d dotnet android google-play
 ---
  
