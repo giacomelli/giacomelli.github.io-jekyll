@@ -14,7 +14,7 @@
       <div class="container">
         <header class="masthead clearfix">
           <nav class="greedy">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl}}/assets/avatar-transparent.png" /></a>
+            <a href="{{ site.baseurl }}/" class="site-avatar" title="{{ site.name }} | {{ site.description }}""><img src="{{ site.baseurl}}/assets/avatar-transparent.png" /></a>
             <ul class='links'>
               <li><a href="{{ site.baseurl }}/news" class="menu-item">News</a></li>
               <li><a href="{{ site.baseurl }}/tutorials" class="menu-item">Tutorials</a></li>
@@ -26,9 +26,6 @@
             <button><i class="fas fa-bars"></i></button>
             <ul class='hidden-links hidden'></ul>
           </nav>
-          <div class="site-info">
-              <p class="site-description"><a class="github-button" href="https://github.com/giacomelli" aria-label="Follow @giacomelli on GitHub">Follow @giacomelli</a> <a href="https://twitter.com/ogiacomelli" class="twitter-follow-button" data-show-count="false">Follow @ogiacomelli</a></p> 
-          </div>  
         </header>
       </div>
     </div>
@@ -39,6 +36,8 @@
       </div>
       <div class="right-bar-container">
           {% include ad.html %}
+          <a class="github-button" href="https://github.com/giacomelli" aria-label="Follow @giacomelli on GitHub">Follow @giacomelli</a> 
+          <a href="https://twitter.com/ogiacomelli" class="twitter-follow-button" data-show-count="false">Follow @ogiacomelli</a>
           {% include search-input.html %}
           {% include highlight-box.html title="Tutorials" posts=site.posts category="Tutorial" %}
           {% include highlight-box.html title="News" posts=site.posts category="News" %}
