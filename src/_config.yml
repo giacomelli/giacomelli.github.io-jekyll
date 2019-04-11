@@ -54,7 +54,7 @@ url: http://diegogiacomelli.com.br
 baseurl: ""
 
 highlighter: rouge
-permalink: /:title
+permalink: /:title/
 
 tag_page_layout: tag-page
 tag_page_dir: tags
