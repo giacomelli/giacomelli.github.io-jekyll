@@ -4,6 +4,10 @@ environment:
   SITE_REPO_TOKEN: 
     secure: 9J4+3PqRqzTDiC280JthRE4EVP8YqK67eEDJmyD+2s+j8H/R5TyrJJJNnpOejxCH
 
+branches:
+  only:
+    - master
+    
 install:
 - sh: sudo rm -rf /var/lib/apt/lists/*
 - sh: sudo apt-get update
