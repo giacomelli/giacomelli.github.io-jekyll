@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Unity Avatar Mask and Animation Layers
 categories: Tutorial
-tags: unity3d animation avatarmask
+tags: unity3d gamedev animation avatar-mask animation-layers open-source
 ---
 In this tutorial we will learn how to use [Avatar Mask](https://docs.unity3d.com/Manual/AnimationMaskOnImportedClips.html) and [Animation Layers](https://docs.unity3d.com/Manual/AnimationLayers.html) to combine multiple animations.
 
@@ -46,10 +46,10 @@ By reading those two sections is quite clear that we need to use avatar masks an
 ## Starter project
 {% logo project.png default %}
 
-All the source code and assets for this tutorial are available on this GitHub repository: [https://github.com/giacomelli/unity-animation-mask](https://github.com/giacomelli/unity-animation-mask). To start this tutorial you need to fork, clone or download the repository.
+All the source code and assets for this tutorial are available on this GitHub repository: [https://github.com/giacomelli/unity-avatar-mask-and-animation-layers](https://github.com/giacomelli/unity-avatar-mask-and-animation-layers). To start this tutorial you need to fork, clone or download the repository.
 
 ```shell
-git clone https://github.com/giacomelli/unity-animation-mask.git
+git clone https://github.com/giacomelli/unity-avatar-mask-and-animation-layers.git
 ```
 
 Open the folder `avatar-mask-starter` on Unity.
@@ -162,15 +162,15 @@ To implement these actions you need to do almost the same thing we did in this t
 If you have any doubt how to implement any part of this challenge, feel free to ask on this post comments or [send me a message]({{ site.baseurl}}about).
 
 ## Solution
-The whole source code and assets for this tutorial are available on: [https://github.com/giacomelli/unity-animation-mask](https://github.com/giacomelli/unity-animation-mask)
+The whole source code and assets for this tutorial are available on: [https://github.com/giacomelli/unity-avatar-mask-and-animation-layers](https://github.com/giacomelli/unity-avatar-mask-and-animation-layers)
 
 This repository has two main folders:
 
 * **avatar-mask-starter**: the one you used to make this tutorial.
-* **avatar-mask-completed**: the whole solution with all actions implemented. Use this one, in case you get stuck in any item on the challenge.
+* **avatar-mask-complete**: the whole solution with all actions implemented. Use this one, in case you get stuck in any item on the challenge.
 
 The video below shows the complete solution running:
-{% youtube %}
+{% youtube sl9EheTbmhE %}
 
 ## Conclusion
 In this tutorial, we learn how to use Avatar Masks and Animation Layers to animate a robot with different masks and layers.
