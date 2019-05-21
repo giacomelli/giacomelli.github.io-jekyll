@@ -592,3 +592,46 @@ ul.pager li.selected { background-color: $theme-color; }
 .entry {
   margin-bottom: 10px;
 }
+
+.externalref {
+  color: darkgray;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  border-width: 2px;
+  border-style: dashed;
+  border-color: darkkhaki;
+  border-radius: 10px;
+}
+
+.externalref p {
+  margin: 0px;
+}
+
+.externalref a {
+  color: darkgray;
+}
+
+.note {
+  color: darkgray;
+  margin-bottom: 20px;
+  padding: 10px;
+
+  border-width: 2px;
+  border-style: dashed;
+  border-color: darkgray;
+  border-radius: 10px;
+}
+
+.note p {
+  margin: 0px;
+}
+
+.note a {
+  color: darkgray;
+}
+
+.highlighter-rouge {
+  color: darkred;
+  font-style: italic;
+}

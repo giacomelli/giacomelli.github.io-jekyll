@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Unity Avatar Mask
+title: Unity Avatar Mask`
 categories: Tutorial
 tags: unity3d animation avatarmask
 ---
@@ -24,7 +24,7 @@ All those clips are animations for full body. So, when you play:
 {% screenshot WalkForward_Shoot.png %}
 {% caption the robot walk forward and shoot %}
 
-> You can see all the animations available on the Sci Fi Warrior PBR HP package in this video [https://www.youtube.com/watch?v=fNzBdYhm3Gk](https://www.youtube.com/watch?v=fNzBdYhm3Gk)
+{% externalref You can see all the animations available on the Sci Fi Warrior PBR HP package in this video [https://www.youtube.com/watch?v=fNzBdYhm3Gk](https://www.youtube.com/watch?v=fNzBdYhm3Gk) %}
 
 These are great animations, although if **you want to make the robot stands idle, but instead of keeping the gun in the middle of his body, he aims the gun or shooting the gun?**
 
@@ -52,21 +52,21 @@ All the source code and assets for this tutorial are available on this GitHub re
 git clone https://github.com/giacomelli/unity-animation-mask.git
 ```
 
-Open the folder "avatar-mask-starter" on Unity.
-> This starter project has a initial setup and assets to allow us focus in the learning about Avatar Masks and Animations Layers.
+Open the folder `avatar-mask-starter` on Unity.
+{% note This starter project has a initial setup and assets to allow us focus in the learning about Avatar Masks and Animations Layers. %}
 
-Open the scene "_Tutorial/Scenes/TutorialScene". 
+Open the scene `_Tutorial/Scenes/TutorialScene`. 
 
-> If you see a popup called "TMP importer", hit the "Import TPM Essentials" button to import the TextMesh Pro's assets.
+{% note If you see a popup called `TMP importer`, hit the `Import TPM Essentials` button to import the TextMesh Pro's assets. %}
 
-Hit the "Play" button. You should see a screen like this:
+Hit the `Play` button. You should see a screen like this:
 
 {% screenshot starter-project.png %}
 {% caption Starter project running: buttons as no actions yet %}
 
 ## Creating the Animation Controller
 
-Create a new "Animation Controller" (menu "Assets/Create/Animation Controller") and open it:
+Create a new `Animation Controller` (menu "Assets/Create/Animation Controller") and open it:
 
 {% screenshot animator-window-empty.png %}
 {% caption Animator window showing the animation controller created %}
@@ -154,23 +154,7 @@ Now you can combine the two buttons "WALK / FORWARD" and "SHOOT / SINGLE" and se
 Do something is better to learn than just reading and following someone instructions, because this I will challenge you to try to implement the another actions:
 
 {% screenshot challenge.png %}
-{% caption the remaining actions to the challenge %}
-
-* Shoot
-	* Aim
-	* Auto
-* Head
-	* Confirm
-* Walk
-	* Back
-	* Left
-	* Right
-* Run
-	* Forward
-* Legs
-	* Swing left
-	* Swing right	   	 	 
-
+{% caption the remaining actions to the challenge %} 	 	 
 To implement this actions you need to do almost same thing we did in this tutorial so far, just using another animation clips, transitions and parameters.
 
 The challenger item are the legs, because you will need to create new Avatar Masks with the "Transform" option of the avatar configuration to get the right animation. New Animation Layers will be need as well.
