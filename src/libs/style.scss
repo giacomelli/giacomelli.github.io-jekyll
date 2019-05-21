@@ -632,6 +632,13 @@ ul.pager li.selected { background-color: $theme-color; }
 }
 
 .highlighter-rouge {
-  color: darkred;
+  color: #6d0a0a;
   font-style: italic;
+  background-color: #d3d3d336;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+code {
+  color: dark;
 }
