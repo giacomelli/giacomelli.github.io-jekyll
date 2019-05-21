@@ -7,7 +7,7 @@ module Jekyll
 
     def render(context)
       galleryDir = GalleryGenerator::getRelativeDir(context.environments.first['page']['path'])
-      "<center><span style='font-style:italic; font-size:small'>#{@text}</span></center>"
+      "<center><span style='font-style:italic; font-size:small'>#{@text}</span></center><br>"
     end
   end
 end
