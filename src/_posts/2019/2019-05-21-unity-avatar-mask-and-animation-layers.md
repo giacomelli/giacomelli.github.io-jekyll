@@ -86,7 +86,7 @@ Now we need to tell to the animation controller when it should activate the two 
 {% screenshot animation-parameter.png %}
 {% caption WalkForward parameter created %}
 
-We want to activate the transition from `Any state` to `WalkForward_Shoot` when `WalkForward` is true, so select this transition and in its `Conditions` list on inspector add the `WalkForward` equals  `true`:
+We want to activate the transition from `Any state` to `WalkForward_Shoot` when `WalkForward` is true, so select this transition (click on the arrow connecting the state `Any State` to `WalkForward_Shoot`) and in the `Conditions` list on inspector add the `WalkForward` equals `true`:
 {% screenshot walk-forward-condition.png %}
 {% caption WalkForward condition defined %}
 
@@ -94,7 +94,7 @@ Click the `reset` to auto fit the exit and transition time:
 {% screenshot reset-transition.png %}
 {% caption reseting the transition settings %}
 
-Do the same to the transition from `WalkForward_Shoot` to `Idle_GunMiddle`, but use `false` as the value for `WalkForward`.
+Repeat the same steps as above for the transition from `WalkForward_Shoot` to `Idle_GunMiddle`, but use `false` as the value for `WalkForward`.
 {% screenshot animator-base-layer.png %}
 {% caption animation base layer %}
 
@@ -140,11 +140,11 @@ Now we need to tell to the animation controller when it should activate the two 
 {% screenshot shoot-single-parameter.png %}
 {% caption ShootSingle parameter created %}
 
-We want to activate the transition from `Any state` to `Shoot_single` when `ShootSingle` is true, so select this transition and in its `Conditions` list on inspector add the `ShootSingle` equals  `true`.
+We want to activate the transition from `Any state` to `Shoot_single` when `ShootSingle` is true, so select this transition (click on the arrow connecting the state `Any State` to `Shoot_single`) and in the `Conditions` list on inspector add the `ShootSingle` equals  `true`.
 
 Click the `reset` to auto fit the exit and transition time.
 
-Do the same to the transition from `ShootSingle` to `Idle_GunMiddle`, but use `false` as the value for `ShootSingle`.
+Repeat the same steps as above for the transition from `ShootSingle` to `Idle_GunMiddle`, but use `false` as the value for `ShootSingle`.
 
 Hit the `Play` button to test the animation states. When you click on `SHOOT / SINGLE` the robot shoot.
 
