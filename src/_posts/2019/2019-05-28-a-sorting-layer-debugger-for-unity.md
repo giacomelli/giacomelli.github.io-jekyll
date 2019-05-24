@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Unity Sorting Layer Debugger
+title: A Sorting Layer Debugger for Unity
 categories: Lab
 tags: unity3d unitytips sorting-layers 2D editor-window gamedev open-source
 ---
