@@ -6,7 +6,7 @@ module Jekyll
     end
 
     def render(context)
-      "<center><span style='font-style:italic; font-size:small'>#{@text}</span></center><br>"
+      "<center><span style='font-style:italic; font-size:small'>#{Helper::toMarkdown(context, @text)}</span></center><br>"
     end
   end
 end
