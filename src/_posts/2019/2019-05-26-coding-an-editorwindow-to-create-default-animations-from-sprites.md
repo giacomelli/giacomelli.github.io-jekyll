@@ -33,7 +33,7 @@ The ideia behind DefaultAnimationsEditorWindow is that when you have a bunch o c
 {% screenshot similar-spritesheets.png %}
 {% caption similar spritesheets from Phantasy Star IV (Alys, Chaz and Demi). Sprites ripped by Ultimecia from [The Spriters Resource](https://www.spriters-resource.com/genesis_32x_scd/ps4) %}
 
-Starting whith sprite to walk down and ending with last sprite of walk horizontal, we have 9 sprites and in all spritesheets the sprites index are the same:
+Starting whith sprite to walk down and ending with last sprite of walk horizontal, we have 9 sprites and in all spritesheets the sprites indexes are the same:
 
 {% screenshot alys-walking-spritesheet.png %}
 
@@ -47,36 +47,63 @@ Starting whith sprite to walk down and ending with last sprite of walk horizonta
 ## Starter project
 {% logo project.png default %}
 
-All the source code and assets for this tutorial are available on this GitHub repository: [https://github.com/giacomelli/unity-avatar-mask-and-animation-layers](https://github.com/giacomelli/unity-avatar-mask-and-animation-layers). To start this tutorial you need to fork, clone or download the repository.
+All the source code and assets for this tutorial are available on this GitHub repository: [https://github.com/giacomelli/coding-an-editorwindow-to-create-default-animations-from-sprites](https://github.com/giacomelli/coding-an-editorwindow-to-create-default-animations-from-sprites). To start the tutorial you need to fork, clone or download the repository.
 
 ```shell
-git clone https://github.com/giacomelli/unity-avatar-mask-and-animation-layers.git
+git clone https://github.com/giacomelli/coding-an-editorwindow-to-create-default-animations-from-sprites.git
 ```
 
-Open the folder `avatar-mask-starter` on Unity.
-{% note This starter project has an initial setup and assets to allow us to focus in the learning about Avatar Masks and Animations Layers. %}
+Open the folder `default-animations-editor-window-starter` on Unity.
+{% note This starter project has an initial setup and assets to allow us to focus in the learning about how to code the EditorWindow. %}
 
 Open the scene `_Tutorial/Scenes/TutorialScene`. 
 
-{% note If you see a popup called `TMP importer`, hit the `Import TPM Essentials` button to import the TextMesh Pro's assets. %}
-
 Hit the `Play` button. You should see a screen like this:
 
-{% screenshot starter-project.png %}
-{% caption Starter project running: just HUD %}
+{% video starter-project-play-mode.mp4 %}
 
-## Creating the Animation Controller
+## The editor window code organization
 
-Create a new `Animation Controller` (menu `Assets/Create/Animation Controller`) and open it:
+We will organize our DefaultAnimationsEditorWindow in 3 classes:
 
-{% screenshot animator-window-empty.png %}
-{% caption Animator window showing the animation controller created %}
+* DefaultAnimationsEditorWindow: where you define the menu and GUI for our editor window.
 
-All animation layers, nodes and transitions for this tutorial will be created inside this animation controller.
+* DefaultAnimationsSettings: this is our [ScriptableObject](https://docs.unity3d.com/Manual/class-ScriptableObject.html) to save our settings defined on DefaultAnimationsEditorWindow.
 
-In the hierarchy, select the SciFiWarriorHP and in the Animator component set the `Controller` property to our Animation Controller.
+* DefaultAnimationsUtility: here we will implement the code used by our DefaultAnimationsEditorWindow to perform operation. Put the operation code in a separated class not bounded by the GUI allow us to use this operations in any other script. These way to work is similar what Unity it self use in some editor operations, like: [AnimationUtility](https://docs.unity3d.com/ScriptReference/AnimationUtility.html), [PrefabUtility](https://docs.unity3d.com/ScriptReference/PrefabUtility.html) and [SpriteUtility](https://docs.unity3d.com/ScriptReference/Sprites.SpriteUtility.html). 
 
-## Making the robot walk forward
+## DefaultAnimationsEditorWindow
+In the code bellow we define the menu for the window through the method `ShowWindow` and the attribute `MenuItem`.
+{% screenshot menu-item.png %}
+
+In the next method `CreateDefaultAnimations` using the same `MenuItem` we add a contextual menu to inspector of the Sprite components.
+
+{% note CONTEXT/ComponentName – items will be available by right-clicking inside the inspector of the given component. ([Special paths](https://unity3d.com/pt/learn/tutorials/topics/interface-essentials/unity-editor-extensions-menu-items) %}
+
+At the `OnEnable` we read the settings from our ScriptableObject DefaultAnimationsSettings.
+
+The next 3 methods just draw the components to the editor window GUI.
+{% screenshot editor-window-empty.png %}
+
+## DefaultAnimationsSettings
+There is few things to talk about this class, because it is just a ordinary ScriptableObject with a couple of properties that will be serialized and useb by the DefaultAnimationsUtility class, a singleton to make easier to access the settings, two methods to load/create the asset and a subclass to sprite mappings.
+
+## DefaultAnimationsUtility
+In this class is where we will code the heart of our editor window.
+
+There are 2 important methods in this class: CreateAnimationClips and CreateAnimatorOverride.
+
+### CreateAnimationClips
+Here we will iterate through the `AnimationsMappings` defined in the editor window (saved on DefaultAnimationsSettings.AnimationsMapping), for each mapping we will call the method `CreateAnimationClip`.
+
+The `CreateAnimationClip` creates a new `AnimationClip` (or load if already exists one with the same name), copying the frame rate and wrap mode from the `ClipToOverride` defined in the mapping. After, if wrap mode is a loop, it use the `AnimationUtility` to set the loop time to the clip settings.
+
+Now is the most tricky part of this class, we need to create a `EditorCurveBinding` for the sprite and get the `ObjectReferenceKeyframe` from the `ClipToOverride` and create new `ObjectReferenceKeyframe` to our new key frames.
+
+## CreateAnimatorOverride
+In this method we create `AnimatorOverrideController` that will override each clip from the `DefaultAnimationsSettings.AnimatorController` by the ClipToOverride of each mapping defined on `DefaultAnimationsSettings.AnimationsMapping`.
+
+
 To get something running right now, we will make the robot walk forward when the button `WALK / FORWARD` became checked.
 
 In the Animator opening with our Animation Controller drag the animation clip `Idle_GunMiddle` from folder `SciFiWarrior/Animations`. Do the same with the clip `WalkForward_Shoot`.
