@@ -125,33 +125,22 @@ Open the editor window on menu `Windows / Default Animations` and configure it a
 
 ## Using the DefaultAnimations
 Drag all the spritesheets (textures) from folder `Assets/_Tutorial/Sprites` to the `Spritesheets` field and click on `Create animations` button:
-{% youtube 5Hk8awWCtSs %}
-
+{% youtube 49KKfR081Po %}
 
 ## Challenge
-Do something is better to learn than just reading and following someone instructions because this I will challenge you to try to implement other actions:
-
-{% screenshot challenge.png %}
-{% caption the remaining actions to the challenge %} 	 	 
-To implement these actions you need to do almost the same thing we did in this tutorial so far, just using another animation clips, transitions and parameters.
-
-{% note The challenger items are the legs because you will need to create new Avatar Masks with the `Transform` option of the avatar configuration to get the right animation. New Animation Layers will be needed as well. %}
+Try to change de editor window to allow more the one set of default animations. One way to this is creating another ScriptableObject to save the current selected `DefaultAnimationsSettings` asset.
 
 If you have any doubt how to implement any part of this challenge, feel free to ask on this post comments or [send me a message]({{ site.baseurl}}about).
 
 ## Solution
-The whole source code and assets for this tutorial are available on: [https://github.com/giacomelli/unity-avatar-mask-and-animation-layers](https://github.com/giacomelli/unity-avatar-mask-and-animation-layers)
+The whole source code and assets for this tutorial are available on: [https://github.com/giacomelli/coding-an-editorwindow-to-create-default-animations-from-sprites](https://github.com/giacomelli/coding-an-editorwindow-to-create-default-animations-from-sprites)
 
 This repository has two main folders:
 
-* **avatar-mask-starter**: the one you used to make this tutorial.
-* **avatar-mask-complete**: the whole solution with all actions implemented. Use this one, in case you get stuck in any item on the challenge.
-
-The video below shows the complete solution running:
-{% youtube sl9EheTbmhE %}
+* **adefault-animations-editor-window-starter*: the one you used to make this tutorial.
+* **default-animations-editor-window-complete**: the whole solution with all scripts and assets implemented. Use this one, in case you get stuck in any item on the challenge.
 
 ## Conclusion
-In this tutorial, we learn how to use Avatar Masks and Animation Layers to animate a robot with different masks and layers.
-These techniques allowing us to use already existent animations and combine them.
+In this tutorial, we learn how to coding a custom editor window to create a set of default animation clips and animator override controler.
 
 {% iconscopyright %}
