@@ -116,7 +116,7 @@ In this method we create `AnimatorOverrideController` that will override each cl
 ## Setup
 Copy [this whole Editor folder](https://github.com/giacomelli/coding-an-editorwindow-to-create-default-animations-from-sprites/tree/master/default-animations-editor-window-complete/Assets/_Tutorial/Editor) to your `Assets/_Tutorial` folder.
 
-{%note this folder is available on your local clone of the repository inside the folder `default-animations-editor-window-complete/Assets/_Tutorial`
+{% note this folder is available on your local clone of the repository inside the folder `default-animations-editor-window-complete/Assets/_Tutorial` %}
 
 Delete the DefaultAnimationsSettings scritable object instance.
 
