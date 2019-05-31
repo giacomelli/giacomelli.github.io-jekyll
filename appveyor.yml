@@ -6,7 +6,7 @@ environment:
 
 branches:
   only:
-    - master
+    - develop
     
 install:
 - sh: sudo rm -rf /var/lib/apt/lists/*
