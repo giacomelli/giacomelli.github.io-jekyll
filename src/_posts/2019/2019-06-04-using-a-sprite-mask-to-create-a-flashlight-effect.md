@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Using a Sprite Mask to create a flashlight effect
 categories: Tutorial
-tags: unity3d sprite-mask gamedev
+tags: unity3d unitytips sprite-mask gamedev
 ---
 When I was reading about the [Sprite Mask](https://docs.unity3d.com/Manual/class-SpriteMask.html) on Unity Manual, I questioned my self `"How long does it take to create a flashlight effect using the Sprite Mask?"`.
 
