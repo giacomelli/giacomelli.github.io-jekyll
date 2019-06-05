@@ -5,7 +5,7 @@ title: GeneticSharp in the Wild&colon; AeroVision - Aircraft Trajectories Optimi
 categories: Article
 tags: geneticsharp geneticsharp-in-the-wild
 ---
-I decided to start a serie of posts about some most outstanding scientific papers and projects using GeneticSharp.
+I decided to start a series of posts about some outstanding scientific papers and projects using GeneticSharp.
 
 For this first post the choose one is the `AeroVision - Aircraft Trajectories Optimization and Visualization`.
 
