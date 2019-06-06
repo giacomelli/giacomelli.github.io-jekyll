@@ -8,58 +8,42 @@ tags: tesseract ocr dotnet
 
 Recently I've to built a small tool to read the text from thounsands of images.
 
-The common technique to extract text from images is called OCR (Optical character recognition) and the best implementation of if is called [Tesseract](https://github.com/tesseract-ocr/tesseract).
+A common technique to extract text from images is know as OCR (Optical character recognition) and the best implementation (that I Know) of if is called [Tesseract](https://github.com/tesseract-ocr/tesseract).
 
-When a I started to build the tool, I used the most famous [Tesseract's wrapper for .NET](https://github.com/charlesw/tesseract). This wrapper still use Tesseract 3. In early performance tests a decide to test Tesseract4, because the version 4 had some performance improvements:
+When a I started to build the tool, I used the most famous [Tesseract's wrapper for .NET](https://github.com/charlesw/tesseract). 
+
+Besides the wrapper worked pretty well, I was curious about if there was a way to get better peformance results. With a little search I noticed that the .NET wrapper still use Tesseract 3, but there was a version 4 available with a lot of performance improvements:
 
 > If you are running Tesseract 4, you can use the "fast" integer models.
 >
-Tesseract 4 also uses up to four CPU threads while processing a page, so it will be faster than Tesseract 3 for a single page.
->
-If your computer has only two CPU cores, then running four threads will slow down things significantly and it would be better to use a single thread or maybe a maximum of two threads! Using a single thread eliminates the computation overhead of multithreading and is also the best solution for processing lots of images by running one Tesseract process per CPU core.
->
-Set the maximum number of threads using the environment variable OMP_THREAD_LIMIT.
->
-To disable multithreading, use OMP_THREAD_LIMIT=1
+Tesseract 4 also uses up to four CPU threads while processing a page, so it will be faster than Tesseract 3 
 {% caption https://github.com/tesseract-ocr/tesseract/wiki/FAQ#can-i-increase-speed-of-ocr %} 
 
-To use Tesseract4 I've to remove the wrapper and called Tesseract4 directly as a process.
+So, I decided to try Tesseract4 to see how could it impact in the performance of my tool. As there are no .NET wrapper for it, I remove the old wrapper and called Tesseract4 directly as a process.
 
 {% note The use of Tesseract4 cut off the time to read the images in almost half %}
 
 
-## OcrTesseract4Service
+# TesseractService
 I endup developing the class below to call the `tesseract.exe` using `Process.Start`.
 
-
-{% gist %}
+{% gist 141742c3175476f03ca2437c7b35fd88 SortingLayerDebugger.cs %}
  
+# Setup
+* Just download the gist above and add it to your .NET project.
+* Install Tesseract4
+   * Linux and OSX: [https://github.com/tesseract-ocr/tesseract/wiki](https://github.com/tesseract-ocr/tesseract/wiki)
+   * Windows: [https://github.com/UB-Mannheim/tesseract/wiki](https://github.com/UB-Mannheim/tesseract/wiki) 
+* Download the trained data model for the language you need to read from images
+   * More acurrated, but slower: [https://github.com/tesseract-ocr/tessdata_best](https://github.com/tesseract-ocr/tessdata_best)
+   * Faster, but less acurrated: [https://github.com/tesseract-ocr/tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast).
 
+# Usage
+{% gist 141742c3175476f03ca2437c7b35fd88 SortingLayerDebugger.cs %}
+
+# Further reading
 * https://github.com/tesseract-ocr/tesseract
 * https://appliedmachinelearning.blog/2018/06/30/performing-ocr-by-running-parallel-instances-of-tesseract-4-0-python/
 * https://github.com/charlesw/tesseract
 * https://github.com/tesseract-ocr/tesseract/wiki/FAQ#can-i-increase-speed-of-ocr
 * https://github.com/doxakis/How-to-use-tesseract-ocr-4.0-with-csharp
-
-https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/06/Avengers_Tesseract2012.png/revision/latest/scale-to-width-down/310?cb=20170220131242
-
-
-While I was reading about [2D Sorting](https://docs.unity3d.com/Manual/2DSorting.html) and [Sorting Layers](https://docs.unity3d.com/Manual/class-TagManager.html#SortingLayers) on Unity Manual I came up with the idea of creating a custom editor window to see which sorting layer the sprites on the scene are using.
-
-{% youtube e_WaZrGMPdM %}
-{% caption In the video above you can see the Sorting Layer Debugger been used in the [Unity 2D Platformer](https://assetstore.unity.com/packages/essentials/tutorial-projects/2d-platformer-11228) sample project %}
-
-## Setup
-Just download the gist bellow to your Unity3D project and add it inside a `Editor` folder.
-
-{% gist 141742c3175476f03ca2437c7b35fd88 SortingLayerDebugger.cs %}
-
-## Usage
-You can open the debugger window through the menu `Window / Sorting Layer Debugger`.
-
-The debugger can be enabled in the edit or the play mode and it will list the Sorting Layers and the number of game objects using each layer. You can hide/show the game objects of each layer by clicking on its check box.
-
-The name of Sorting Layer been used is showing in the top of each game object in the scene view.
-
-{% screenshot SortingLayerDebugger.png %}
-{% caption Scene view with Sorting Layer Debugger enabled %}
