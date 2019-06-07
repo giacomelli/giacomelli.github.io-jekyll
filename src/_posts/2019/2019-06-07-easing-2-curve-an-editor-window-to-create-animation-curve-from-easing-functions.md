@@ -42,6 +42,6 @@ To setup the `Easing2Curve` just download this [gist](https://gist.github.com/gi
 ## Using
 You can open the window through the context menu on any `AnimationCurve` property on `Inspector`.
 
-In the video below you can see in more details about how to use the `Easing2Curve`:
+In the video below you can see how to use the `Easing2Curve`:
 {% youtube 2W-g6-k74nc %}
 
