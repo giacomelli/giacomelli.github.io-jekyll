@@ -5,11 +5,10 @@ title: Easing2Curve&colon; An editor window to create animation curve from easin
 categories: Lab
 tags: unity3d editor-window animation-curve gamedev open-source gist
 ---
-
-I coded an [EditorWindow](https://docs.unity3d.com/Manual/editor-EditorWindows.html) to create [AnimationCurve](https://docs.unity3d.com/ScriptReference/AnimationCurve.html) using easing functions that define how much a value change over time. 
+I've coded an [EditorWindow](https://docs.unity3d.com/Manual/editor-EditorWindows.html) to create an [AnimationCurve](https://docs.unity3d.com/ScriptReference/AnimationCurve.html) using easing functions that define how much a value changes over time.
 
 # Introduction
-There are a bunch of classic easing functions, like: InQuad, OutElastic, InOutSin and InOutBounce. All them are functions that have a input parameter `time` and it return value between 0 and 1 that.
+There are many classic easing functions, such as: InQuad, OutElastic, InOutSin, and InOutBounce. All of these are functions that have a `time` input parameter and a return value between 0 and 1 that.
 
 For example, the easing function `OutCirc` is coded like: 
 ```csharp
