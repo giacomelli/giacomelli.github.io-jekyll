@@ -6,7 +6,7 @@ categories: Lab
 tags: tesseract ocr dotnet
 ---
 
-Recently I've to built a small tool to read the text from thounsands of images.
+Recently I built a small tool to read the text of thousands of images.
 
 A common technique to extract text from images is know as OCR (Optical character recognition) and the best implementation, that I Know, is called [Tesseract](https://github.com/tesseract-ocr/tesseract).
 
