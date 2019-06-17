@@ -6,7 +6,7 @@ categories: News
 tags: unity3d gamedev
 ---
 
-{% logo unity-and-gamdedev-links.png default %}
+{% logo unity-and-gamedev-links.png default %}
 
 * **Toulouse de Margerie** wrote a post about how Unity natively maintains frame rates an how to make Unity follow a precise frame rate ([Precise frame rates in Unity](https://blogs.unity3d.com/2019/06/03/precise-framerates-in-unity/)).
 > Normally, out of the box, a Unity project will attempt to run your project as fast as possible. Frames will be rendered as quickly as they can while generally being limited by your display device’s refresh rate.
