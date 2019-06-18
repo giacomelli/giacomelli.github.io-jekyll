@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Using an AssetPostprocessor + EditorWindow to keep assets organized on Unity projects
-categories: Labs
+categories: Lab
 tags: unity3d editor-window asset-post-processor gamedev open-source
 ---
 I created an AssetPostProcessor and an EditorWindow to validate if assets are in the right folder and help the Unity projects to keep organized.
