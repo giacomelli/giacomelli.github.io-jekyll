@@ -35,7 +35,7 @@ install-package GeneticSharp -Version 1.2.0
 ```
 
 ## Breaking changes
-{% logo breaking-changes.png default %}
+{% icon breaking-changes.png %}
 
 > I've already talk about these breaking changes on the post about the release candidate version, but I guess is good to point them again:
 

@@ -44,7 +44,7 @@ To start, lets see what Unity Manual says about Avatar Masks and Animation Layer
 By reading those two sections is quite clear that we need to use avatar masks and animation layers together to combine our animations of different body parts. So, in the next sections, I will demonstrate how to combine three animations (Idle_GunMiddle, WalkForward_Shoot, and Shoot_single) to make the robot shoot while stands idle and walk forward with a gun in middle body. After that, I will propose you a challenge for the other animations available.
 
 ## Starter project
-{% logo project.png default %}
+{% icon project.png %}
 
 All the source code and assets for this tutorial are available on this GitHub repository: [https://github.com/giacomelli/unity-avatar-mask-and-animation-layers](https://github.com/giacomelli/unity-avatar-mask-and-animation-layers). To start this tutorial you need to fork, clone or download the repository.
 
