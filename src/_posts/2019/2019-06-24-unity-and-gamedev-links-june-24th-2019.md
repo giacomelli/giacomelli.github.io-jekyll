@@ -10,10 +10,10 @@ tags: unity3d gamedev
 
 * **Sykoo** made a video about the Buried Memories Volume 2: Serekh ([Buried Memories: Serekh – New HDRP Asset Pack for Unity! (Overview)](https://www.youtube.com/watch?v=5CTAVFOrbsM)).
 
-* **Jean-Christophe Cimetiere** made a post about how to use Unity as a library inside other apps ([Add features powered by Unity to native mobile apps](https://blogs.unity3d.com/2019/06/17/add-features-powered-by-unity-to-native-mobile-apps)).
+* **Jean-Christophe Cimetiere** wrote a post about how to use Unity as a library inside other apps ([Add features powered by Unity to native mobile apps](https://blogs.unity3d.com/2019/06/17/add-features-powered-by-unity-to-native-mobile-apps)).
 > Unity 2019.3 will add support for using Unity as a library controlled by native Android/Java and iOS/Objective C apps so you can easily insert AR and other Unity features.
 
-* **Egor Bogatov** create a GitHub repository with a sample Xamarin app using Unity as a library ([XamarinWithUnityApp](https://github.com/EgorBo/XamarinWithUnityApp)).
+* **Egor Bogatov** created a GitHub repository with a sample Xamarin app using Unity as a library ([XamarinWithUnityApp](https://github.com/EgorBo/XamarinWithUnityApp)).
 > You can now easily add a Unity scene (e.g. ARCore scene) to any native or Xamarin app via .aar file.
 
 * **Jacob Shriar** posted about a survey that Unity made with 1000 creatives within advertising and marketing about AR ([Creative professionals are struggling to implement augmented reality](https://blogs.unity3d.com/2019/06/18/creative-professionals-are-struggling-to-implement-augmented-reality)).
@@ -30,7 +30,7 @@ tags: unity3d gamedev
 * **Caitlin W and Macy Mills** wrote a post about the new Unity's `Verified Solutions Partners` ([Unity’s new partnerships bring verified solutions to developers across industries](https://blogs.unity3d.com/2019/06/20/unitys-new-partnerships-bring-verified-solutions-to-developers-across-industries)).
 > Verified Solutions Partners represent a collection of 3rd-party SDKs, plugins, editor applications, cloud services, and more that enable the success of your project while ensuring deeper technical alignment with partners’ products and services to ensure 0% developer downtime. Partners accepted into the program go through a verification process to ensure their SDK or software is optimized for the latest version of Unity. 
 
-* **Elena Nizhnik** released a new post about `Community Component`, highlighting some games, posts, videos and tools ([Community Component – audio design, pixel games, custom tools and Best of Made with Unity on YouTube](https://blogs.unity3d.com/2019/06/22/community-component-audio-design-pixel-games-custom-tools-and-best-of-made-with-unity-on-youtube)).
+* **Elena Nizhnik** released a new `Community Component` post, highlighting some games, posts, videos and tools ([Community Component – audio design, pixel games, custom tools and Best of Made with Unity on YouTube](https://blogs.unity3d.com/2019/06/22/community-component-audio-design-pixel-games-custom-tools-and-best-of-made-with-unity-on-youtube)).
 
 * **Sykoo** again, now with a timelapse level design video ([LEVEL DESIGN IN UNITY! - Village & Castle Scene (Timelapse)](https://www.youtube.com/watch?v=f3vNNUC1tnE)).
 
