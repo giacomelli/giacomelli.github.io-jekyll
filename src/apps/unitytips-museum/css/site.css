@@ -140,6 +140,7 @@ app {
 
 .tag {
     color:white; 
+    border: 0px;
 }
 
 .search-bar {

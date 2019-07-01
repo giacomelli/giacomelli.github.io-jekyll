@@ -12,7 +12,7 @@ Jekyll::Hooks.register :posts, :pre_render do |post|
 end
 
 Jekyll::Hooks.register :site, :post_write do
-  system("cp -R apps/unitytips-search/_content _site/apps/unitytips-search/_content/")
-  system("cp -R apps/unitytips-search/_framework _site/apps/unitytips-search/_framework/")
+  system("cp -R apps/unitytips-museum/_content _site/apps/unitytips-museum/_content/")
+  system("cp -R apps/unitytips-museum/_framework _site/apps/unitytips-museum/_framework/")
 end
 
