@@ -31,6 +31,7 @@ build_script:
 - sh: cd src
 - sh: bundle exec jekyll build
 - sh: cp ../CNAME _site/CNAME
+- ps: echo ".nojekyll" > _site/.nojekyll
 - ps: | 
       cd _site
       echo "{ `"date`": `"$(Get-Date -Format g)`", `"branch`": `"$($env:APPVEYOR_REPO_BRANCH)`" }" > version.json
