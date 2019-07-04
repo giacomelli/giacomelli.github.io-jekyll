@@ -37,7 +37,9 @@ open http://localhost:5000
 
 dotnet add package geneticsharp
 
-
+# Why use Timer?
+https://docs.microsoft.com/pt-br/aspnet/core/blazor/?view=aspnetcore-3.0
+> APIs that aren't applicable inside of a web browser (for example, accessing the file system, opening a socket, and **threading**) throw a PlatformNotSupportedException.
 
 
 Using Unity 2018.1+, create a new project called TspSample.
