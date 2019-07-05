@@ -44,6 +44,9 @@ dotnet add package geneticsharp
 https://chrissainty.com/blazor-bites-javascript-interop/
 > It's awesome we can now use C# in the browser with Blazor. But unfortunately we can't do everything with it, yet. Currently, WebAssembly isn't able to directly access the DOM API, which means that Blazor isn't able to either.
 
+DOM integration is in the roadmap
+https://webassembly.org/docs/future-features/
+
 # Why use Timer?
 https://docs.microsoft.com/pt-br/aspnet/core/blazor/?view=aspnetcore-3.0
 > APIs that aren't applicable inside of a web browser (for example, accessing the file system, opening a socket, and **threading**) throw a PlatformNotSupportedException.
