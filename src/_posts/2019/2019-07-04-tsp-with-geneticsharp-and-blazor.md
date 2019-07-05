@@ -37,6 +37,13 @@ open http://localhost:5000
 
 dotnet add package geneticsharp
 
+{% note this is not a tutorial about Blazor good pratices, so everything heres is done simple to present how to use GenticSharp with Blazor, but avoid to use somethings you should use when working with Blazor, like separate logic from UI and use Blazor components. %}
+
+
+
+https://chrissainty.com/blazor-bites-javascript-interop/
+> It's awesome we can now use C# in the browser with Blazor. But unfortunately we can't do everything with it, yet. Currently, WebAssembly isn't able to directly access the DOM API, which means that Blazor isn't able to either.
+
 # Why use Timer?
 https://docs.microsoft.com/pt-br/aspnet/core/blazor/?view=aspnetcore-3.0
 > APIs that aren't applicable inside of a web browser (for example, accessing the file system, opening a socket, and **threading**) throw a PlatformNotSupportedException.
