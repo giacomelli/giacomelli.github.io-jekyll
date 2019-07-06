@@ -136,51 +136,24 @@ In the previous step we drawn the cities and we have the visual of the problem: 
 
 Now we need to draw the solution: the route represented by the best chromosome of each generation.
 
-One of the simplest ways to draw some lines in Unity3D is using the LineRenderer component.
+Add the following method to the `Tsp.razor`:
+{% gist 94721a46d33c6bcb1f3ae11117b7f888 DrawRouteAsync.cs %}
 
-Add the following code to the GAController.cs:
-{% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change4.cs %}
+Then called it from `OnAfterRenderAsync` method:
+{% gist 94721a46d33c6bcb1f3ae11117b7f888 DrawRouteAsyncCall.cs %}
 
-Create the method DrawRoute:
-{% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change5.cs %}
-
-Then call it from Update method:
-{% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change6.cs %}
-
-Before run the scene, we need to add a LineRenderer component to our GAController game object. 
-
-> Change the width property of the LineRenderer from 1 to 0.1.
-
-Run the scene again, now you should see the route been optimizing as the generations are ran:
+Reload the url [http://localhost:5000/tsp](http://localhost:5000/tsp) again, and hit the `Run` button, now you should see the route been optimizing as the generations are ran:
 {% screenshot draw-route.png %}
 
 
-## Changing the cities positions
-Our sample could be considered done, but would it be nice if we you could change the cities positions while the genetic algorithm are running and see how it manages these cities positions changes.
-
-### CityController
-Create a C# script called "CityController.cs": {% gist 94721a46d33c6bcb1f3ae11117b7f888 CityController.cs %}
-I won't getting in details about how this is script works, but it's allow the user to drag the cities' pin using the mouse or the finger touch if build it to mobile.
-
-Add the CityController.cs to the CityPrefab.
-
-Change the GAController.cs script adding the line below to the end of the for loop of DrawCities method:
-{% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change7.cs %}
-
-Finally, our sample is really done and you should be capable to change the cities positions, by dragging the pins around, and genetic algorithm will try to figure out the best route in real time.
-
-{% screenshot tsp-sample.gif %}
-
-
 ## Conclusion
-With only 5 C# scripts and 1 prefab we built a pretty nice sample of genetic algorithms using in Unity3D with GeneticSharp. Now you can improve it with your own ideas or use some of mine ;):
+With only 5 C# classes and 1 page we built a pretty nice sample of genetic algorithms using in Blazor with GeneticSharp. Now you can improve it with your own ideas or use some of mine ;):
 
-* How about make it 3D and using a Vector3 instead of Vector2 on City.Position? 
 * Maybe let user change the number of cities or change the genetic algorithm operators?
-* Move the DrawCities and DrawRoutes methods to a script responsible to only draw the GA.
+* Move the DrawCitiesAsync and DrawRouteAsync to [Blazor components](https://docs.microsoft.com/en-us/aspnet/core/blazor/components?view=aspnetcore-3.0) responsible to only draw them?
 
 The full source code used in this post can be download or fork from this Gist: [https://gist.github.com/giacomelli/94721a46d33c6bcb1f3ae11117b7f888](https://gist.github.com/giacomelli/94721a46d33c6bcb1f3ae11117b7f888)
 
 Let's evolve!
 
-<div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+{% iconscopyright %}
