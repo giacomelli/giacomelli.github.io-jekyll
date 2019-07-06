@@ -31,7 +31,7 @@ $.getJSON("{{ site.baseurl }}/search.json", function(json) {
                 lastCategory = p.category;
             }
 
-            lastCategoryElement.append("<li title='" + jd.getCategory(p) + "'><a href='" + p.url + "'>" + p.title + "</a></li>");
+            lastCategoryElement.append("<li title='" + jd.getCategory(p) + "'><a href='" + p.url + "'>" + jd.sanitizeText(p.title) + "</a></li>");
         }
     });       
 
