@@ -22,6 +22,7 @@ With big teams or even with the small ones is easy that some assets will be plac
 
 # Setup
 To setup the `Folder organizer` just download this [gist](https://gist.github.com/giacomelli/2d561e29beadab641a4f8b56954f53f7) and unzip it on an `Editor` folder inside your Unity project. 
+{% gistimporter %}
 
 ## Using
 You can open the window through the menu `Window / Folder organizer`.
