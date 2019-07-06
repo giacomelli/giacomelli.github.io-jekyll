@@ -10,7 +10,7 @@ The **[GeneticSharp v2.0.0-rc1](https://github.com/giacomelli/GeneticSharp/relea
 In this version GeneticSharp starts to support .NET Standard 2.0 and .NET Framework 4.6.2.
  
 Porting {% logo GeneticSharp.png default %}
-to {% logo netcore.svg default %}
+to {% icon netcore.svg %}
 
 
 ## Introduction
@@ -125,7 +125,7 @@ Test Run Aborted
 Delete the "obj" and "bin" folders from unit test project will "fix" the problem.
 
 ## Breaking changes
-{% logo breaking-changes.png default %}
+{% icon breaking-changes.png %}
 
 * The GeneticSharp NuGet package was split into two packages:
     * GeneticSharp: only GeneticSharp.Domain.dll and GeneticSharp.Infrastructure.Framework.dll
@@ -137,7 +137,7 @@ Delete the "obj" and "bin" folders from unit test project will "fix" the problem
 
 
 ## Reads during the porting
-{% screenshot conclusion.png %}
+{% icon conclusion.png %}
 
 Some readings I did during the whole process, maybe can be useful to someone porting a library to .NET Core too.
 

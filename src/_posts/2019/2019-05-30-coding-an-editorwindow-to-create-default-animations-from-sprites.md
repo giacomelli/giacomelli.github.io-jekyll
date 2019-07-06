@@ -45,7 +45,7 @@ Starting with sprite to walk down and ending with the last sprite of walk horizo
 
 
 ## Starter project
-{% logo project.png default %}
+{% icon project.png %}
 
 All the source code and assets for this tutorial are available on this GitHub repository: [https://github.com/giacomelli/coding-an-editorwindow-to-create-default-animations-from-sprites](https://github.com/giacomelli/coding-an-editorwindow-to-create-default-animations-from-sprites). To start the tutorial you need to fork, clone or download the repository.
 

@@ -38,6 +38,8 @@ In addition, you can add new easing functions just implementing the `IEasing` in
 To setup the `Easing2Curve` just download this [gist](https://gist.github.com/giacomelli/7324d63679c11529e1710a5470d9ee7f) and unzip it on an `Editor` folder inside your Unity project. 
 
 {% gist 7324d63679c11529e1710a5470d9ee7f Easing2CurveEditorWindow.cs %}
+{% gistimporter %}
+
 ## Using
 You can open the window through the context menu on any `AnimationCurve` property on `Inspector`.
 

@@ -3,10 +3,15 @@ layout: default
 title: Status
 ---
 <h1>Last update</h1>
-<ul>
-  <li>Date: <span id="update-date"></span></li>
-  <li>Branch: <span id="update-branch"></span></li>
-</ul>
+
+<h3>Date</h3>
+<span id="update-date"></span>
+
+<h3>Branch</h3>
+<span id="update-branch"></span>
+
+<h3>Build</h3>
+<img id="update-build" />
 
 <script>
 Notification.requestPermission().then(function(result) {
@@ -22,6 +27,7 @@ function refreshVersion() {
       
       $('#update-date').text(version.date);
       $('#update-branch').text(version.branch);
+      $('#update-build').attr('src', 'https://ci.appveyor.com/api/projects/status/ttr23qn6jqftsiaq/branch/' + version.branch + '?svg=true');
     });
 }
 

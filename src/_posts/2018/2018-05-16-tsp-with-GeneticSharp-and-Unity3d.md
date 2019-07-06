@@ -42,7 +42,7 @@ After restart, go back to "Player settings", select ".NET Standard 2.0" on "Api 
 Install GeneticSharp using the .unitypackage available on [GeneticSharp release page](https://github.com/giacomelli/GeneticSharp/releases).
 
 ## Defining the TSP chromosome
-{% logo route.png default %}
+{% icon route.png %}
 
 The chromosome represents a solution of the problem we are trying to solve. In our case the TSP chromosome should represent _**"the shortest possible route that visits each city and returns to the origin city"**_.
 

@@ -10,4 +10,5 @@ You can create a visual header to any group of components on your hierarchy wind
 
 ## Code
 {% gist 35410d682e41a504c7869a464a96c30a HierarchyWindowGroupHeader.cs %}
+{% gistimporter %}
 {% caption Any GameObject with name that starts with "---" will be considered a group header %}

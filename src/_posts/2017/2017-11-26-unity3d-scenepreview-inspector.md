@@ -15,6 +15,7 @@ I google and didn't find any project or asset in Asset Store that already did so
 Just download the gist bellow to your Unity3D project and add it inside a "Editor" folder.
 
 {% gist f74a23107fe862ae7501002ac856f932 ScenePreview.cs %}
+{% gistimporter %}
 
 After this, open it and edit the line below:
 

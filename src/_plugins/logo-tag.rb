@@ -20,10 +20,10 @@ module Jekyll
         galleryDir = GalleryGenerator::getRelativeDir(context.environments.first['page']['path'])        
       end
 
-      site = context.registers[:site]
-      "<center>
-      <img class='lazy' src='#{site.baseurl}/assets/#{galleryDir}/#{@logoFile}'>
-      </center>"
+      logoRelativeUrl = "assets/#{galleryDir}/#{@logoFile}"
+      page =  context.environments.first['page'];
+      page['logo'] = logoRelativeUrl
+      ""      
     end
   end
 end
