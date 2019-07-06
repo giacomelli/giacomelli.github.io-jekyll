@@ -10,3 +10,4 @@ You can create a visual layer info to any component on your hierarchy window usi
 
 ## Code
 {% gist 096005d0d0df79b94321f950138220a3 HierarchyWindowLayerInfo.cs %}
+{% gistimporter %}
