@@ -17,6 +17,8 @@ TSP is a classic sample to test some optimization techniques, as well it's fairl
 
 {% note This post is a like a mirror of the [TSP with GeneticSharp an Unity3D](/tsp-with-GeneticSharp-and-Unity3d). It's using the same format to teach TSP and GeneticSharp, but instead of Unity3D, this one is teaching about Blazor. %}
 
+You can see the final result of this tutorial on [http://diegogiacomelli/apps/geneticsharp-runner-blazorapp](/apps/geneticsharp-runner-blazorapp).
+
 ## Prerequisites
 To better understand this tutorial, you need to have some experiences/knowledges in:
 
