@@ -14,5 +14,8 @@ end
 Jekyll::Hooks.register :site, :post_write do
   system("cp -R apps/unitytips-museum/_content _site/apps/unitytips-museum/_content/")
   system("cp -R apps/unitytips-museum/_framework _site/apps/unitytips-museum/_framework/")
+
+  system("cp -R apps/geneticsharp-runner-blazorapp/_content _site/apps/geneticsharp-runner-blazorapp/_content/")
+  system("cp -R apps/geneticsharp-runner-blazorapp/_framework _site/apps/geneticsharp-runner-blazorapp/_framework/")
 end
 
