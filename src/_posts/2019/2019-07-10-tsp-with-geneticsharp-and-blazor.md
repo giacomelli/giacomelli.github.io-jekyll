@@ -11,11 +11,11 @@ In this post I will show how to use GeneticSharp and Blazor to solve the TSP (Tr
 
 {% logo city.png default %}
 
-According to Wikipedia The travelling salesman problem (TSP) asks the following question: **"Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?"**_
+According to Wikipedia The travelling salesman problem (TSP) asks the following question:_**"Given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city and returns to the origin city?"**_
 
 TSP is a classic sample to test some optimization techniques, as well it's fairly used to demonstrate how to implement a genetic algorithm. For these reasons I will use it to show you how to implement a basic genetic algorithm in Blazor using GeneticSharp.
 
-{% note This post is a like a mirror of the [TSP with GeneticSharp an Unity3D](/tsp-with-GeneticSharp-and-Unity3d). It's using the same format to teach TSP and GeneticSharp, but instead of Unity3D, this one is teaching about Blazor %}
+{% note This post is a like a mirror of the [TSP with GeneticSharp an Unity3D](/tsp-with-GeneticSharp-and-Unity3d). It's using the same format to teach TSP and GeneticSharp, but instead of Unity3D, this one is teaching about Blazor. %}
 
 ## Prerequisites
 To better understand this tutorial, you need to have some experiences/knowledges in:
@@ -33,9 +33,9 @@ Open a terminal and type:
 ```shell
 dotnet new -i Microsoft.AspNetCore.Blazor.Templates::3.0.0-preview6.19307.2
 ```
-This will install the latest Blazor templates for .NET Core.
+{% caption This will install the latest Blazor templates for .NET Core. %}
 
-{% note this tutorial is based on Blazor `preview6`. If you are doing this tutorial using a newer Blazor version and have encountered some problem, leave a comment at the end of the post or contact me on [Twitter](https://twitter.com/ogiacomelli) %}
+{% note This tutorial is based on Blazor `preview6`. If you are doing this tutorial using a newer Blazor version and have encountered some problem, leave a comment at the end of the post or contact me on [Twitter](https://twitter.com/ogiacomelli). %}
 
 Now we'll create a scaffold Blazor app using the `blazor` template:
 
@@ -45,7 +45,7 @@ cd TspWithGeneticSharp
 dotnet watch run
 ```
 
-Open the url [http://localhost:5000](http://localhost:5000) on your browser, you should see something like this:
+Wait for the message `Application started. Press Ctrl+C to shut down.` show up in terminal, then open the url [http://localhost:5000](http://localhost:5000) on your browser, you should see something like this:
 {% screenshot blazor-scaffold-app.png %}
 
 ## Installing GeneticSharp
@@ -54,10 +54,7 @@ Open a new terminal in the same folder and type:
 ```shell
 dotnet add package GeneticSharp
 ```
-This will install the latest [GeneticSharp NuGet package](https://www.nuget.org/packages/GeneticSharp/) in your newly created Blazor app.
-
-
-{% note This is not a tutorial about Blazor good pratices, so everything here is done in the simplest possible way to introduce how to use GenticSharp with Blazor.  I do not talk about things you should use when working with Blazor, such as separate logic from UI and use Blazor components. %}
+{% caption This will install the latest [GeneticSharp NuGet package](https://www.nuget.org/packages/GeneticSharp/) in your newly created Blazor app. %}
 
 ## Opening the project
 I recommend to you use [Visual Studio Code](https://code.visualstudio.com/) to open the project. There is some cool VS Code extensions to work with Blazor.
@@ -67,7 +64,7 @@ In the same terminal where you added the GeneticSharp package, type:
 ```shell
 code .
 ```
-{% note This will open the Blazor project with VS Code %}
+{% caption This will open the Blazor project with VS Code. %}
 
 In the root folder of your Blazor project create a new subfolder called `Tsp`. We'll add all our C# classes inside this folder.
 
@@ -110,7 +107,7 @@ To avoid this behavior, the solution is: run each generation of the GA inside a 
 ## Creating the Razor page
 Inside the folder `Pages` create a file called `Tsp.razor`: {% gist c10fba01c090a89702818cd1c48a125f Tsp.v1.razor %}
 
-As we need to interop with JavaScript to manipulate DOM, we will use some helper JS methods. Add the file `canvas-helper.js` inside the folder `wwwroot/js`:  {% gist 9addc5182943ba25eb82201e30c76418 canvas-helper.js %}
+As we need to interop with JavaScript to manipulate DOM, we will use some helper JS functions. Add the file `canvas-helper.js` inside the folder `wwwroot/js`:  {% gist 9addc5182943ba25eb82201e30c76418 canvas-helper.js %}
 
 Open the file `index.html` and add the tag below inside the tag `head`:  {% gist c10fba01c090a89702818cd1c48a125f index.canvas-helper.html %}
 
@@ -126,6 +123,8 @@ Check your terminal window where the command `dotnet watch run` is running, if t
 Hit the `Run` button and take a look on the console window, you will see the distance to reach all cities getting smaller as the generations ran.
 
 {% screenshot console-window.png %}
+
+{% note This is not a tutorial about Blazor good pratices, so everything here is done in the simplest possible way to introduce how to use GenticSharp with Blazor.  I do not talk about things you should use when working with Blazor, such as separate logic from UI and use Blazor components. %}
 
 ## Drawing the cities
 Now our GA is running inside the browser, but it need to display the cities route better.
