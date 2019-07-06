@@ -14,6 +14,7 @@ While I was reading about [2D Sorting](https://docs.unity3d.com/Manual/2DSorting
 Just download the gist bellow to your Unity3D project and add it inside a `Editor` folder.
 
 {% gist 141742c3175476f03ca2437c7b35fd88 SortingLayerDebugger.cs %}
+{% gistimporter %}
 
 ## Usage
 You can open the debugger window through the menu `Window / Sorting Layer Debugger`.

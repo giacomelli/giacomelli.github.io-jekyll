@@ -12,6 +12,7 @@ In my last [#unitytips](/tags/unitytips/) I demonstrated how you could create a 
 
 ## Code
 {% gist bb6a9932e5f49a072c57a7c17135bf6b HierarchyWindowGroupHeader.cs %}
+{% gistimporter %}
 
 {% note Remember that you need to save the above .cs inside any `Editor` folder %}
 {% note It's a good practice add the tag `EditorOnly` to your group header game objects %}
