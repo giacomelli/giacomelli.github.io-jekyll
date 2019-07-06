@@ -15,6 +15,8 @@ According to Wikipedia _**"The travelling salesman problem (TSP) asks the follow
 
 TSP is a classic sample to test some optimization techniques, as well it's fairly used to demonstrate how to implement a genetic algorithm. For these reasons I will use it to show you how to implement a basic genetic algorithm in Unity3D using GeneticSharp.
 
+{% note this post is a like a mirror of the {% TSP with GeneticSharp an Unity3D %}. It's using the same way to teach TSP and GeneticSharp, but instead of Unity3D, this one is teach a few about Blazor %}
+
 ## Prerequisites
 To better understand this tutorial, you need to have some experiences/knowledges in:
 
@@ -24,20 +26,38 @@ To better understand this tutorial, you need to have some experiences/knowledges
 > If you need an introduction to genetic algorithms, take a look at this tutorial  {% post Function optimization with GeneticSharp %}.
 
 ## Creating the Blazor project
+Open a terminal and type:
 
+```shell
 dotnet new -i Microsoft.AspNetCore.Blazor.Templates::3.0.0-preview6.19307.2
+```
+This will install the latetest Blazor templates for .NET Core.
 
+{% note this tutorial is based on Blazor `preview6`. If in time you are reading this you know there is a new version o Blazor you are free to try. If you encounter any problem, let a comment in the of the post or contact me on [Twitter](https://twitter.com/ogiacomelli) %}
 
+Now we'll create a scaffold Blazor app suing the `blazor` template:
+
+```shell
 dotnet new blazor -o TspWithGeneticSharp
 cd TspWithGeneticSharp
 dotnet watch run
+```
 
-open http://localhost:5000
+Open the url [http://localhost:5000](http://localhost:5000) on your browser, you should see something like this:
+{% screenshot blazor-scaffold-app.png %}
 
 
+## Installing GeneticSharp
+Open a new terminal in the same folder and type:
+
+
+```shell
 dotnet add package geneticsharp
+```
+This will install the latest [GeneticSharp NuGet package](https://www.nuget.org/packages/GeneticSharp/) in your newly Blazor app.
 
-{% note this is not a tutorial about Blazor good pratices, so everything heres is done simple to present how to use GenticSharp with Blazor, but avoid to use somethings you should use when working with Blazor, like separate logic from UI and use Blazor components. %}
+
+{% note this is not a tutorial about Blazor good pratices, so everything here is done simple to present how to use GenticSharp with Blazor, but avoid to use somethings you should use when working with Blazor, like separate logic from UI and use Blazor components. %}
 
 
 
@@ -52,19 +72,7 @@ https://docs.microsoft.com/pt-br/aspnet/core/blazor/?view=aspnetcore-3.0
 > APIs that aren't applicable inside of a web browser (for example, accessing the file system, opening a socket, and **threading**) throw a PlatformNotSupportedException.
 
 
-Using Unity 2018.1+, create a new project called TspSample.
 
-{% screenshot creating-project.png %}
-
-## Using .NET Standard 2.0
-Go to "Player settings" / "Other settings" / "Configuration", select ".NET 4.x Equivalent" on "Scripting Runtime Version". Unity will ask to restart, you can confirm.
-
-After restart, go back to "Player settings", select ".NET Standard 2.0" on "Api Compability Level".
-
-{% screenshot player-settings.png %}
-
-## Installing GeneticSharp
-Install GeneticSharp using the .unitypackage available on [GeneticSharp release page](https://github.com/giacomelli/GeneticSharp/releases).
 
 ## Defining the TSP chromosome
 {% icon route.png %}
@@ -73,13 +81,17 @@ The chromosome represents a solution of the problem we are trying to solve. In o
 
 To represent the cities route each gene of our chromosome will represent an index of a city in the route.
 
-Create a C# script called "TspChromosome.cs":
+{% note I recommed to you use [Visual Studio Code](https://code.visualstudio.com/) to open the project. There is some cool VS Code extensions to work with Blazor %}
+
+In the root folder of your Blazor project create a new subfolder called `Tsp`. We'll add all our C# classes inside this folder.
+
+Create a C# file called "TspChromosome.cs":
 {% gist 94721a46d33c6bcb1f3ae11117b7f888 TspChromosome.cs %}
 
 ## Representing a city
 The next step is define our genetic algorithm fitness function, but first we need to create a simple class to represent a city on a 2D space.
 
-Create a C# script called "City.cs":
+Create a C# file called "City.cs":
 {% gist 94721a46d33c6bcb1f3ae11117b7f888 City.cs %}
 
 ## The fitness function
@@ -87,50 +99,36 @@ Now we need to evaluate the TspChromosome.
 
 Our fitness function will evaluate the TspChromosome fitness based on the total distance to reach all cities in the route represented by the chromosome. The shorter the distance, the better the chromosome.
 
-Create a C# script called "TspFitness.cs": {% gist 94721a46d33c6bcb1f3ae11117b7f888 TspFitness.cs %}
+Create a C# file called "TspFitness.cs": {% gist 94721a46d33c6bcb1f3ae11117b7f888 TspFitness.cs %}
 
 ## Running the Genetic Algorithm
 In this step we need to configure our genetic algorithm using the TspChromosome, TspFitness and some classic GA operators already built in GeneticSharp.
 
-Create a C# script called "GAController.cs": {% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.v1.cs %}
+Create a C# file called `TspGA.cs`: {% gist 94721a46d33c6bcb1f3ae11117b7f888 TspGA.v1.cs %}
 
-Create a GameObject called "GAController" in the scene and add the GAController.cs to it. 
+Inside the folder `Pages` create a file called `Tsp.razor`: {% gist 94721a46d33c6bcb1f3ae11117b7f888 Tsp.razor %}
 
-Save the scene.
+Check your terminal window where the command `dotnet watch run` is running, if there is no error in that window you cab access the url [http://localhost:5000/tsp](http://localhost:5000/tsp).
 
-Run the scene on editor and take a look on the console window, you will see the distance to reach all cities getting smaller as the generations ran.
+Hit the `Run` button and take a look on the console window, you will see the distance to reach all cities getting smaller as the generations ran.
 
 {% screenshot console-window.png %}
 
 
 ## Drawing the cities
-Now our GA is running inside Unity3D, but it need to display the cities route better.
-We need create a visual representation to the cities.
+Now our GA is running inside the browser, but it need to display the cities route better.
+We need to create a visual representation to the cities.
 
-### City prefab
-We will create a prefab based on a sprite of a pin. You can use an icon as this one from [www.flaticon.com](https://www.flaticon.com/free-icon/maps-and-flags_447031#term=pin&page=1&position=6).
+In the `Tsp.razor` add the method `DrawCitiesAsync`:
 
-Download it to inside your Unity3D project.
-> Maybe you will need to change the 'Pixels Per Unit' to 1000 to get a good pin size on screen.
+{% gist 94721a46d33c6bcb1f3ae11117b7f888 DrawCitiesAsync.cs %}
 
-Drag it to the hierarchy panel, rename the new GameObject to CityPrefab and drag it back to your Assets folder on Project panel. Now our CityPrefab is created. 
+Then called it from `OnAfterRenderAsync` method:
+{% gist 94721a46d33c6bcb1f3ae11117b7f888 DrawCitiesAsyncCall.cs %}
 
-Delete the CityPrefab game object from the current scene.
+Reload the url [http://localhost:5000/tsp](http://localhost:5000/tsp).
 
-### Instantiating the cities prefabs
-Add the following field to the GAController.cs
-{% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change1.cs %}
-
-Then, create the method DrawCities:
-{% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change2.cs %}
-
-And then call it from Start method:
-{% gist 94721a46d33c6bcb1f3ae11117b7f888 GAController.change3.cs %}
-
-Now, select the GAController game object on hierarchy and set the CityPrefab property.
-{% screenshot setting-cityprefab.png %}
-
-Try to run the scene, you should see something like this:
+Now you should see something like this:
 {% screenshot draw-cities.png %}
 
 ## Drawing the route
