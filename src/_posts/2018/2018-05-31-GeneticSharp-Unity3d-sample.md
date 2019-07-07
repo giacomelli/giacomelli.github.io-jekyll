@@ -8,7 +8,7 @@ tags: geneticsharp unity3d gamedev tsp car2d dotnet
  
 I just pushed to GeneticSharp master branch the [GeneticSharp.Runners.UnityApp](https://github.com/giacomelli/GeneticSharp/tree/master/src/GeneticSharp.Runner.UnityApp). 
 
-{% logo Unity3D.png default %}
+{% logo Unity3d.png default %}
 
 In this Unity3d project there are 3 samples:
 
