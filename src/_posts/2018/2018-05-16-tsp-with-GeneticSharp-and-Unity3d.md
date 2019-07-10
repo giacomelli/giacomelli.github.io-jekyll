@@ -80,7 +80,7 @@ Run the scene on editor and take a look on the console window, you will see the 
 
 ## Drawing the cities
 Now our GA is running inside Unity3D, but it need to display the cities route better.
-We need create a visual representation to the cities.
+We need to create a visual representation to the cities.
 
 ### City prefab
 We will create a prefab based on a sprite of a pin. You can use an icon as this one from [www.flaticon.com](https://www.flaticon.com/free-icon/maps-and-flags_447031#term=pin&page=1&position=6).
