@@ -9,6 +9,8 @@ I'm working in a new game prototype and in this process I was creating some expe
 
 I google and didn't find any project or asset in Asset Store that already did something like this (please, let me know if you know a similar tool) and, well, I prefer code something, than google something, then I coded a little inspector, that I named as ScenePreview:
 
+{% note UPDATED: I created a new Scene Preview solution, now using its own window editor: [Scene Preview Window](/unitytips-scene-preview-window/). %}
+
 {% screenshot ScenePreview.gif %}
 
 ## Setup
