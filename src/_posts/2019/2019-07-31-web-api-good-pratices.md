@@ -1,30 +1,32 @@
 ---
 published: true
 layout: post
-title: Years developing and consuming web apis, what I've learned
+title: Developing and consuming web apis, what I learned
 categories: Article
 tags: web-api good-pratices
 ---
 
-These days a coworker asked me what are the good pratices or what do I thought about wich status code a web api should return. When him asked this, I remember that I've follow some good pratices, most of them based on my emperical knowledge of years of development and consuming web apis. For this reason I wrote this post as a way to organize e stand for what are those good pratices that I follow. I hope it can be useful to someone.
+Some days ago a coworker asked me what do I thought about wich status code a web api should return and if there are some the good pratices to follow. When him asked this, I remembered that I've followed some good pratices, most of them based on my emperical knowledge of years of development and consuming web apis. For this reason I wrote this post as a way to organize e document for what are those good pratices that I follow. I hope it can be useful to someone.
 
-The list below is not supposed to be right, but just things that I learn, tested and in  more of a decade working with web apis. Things that work for me and my projects can easily not work for you and your projects, because context is other  and challenges too. Besides, if you disagree with some of this points, please let a comment bellow, we could learn more about it! 
+The list below is not intended to be right and definitive, there is no silver bullet, but just things that I learned and tested in more of a decade working with web apis. Things that worked for me and my projects can easily not work for you and your projects, because context is other  and challenges too. 
+
+Besides, if you disagree with some of this points, please let a comment in the end of the post, we could learn more with it! 
 
 {% logo webapi.png default %}
 
 # REST or not  RESTful?
-First of all, most important than restricted follow some guidance is build a software that really attend the requisites, is good write and has good performance, that said I always try to implement REST web apis, but exceptions exists and we need to work with them, so don't try to force some operation than will don't feet well on REST way.
+First of all, build a software that really attend the requisites, that has good code quality and has good performance is more important than follow someone's guidance, with this said I always try to implement REST web apis, but exceptions exists and we need to work with them, so don't try to force some operation than will don't fit well on REST way.
 
-Remember, REST is a style architecture and as all architecture you can (and most of time should) adapt for your project needs and capacities.
+Remember, REST is a style architecture and as every architecture, you can (and most of time should) adapt it for your project needs and capacities.
 
 
 # Verbs and URLs
-Probably the most important rule about web api is respect the verbs meaning, this will really make the life of whom is consuming your web apis easer.
+Probably the most important rule about web api is to respect the meaning of verbs, this will really make the life easer for those whom are consuming your web api.
 
 * `GET`: to retrieve something.
 * `POST`: to create something.
 * `PUT`: to complete update something.
-* `PATCH`: to partial update something.
+* `PATCH`: to partially update something.
 * `DELETE`: to delete something
 
 Then, combining with URLs, you get a really clear way to work:
@@ -33,14 +35,21 @@ Then, combining with URLs, you get a really clear way to work:
   * /resource  : returns all resources.
   * /resource/1: returns the resource with id 1.
   
-* `POST` /resource: creates a bunch of resources  (rarelly used).
-* `POST` | /resource/1: Not used.
-* `PUT` | /resource: complete updates a bunch of resources (rarelly used).
-* `PUT` | /resource/1: complete updates the resource with id 1.
-* `PATCH` | /resource: partial updates a bunch of resources (rarelly used).
-* `PATCH` | /resource/1: partial updates the resource with id 1.
-* `DELETE` | /resource: deletes all resources (you probably do not want this one).
-* `DELETE` | /resource/1: delete the resource with id 1.
+* `POST`
+  * /resource: creates a bunch of resources  (rarelly used).
+  * /resource/1: Not used.
+
+* `PUT`
+  * /resource: complete updates a bunch of resources (rarelly used).
+  * /resource/1: complete updates the resource with id 1.
+
+* `PATCH` 
+  * /resource: partial updates a bunch of resources (rarelly used).
+  * /resource/1: partial updates the resource with id 1.
+
+* `DELETE` 
+  * /resource: deletes all resources (rarelly used, mostly never).
+  * /resource/1: delete the resource with id 1.
 
 # Status code
 I try to keep the range of returned status code small, the shortned one is just 3 status:
