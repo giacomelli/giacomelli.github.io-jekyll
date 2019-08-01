@@ -51,10 +51,10 @@ The first task definitions will build our .NET Core project:
 Now we will define the task to run our tests:
 {% gist 2ff83d13a8b970aacd4aa94b9182e7bb build.v5.cake %}
 
-This task use `OpenCover` to collect the code coverage. Install it on your test project using the `OpenCover` NuGet package:
+This task use `Coverlet` to collect the code coverage. Install it on your test project using the `Coverlet` NuGet package:
 
 ```shell
-install-package OpenCover
+install-package coverlet.msbuild
 ```
 
 ### Sonar tasks
