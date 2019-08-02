@@ -1,12 +1,12 @@
 ---
 published: true
 layout: post
-title: Developing and consuming web apis, what I learned
+title: Developing Web APIs - Good Practices
 categories: Article
 tags: web-api good-pratices
 ---
 
-Some days ago a coworker asked me what do I thought about wich status code a web api should return and if there are some the good pratices to follow. When him asked this, I remembered that I've followed some good pratices, most of them based on my emperical knowledge of years of development and consuming web apis. For this reason I wrote this post as a way to organize e document for what are those good pratices that I follow. I hope it can be useful to someone.
+Some days ago a coworker asked me what do I thought about wich status code a web api should return and if there are some the good pratices to follow. When him asked this, I remembered that I've followed some good pratices, most of them based on my emperical knowledge of years of development and consuming web apis. For this reason I wrote this post as a way to organize and document what are those good pratices that I follow. Maybe it can be useful to someone.
 
 The list below is not intended to be right and definitive, there is no silver bullet, but just things that I learned and tested in more of a decade working with web apis. Things that worked for me and my projects can easily not work for you and your projects, because context is other  and challenges too. 
 
@@ -14,7 +14,7 @@ Besides, if you disagree with some of this points, please let a comment in the e
 
 {% logo webapi.png default %}
 
-# REST or not  RESTful?
+# REST or not RESTful?
 First of all, build a software that really attend the requisites, that has good code quality and has good performance is more important than follow someone's guidance, with this said I always try to implement REST web apis, but exceptions exists and we need to work with them, so don't try to force some operation than will don't fit well on REST way.
 
 Remember, REST is a style architecture and as every architecture, you can (and most of time should) adapt it for your project needs and capacities.
@@ -52,22 +52,22 @@ Then, combining with URLs, you get a really clear way to work:
   * /resource/1: delete the resource with id 1.
 
 # Status code
-I try to keep the range of returned status code small, the shortned one is just 3 status:
+I try to keep the range of returned status code small, the smallest one has only 3 status:
 
 * `200`: succesful request.
-* `400`: A client error.
-* `500` : A server error.
+* `400`: a client error.
+* `500` : a server error.
 
-Of course, you can extended this one, like use 201 (created) to return status for POST verbs, and 401 to no authorized request, but try to keep this list small, so will be easy to who consume your API take decisions about what to do with different status code.
+Of course, you can extend this one, like use `201 (created)` to return status for POST verbs, and `401` to unauthorized requests, but try to keep this list small, so will be easy to who consume your API take decisions about what do with different status code.
 
-Another good pratice is return a `error code` and a `error message` in the json of requests that result in 400 status code (client error), this way the client can react or display different informations to the end user. 
-In most of case `400` status code are about some business logic rule that need to be respect to request perform sucessful.
+Another good pratice is return an `error code` and an `error message` in the `json` of requests that result in `400` status code (client error), this way the client can react or display different informations to the end user. 
+In most of case `400` status code are about some business logic rule that need to be respect to result in a sucessful request, so provide some information to client can help it to understand what is wrong in the request.
 
 
 # Versioning
-I saw a lot of developers using `v1` inside the code to "versioning" their web apis, I really dislike this method, I can understand that this is easy to deploy a new web api version to the same vitual application using this technique, but we need to agree that we dont do versioning in code, we do versioning  using some SCM, like Git, SVN and Mercurial, with everything else that correspond to our code, why should we do versioning inside the code in the case of web api?
+I see a lot of developers using `v1` inside the code to "versioning" their web apis, I really dislike this method, I can understand that this is easy to deploy a new web api version to the same vitual application using this technique, but we need to agree that we do versioning using some SCM, like Git, SVN and Mercurial with everything else that correspond to our code, why should we do versioning inside the code in the case of web api?
 
-In most of case your web api will have only one version, especially where you are developing a `SPA` app in it is the only client of your web api.
+In most of case your web api will have only one version, especially when you are developing a `SPA` app and it is the only client of your web api.
 
 > Versioning of APIs is a controversial topic—you will find a lot of contradictory guidance on the internet.
 > The pattern that is most commonly practiced is probably the one with a version identifier in a path
@@ -79,13 +79,13 @@ segment of URLs. Since there is little consensus on versioning, simply offering 
 ## My web api really need versions
 In this case, the approach that I use is create a new site/virtual application every time that I need to publish a major version of my web api, so, in the code of the routes there is no `v1`, `v2` and so on.
 
-Let say I have a web api publish on `http://diegogiacomelli.com.br/sample-api/v1`, than I made some breaking changes to the public interface of the web api and need to publish another version in a separated url to no impact the users that still use the old `v1`. I will just create the new `v2` virtual application, and the urls will be:
+Let say I have a web api publish on `http://diegogiacomelli.com.br/sample-api/v1`, than I made some breaking changes to the public interface of the web api and need to publish another version in a separated url to avoid any impact to the users that still use the old `v1`. I will just create the new `v2` virtual application, and the urls will be:
 
 * `http://diegogiacomelli.com.br/sample-api/v1`
 * `http://diegogiacomelli.com.br/sample-api/v2`
 
 
-In a moment in future you will want to remove the support to the `v1` version, in that moment you could configure your virtual application to redirect (status code 301 or 302) to redirect to the next/latest version.
+In a moment in future you will want to remove the support to the `v1` version, in that moment you could configure your virtual application to redirect (status code `301` or `302`) to the next/latest version.
 
 > Of course, it's a good pratice too have some public changelog about your web api versions releases to notify the clients developers.
 
@@ -108,7 +108,7 @@ To keep our lifes as developers easier is good define some conventions of how ou
 > Most of the good pratices that I used, tested and mentioned in this post I learned from my experience and Apigee books.
 
 # Conclusion
-I probably forget some learnings that I still used in my web apis developing, maybe because it's so common to perform it that I even notice them, but the ones cited above I think are the most important.
+I probably forgot some learnings that I still use in my web apis developing, maybe because it's so common to perform it that I even do not notice them, but the ones cited above I think are the most remarkable.
 
 # Further readings
 I really recomment you read the books bellow, they have a detailed a lot of good pratices about how do develop good web apis and can help you to design yours.
