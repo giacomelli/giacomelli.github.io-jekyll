@@ -6,7 +6,7 @@ categories: Article
 tags: web-api good-pratices
 ---
 
-Some days ago a coworker asked me what do I thought about wich status code a web api should return and if there are some the good pratices to follow. When him asked this, I remembered that I've followed some good pratices, most of them based on my emperical knowledge of years of development and consuming web apis. For this reason I wrote this post as a way to organize and document what are those good pratices that I follow. Maybe it can be useful to someone.
+Some days ago a coworker asked me what do I thought about wich status code a web api should return and if there are some good pratices to follow. When he asked this, I remembered that I've followed some good pratices, most of them based on my emperical knowledge of years of development and consuming web apis. For this reason I wrote this post as a way to organize and document what are those good pratices that I follow. Maybe it can be useful to someone.
 
 The list below is not intended to be right and definitive, there is no silver bullet, but just things that I learned and tested in more of a decade working with web apis. Things that worked for me and my projects can easily not work for you and your projects, because context is other  and challenges too. 
 
@@ -58,14 +58,14 @@ I try to keep the range of returned status code small, the smallest one has only
 * `400`: a client error.
 * `500` : a server error.
 
-Of course, you can extend this one, like use `201 (created)` to return status for POST verbs, and `401` to unauthorized requests, but try to keep this list small, so will be easy to who consume your API take decisions about what do with different status code.
+Of course, you can extend this one, like use `201 (created)` to return status for POST verbs, and `401` to unauthorized requests, but try to keep this list small, so it will be easy to who consume your API take decisions about what to do with different status code.
 
 Another good pratice is return an `error code` and an `error message` in the `json` of requests that result in `400` status code (client error), this way the client can react or display different informations to the end user. 
-In most of case `400` status code are about some business logic rule that need to be respect to result in a sucessful request, so provide some information to client can help it to understand what is wrong in the request.
+In most cases, `400` status code are about some business logic rule that need to be respect to result in a sucessful request, so provide some information to client can help it to understand what is wrong in the request.
 
 
 # Versioning
-I see a lot of developers using `v1` inside the code to "versioning" their web apis, I really dislike this method, I can understand that this is easy to deploy a new web api version to the same vitual application using this technique, but we need to agree that we do versioning using some SCM, like Git, SVN and Mercurial with everything else that correspond to our code, why should we do versioning inside the code in the case of web api?
+I see a lot of developers using `v1` inside the code to "versioning" their web apis, I really dislike this method, I can understand that this is easy to deploy a new web api version to the same virtual application using this technique, but we need to agree that we do versioning using some SCM, like Git, SVN and Mercurial with everything else that correspond to our code, why should we do versioning inside the code in the case of web api?
 
 In most of case your web api will have only one version, especially when you are developing a `SPA` app and it is the only client of your web api.
 
@@ -103,7 +103,7 @@ If you are using ASP .NET Web API, there a some projects to auto generate the Sw
 > Swagger is very popular nowadays, but if you never see it in action, take a look on [Marvel API](https://developer.marvel.com/docs) that use Swagger and Swagger UI.
 
 # Other conventions and good pratices
-To keep our lifes as developers easier is good define some conventions of how our web api REST will behave, the best effort I know in this field is the very good **Apigee e-books**. The e-books are not an attempt to create a bible or a mantra about how to design your api, but rather a collection of conventions observed in large web REST apis, like Twitter, Facebook, Linkedin, Google, etc.
+To keep our lifes as developers easier is good to define some conventions of how our web api REST will behave, the best effort I know in this field are the very good **Apigee e-books**. The e-books are not an attempt to create a bible or a mantra about how to design your api, but rather a collection of conventions observed in large web REST apis, like Twitter, Facebook, Linkedin, Google, etc.
 
 > Most of the good pratices that I used, tested and mentioned in this post I learned from my experience and Apigee books.
 
@@ -111,7 +111,7 @@ To keep our lifes as developers easier is good define some conventions of how ou
 I probably forgot some learnings that I still use in my web apis developing, maybe because it's so common to perform it that I even do not notice them, but the ones cited above I think are the most remarkable.
 
 # Further readings
-I really recomment you read the books bellow, they have a detailed a lot of good pratices about how do develop good web apis and can help you to design yours.
+I really recommend you to read the books bellow, they have a detailed a lot of good practices about how do develop good web apis and can help you to design yours.
 
 * [Web API Design](https://pages.apigee.com/rs/apigee/images/api-design-ebook-2012-03.pdf)
 > The success of an API design is measured by how quickly developers can get
