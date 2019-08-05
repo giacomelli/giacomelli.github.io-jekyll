@@ -16,11 +16,11 @@ tags: unity3d gamedev
 * **Sykoo** made a video about Unity 2019.2 features too ([Unity 2019.2 is now available!](https://www.youtube.com/watch?v=qoERAtLGq-8)). 
 {% youtube qoERAtLGq-8 %}
 
-* **Andy Touch** created a Twitter thread to about the different 2D Light Types available in Unity 2019.2 ([2D Light Types](https://twitter.com/andytouch/status/1156204606562738176)).
+* **Andy Touch** created a Twitter thread about the different 2D Light Types available in Unity 2019.2 ([2D Light Types](https://twitter.com/andytouch/status/1156204606562738176)).
 
 * **Dilmer Valecillos** made a video showing how to use low polly assets for VR ([Unity3d Oculus Quest Development - Adding A Low Poly Asset for VR Usage from the Asset Store](https://www.youtube.com/watch?v=4SVUeuV6TpU)).
 
-* **Alex Lindman** wrote a blog post about custom lighting in Shader Graph ([Custom Lighting in Shader Graph: Expanding your graphs in 2019](https://blogs.unity3d.com/2019/07/31/custom-lighting-in-shader-graph-expanding-your-graphs-in-2019)).
+* **Alex Lindman** wrote a blog post on custom lighting in Shader Graph ([Custom Lighting in Shader Graph: Expanding your graphs in 2019](https://blogs.unity3d.com/2019/07/31/custom-lighting-in-shader-graph-expanding-your-graphs-in-2019)).
 > With the release of Unity Editor 2019.1, the Shader Graph package officially came out of preview! Now, in 2019.2, we’re bringing even more features and functionality to Shader Graph.
 
 * **Kenney** has an incredible collection of free game assets that any game developer can use ([Kenney Assets](https://kenney.nl/assets)).
