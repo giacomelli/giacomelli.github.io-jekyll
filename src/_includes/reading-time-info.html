@@ -1,0 +1,6 @@
+{% capture words %}
+{{ content | number_of_words | minus: 180 }}
+{% endcapture %}
+{% unless words contains '-' %}
+<div class="post-info"><i class="fas fa-clock"></i> <span class="post-date"></span>{{ words | plus: 150 | divided_by: 150 | append: ' minutes to read' }}</span></div>
+{% endunless %}
