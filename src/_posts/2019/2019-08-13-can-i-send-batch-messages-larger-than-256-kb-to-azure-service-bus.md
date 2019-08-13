@@ -15,6 +15,6 @@ The Azure Service Bus maximum message size is 256 KB for `Standard tier` and `1 
 
 A simple solution to overcome this limitation is split the messages in blocks lower or equal to 256 KB size. 
 
-Below is a simplified version of the code that I used for Stantard tier  case:
+Below is a simplified version of the code that I used for Standard tier  case:
 
 {% gist ed0d6eb6a8457eabed916e86c369c56c %}
