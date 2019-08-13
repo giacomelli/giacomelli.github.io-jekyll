@@ -8,7 +8,7 @@ tags: dotnet azure webjobs azure-pipelines continuous-integration
 
 [Azure WebJobs](https://docs.microsoft.com/en-US/azure/app-service/webjobs-sdk-get-started) are a great way to execute background process. 
 
-{% logo azure.svg default }
+{% logo azure.svg default %}
 
 # Scenario
 In last days I've created a [Azure Pipelines](https://azure.microsoft.com/pt-br/services/devops/pipelines/) that publish WebJobs, but in our specific case our WebJobs were not being published to `/site/wwwroot/App_Data/jobs/Continuous/<webjobs name>`, because "reasons" our root web app is using '/site/www' as folder. So, you should expect that the new folder to deploy WebJobs is `/site/www/App_Data/jobs/Continuous/<webjobs name>`, but `NO`, the new folder is `/site/jobs/Continuous/<webjobs name>`.
