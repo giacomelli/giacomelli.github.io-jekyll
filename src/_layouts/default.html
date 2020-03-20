@@ -19,14 +19,20 @@
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <nav class="greedy">
+          <nav>
             <a href="{{ site.baseurl }}/" class="site-avatar" title="{{ site.name }} | {{ site.description }}""><img src="{{ site.baseurl}}/assets/avatar-transparent.png" /></a>
-            <ul class='links'>
-              <li><a href="{{ site.baseurl }}/" class="menu-item">Posts</a></li>
+            <ul class='nav'>
+              <li><a href="{{ site.baseurl }}/">Posts</a></li>
+              
+              <li>
+                <a href="#" >Games</a>
+                <ul>
+                  <li><a href="{{ site.baseurl }}/games/puzzlord">Puzzlord</a></li>
+                  <li><a href="{{ site.baseurl }}/games/puzzlord">Ships N' Battles</a></li>
+                </ul>
+              </li>
               <li><a href="{{ site.baseurl }}/about" class="menu-item">About</a></li>
             </ul>
-            <button><i class="fas fa-bars"></i></button>
-            <ul class='hidden-links hidden'></ul>
           </nav>
         </header>
       </div>
