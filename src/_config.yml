@@ -149,3 +149,4 @@ exclude:
     - node_modules/cypress/
     - appveyor.yml
     - CODE_OF_CONDUCT.md   
+    - games-src

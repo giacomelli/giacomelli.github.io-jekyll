@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<company>	
+	<title>Diego Giacomelli</title>
+	<website>http://diegogiacomelli.com.br</website>
+	<based-in>Porto Alegre - Brazil</based-in>
+	<founding-date>Many years ago...</founding-date>
+	<phone>Ask it by e-mail</phone>
+
+	<address>
+    	<line>Porto Alegre - Brazil</line>		
+   	</address>
+
+	<press-contact>giacomelli@gmail.com</press-contact>
+    <analytics>UA-50922592-1</analytics>
+	
+	<socials>
+		<social>
+			<name>twitter.com/ogiacomelli</name>
+			<link>https://twitter.com/ogiacomelli</link>
+		</social>
+		<social>
+			<name>github.com/giacomelli</name>
+			<link>https://github.com/giacomelli</link>
+		</social>
+	</socials>
+
+	<description>	
+		Indie game developer
+	</description>
+
+	<histories>
+    <history>
+      <text>Programmer since 2001. Backend, libraries, Unity3D and C# development in general.</text>
+    </history>
+  </histories>
+
+
+	<press-can-request-copy>TRUE</press-can-request-copy> <!-- can be true or false -->
+	<monetization-permission>ask</monetization-permission> <!-- can be: 	false (no video allowed),
+																			 	ask (permission on case-per-case basis),
+																			 	non-commercial (no monetization allowed),
+																			 	monetize (full permission) -->	
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer, Unity developer and programmer</role>
+		</credit>
+	</credits>
+	
+	<contacts>
+		<contact>
+			<name>Inquiries</name>
+			<mail>giacomelli@gmail.com</mail>
+		</contact>
+		<contact>
+			<name>Twitter</name>
+			<link>http://twitter.com/giacomelli</link>
+		</contact>
+		<contact>
+			<name>Web</name>
+			<link>http://diegogiacomelli.com.br</link>
+		</contact>
+	</contacts>
+</company>
