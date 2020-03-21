@@ -1,2 +1,2 @@
-npm install -g presskit
-npm update -g presskit
+npm install presskit
+npm update presskit
