@@ -34,6 +34,8 @@ In the `Game services section` open the `Achievements` menu and add some achieve
 {% screenshot achievements.png %}
 <br>
 
+> I found empirically that test achievements that did not have an icon set on the Google Play Console did not show the standard Google Play Games UI when unlocked and were automatically locked again about 1 hour after they were unlocked.
+
 ## Installing the plugin
 To install the `Google Play Games Plugin for Unity`, you should follow the steps in [Plugin Installation](https://github.com/playgameservices/play-games-plugin-for-unity#plugin-installation) and [Android Setup](https://github.com/playgameservices/play-games-plugin-for-unity#android-setup) sections.
 {% screenshot android-setup.png %}
