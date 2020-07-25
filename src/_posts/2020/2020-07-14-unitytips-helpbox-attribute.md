@@ -14,4 +14,4 @@ You can create a [PropertyAttribute](https://docs.unity3d.com/ScriptReference/Pr
 {% gistimporter %}
 
 ## Usage
-{% gist be4850e86a0aacd3de4266830566b139 SampleComponent.cs %}t
+{% gist be4850e86a0aacd3de4266830566b139 SampleComponent.cs %}
