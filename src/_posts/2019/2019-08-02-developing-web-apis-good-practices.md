@@ -36,7 +36,7 @@ Then, combining with URLs, you get a really clear way to work:
   * /resource/1: returns the resource with id 1.
   
 * `POST`
-  * /resource: creates a bunch of resources  (rarelly used).
+  * /resource: creates a new resource.
   * /resource/1: Not used.
 
 * `PUT`
