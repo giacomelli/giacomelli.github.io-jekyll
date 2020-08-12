@@ -3,20 +3,15 @@
 <product>
 	<title>Puzzimals</title>
 	<release-dates>
-		<release-date>TBA</release-date>
+		<release-date>Open beta (Android) - 12 Aug 2020</release-date>
 	</release-dates>
 
 	<website>http://diegogiacomelli.com.br/games/puzzimals</website>	
-	<press-copy-request>
-    https://t.co/BcrgqyUgwz
-  	</press-copy-request>
 
 	<platforms>
 		<platform>
 			<name>Android</name>
-		</platform>
-		<platform>
-			<name>iOS</name>
+			<link>https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals</link>
 		</platform>
 	</platforms>
 	
@@ -29,18 +24,25 @@
 
 
 	<description>
-	Cute, but challenging! Don't let the cute look or super fun animations fool you, Puzzimals has thought-provoking puzzles that challenge players with each new level. The game is packed with features that we, puzzle fans, love:  creative puzzles, and almost infinite combos. 
-	Players can have fun over 100 levels, combining different types of squares such as ice, wild cards, bombs, and more.
+	Cute, but challenging! 
+
+	Don't let the cute look or super fun animations fool you, Puzzimals is a cube-matching game challenging you to match identical tiles in 100 levels of thought-provoking puzzles in a world map. 
+
+	Packed with features and creative puzzles you can combine cubes of ice, wild cards, bombs and so much more! 
+
+	Each level unlocks and increases in difficulty and offers an almost infinite number of combos. 
+
+	Fans of casual puzzle games will enjoy the crisp, colorful graphics featuring cute animals and the compelling music offers great relaxation.
 	</description>
 	
 	<histories>
 		<history>
-		<header>Puzzimals in the final stages of development opens registration for open beta</header>
-		<text>In development by indie game dev Diego Giacomelli from Porto Alegre (RS), Puzzimals started the registration phase for open beta. To be released soon, the puzzle game will initially be launched for Android, but iOS is also in the plans.</text>
+		<header>Puzzimals is in open beta</header>
+		<text>Developed by indie game dev Diego Giacomelli from Porto Alegre (RS), Puzzimals is in open beta. To be final released soon, the puzzle game will initially be launched for Android, but iOS is also in the plans.</text>
 		</history>
 		<history>
-		<header>Sign up for the open beta</header>
-		<text>Subscription link: https://t.co/BcrgqyUgwz</text>
+		<header>Play the beta</header>
+		<text>Android: https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals</text>
 		</history>
   	</histories>
 
