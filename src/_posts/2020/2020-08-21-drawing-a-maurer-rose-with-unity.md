@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Drawing a Maurer Rose With Unity
 categories: Tutorial
@@ -8,15 +8,15 @@ tags: unity3d gamedev math curves
 In this tutorial we will learn how to draw a [Maurer Rose](https://en.wikipedia.org/wiki/Maurer_rose) with a [LineRenderer](https://docs.unity3d.com/ScriptReference/LineRenderer.html) in Unity.
 
 ## Introduction
-Recently, I was watching a [Daniel Shiffman's](https://twitter.com/shiffman) video about Maurer Rose in that inspired me to try it on Unity.
+Recently, I was watching a video by [Daniel Shiffman] (https://twitter.com/shiffman) about Maurer Rose that inspired me to try it out at Unity.
 
-Now you should be thinking "What hell is a Maurer Rose?", well, I did not know too until watch [that video](https://youtu.be/4uU9lZ-HSqA).
+Now you must be thinking "What the hell is a Maurer Rose?", Well, I didn't know it until I watched [that video] (https://youtu.be/4uU9lZ-HSqA).
 
-Let see what Wikipedia say about:
+Let's see what Wikipedia says about:
 
 > A Maurer rose of the rose r = sin(nθ) consists of the 360 lines successively connecting the above 361 points. Thus a Maurer rose is a polygonal curve with vertices on a rose.
 
-The following gif shows the evolution of a Maurer rose (n = 2, d = 29°) from 1 point to 361 points.
+The following gif shows the evolution of a Maurer Rose (n = 2, d = 29°) from 1 point to 361 points.
 {% screenshot maurer-rose-sample.gif %}
 
 # Definition
@@ -33,7 +33,7 @@ A Maurer Rose is always defined by two input parameters: `n` and `d`.
 > (sin(nk), k) (k = 0, d, 2d, 3d, ..., 360d),
 > where d is a positive integer and the angles are in degrees, not radians.
 
-This definitions talk about [polar coordinate system](https://en.wikipedia.org/wiki/Polar_coordinate_system). The more importante thing to know about it is this: `each point on a plane is determined by a distance from a reference point and an angle from a reference direction`. So, if you want to draw a line from a point, we need take that point, a angle and distance to calculate the second point.
+This definition talks about [polar coordinate system](https://en.wikipedia.org/wiki/Polar_coordinate_system). The more important thing to know about it is this: `each point on a plane is determined by a distance from a reference point and an angle from a reference direction`. So, if you want to draw a line from a point, we need to take that point, an angle, and distance to calculate the second point.
 
 # The formula
 {% icon math.png %}
@@ -44,35 +44,27 @@ The basic formula is: `r = sin(nθ)` and we need to apply it to 361 points, wher
 
 In C# the code is something like this:
 
-```csharp
-for (int i = 0; i < 361; i++)
-{
-    k = i * (D * Mathf.PI / 180f);
-    r = Mathf.Sin(N * k);
-    x = _r * Mathf.Cos(_k);
-    y = _r * Mathf.Sin(_k);    
-}
-```
-We calculate the angle for each point, then we get the `r` and find the `x` and `y` for second point on polar coordiante system.
+{% gist 9dc5d4d408c00e92143827293a017936 %}
 
-{% note The `Mathf.PI / 180f` is to convert from degrees to radians to work properly with Mathf functions. %}
+We calculate the angle for each point, then we get the `r` and find the `x` and `y` for the second point on the polar coordinate system.
+
+{% note The `Mathf.PI / 180f` is to convert from degrees to radians to work properly with the Mathf functions. %}
 
 
 # MaurerRoseLineRenderer
-Now the complete code for a MonoBehaviour that take the formula we see in the previous section and combine it with a LineRenderer to draw the Maurer Rose.
+Now the complete code for a MonoBehaviour that takes the formula we saw in the previous section and combine it with a LineRenderer to draw the Maurer Rose.
 
 {% gist f4aba5c5d7cbeb396ca784dff150e194 %}
 {% gistimporter %}
 
 # Using the MaurerRoseLineRenderer
-
 To use it, just create a new GameObject and add the `MaurerRoseLineRenderer` component to it.
 
-If you just hit play, you will see something like this:
+If you just hit play button, you will see something like this:
 {% screenshot maurer-rose-first-try.png %}
 
 <br>
-Go to the LineRenderer component and change the line width to `0.03`, then hit play again.
+Go to the LineRenderer component and change the line width to `0.03`, then hit play button again.
 {% screenshot maurer-rose-second-try.png %}
 
 # Testing new inputs
@@ -80,20 +72,22 @@ Go to the LineRenderer component and change the line width to `0.03`, then hit p
 
 If you change the values of `N` and `D` of the component in the inspector, you will see a new Maurer Rose been drawing.
 
-The image below show the result of 6 different inputs (the same inputs used on [Wikipedia](https://en.wikipedia.org/wiki/Maurer_rose)):
+The image below shows the result of 6 different inputs (the same inputs used on [Wikipedia](https://en.wikipedia.org/wiki/Maurer_rose)):
 {% screenshot maurer-roses.png %}
 
 # Going beyond
 {% icon beyond.png %}
 
-Now that you understand what is a Maurer Rose and how to code it inside Unity you can try do some crazy things with it, like animate the input values or the number of points, or still using it to build a particle system.
+Now that you understand what is a Maurer Rose and how to code it inside Unity you can try to do some crazy things with it, like animate the input values or the number of points, or still using it to build a particle system.
 
 Below I show my realtime try on this matter:
-<iframe src="/apps/MaurerRose/index.html"></iframe>
+
+<a href="/apps/maurer-rose/index.html" target="_blank">Open in a new window</a>
+<iframe src="/apps/maurer-rose/index.html" style="width: 960px;height: 700px;"></iframe>
 
 ## Conclusion
-In this tutorial we learm how to draw a Maurer Rose with a LineRenderer.
-This simple formula show how math can be used explore creativity and beauty.
+In this tutorial, we learned how to draw a Maurer Rose with a LineRenderer.
+This simple formula show how math can be used to explore creativity and beauty.
 
 {% iconscopyright %}
-<i>The font used on the WebGL sample is from [Kenney](http://kenney.nl).
+The font used on the WebGL sample is from [Kenney](http://kenney.nl).
