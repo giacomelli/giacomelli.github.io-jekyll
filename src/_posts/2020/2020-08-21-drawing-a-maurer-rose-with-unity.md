@@ -8,9 +8,9 @@ tags: unity3d gamedev math curves
 In this tutorial we will learn how to draw a [Maurer Rose](https://en.wikipedia.org/wiki/Maurer_rose) with a [LineRenderer](https://docs.unity3d.com/ScriptReference/LineRenderer.html) in Unity.
 
 ## Introduction
-Recently, I was watching a video by [Daniel Shiffman] (https://twitter.com/shiffman) about Maurer Rose that inspired me to try it out at Unity.
+Recently, I was watching a video by [Daniel Shiffman](https://twitter.com/shiffman) about Maurer Rose that inspired me to try it out at Unity.
 
-Now you must be thinking "What the hell is a Maurer Rose?", Well, I didn't know it until I watched [that video] (https://youtu.be/4uU9lZ-HSqA).
+Now you must be thinking "What the hell is a Maurer Rose?", Well, I didn't know it until I watched [that video](https://youtu.be/4uU9lZ-HSqA).
 
 Let's see what Wikipedia says about:
 
