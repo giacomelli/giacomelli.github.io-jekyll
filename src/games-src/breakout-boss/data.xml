@@ -3,7 +3,7 @@
 <product>
 	<title>Breakout Boss</title>
 	<release-dates>
-		<release-date>Prototype - 2018</release-date>
+		<release-date>Development - 2018</release-date>
 	</release-dates>
 
 	<website>http://diegogiacomelli.com.br/games/breakout-boss</website>	
@@ -22,13 +22,13 @@
    	</prices>
 
 	<description>
-	A prototype of a breakout game with boss fight.
+	A breakout game with boss fight.
 	</description>
 
 	<histories>
 		<history>
-			<header>Prototype</header>
-			<text>A prototype made using Unity in 2018.</text>
+			<header>Development</header>
+			<text>Made using Unity in 2018.</text>
 		</history>
   	</histories>
 
