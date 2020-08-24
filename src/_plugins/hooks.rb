@@ -18,6 +18,9 @@ Jekyll::Hooks.register :site, :post_write do
   system("cp -R apps/geneticsharp-runner-blazorapp/_content _site/apps/geneticsharp-runner-blazorapp/_content/")
   system("cp -R apps/geneticsharp-runner-blazorapp/_framework _site/apps/geneticsharp-runner-blazorapp/_framework/")
 
+  system("cp -R games-src/nibble/play.html _site/games/nibble/play.html")
+  system("cp -R games-src/nibble/NIBBLE.zip _site/games/nibble/NIBBLE.zip")
+
   system("cp -R tools/meu-navegador _site/tools/my-browser")  
   system("
   cd _site/tools/my-browser
@@ -54,5 +57,6 @@ Jekyll::Hooks.register :site, :post_write do
   sed -i 's/{{language}}/Idioma/g' index.html  
   sed -i 's/{{datetime}}/Data\\/Hora/g' index.html  
   "); 
+  
 end
 

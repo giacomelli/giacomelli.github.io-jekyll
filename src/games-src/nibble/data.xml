@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Nibble</title>
+	<release-dates>
+		<release-date>Windows - 27 Mar, 2000</release-date>
+	</release-dates>
+
+	<website>http://diegogiacomelli.com.br/games/nibble</website>	
+
+	<platforms>
+		<platform>
+			<name>Windows</name>
+			<link>NIBBLE.zip</link>
+		</platform>
+		<platform>
+			<name>Browser</name>
+			<link>play.html</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>
+	Yet another small nibble game.
+	This was one of first games that I have made.
+	</description>
+	
+	<histories>
+		<history>
+		<header>2000</header>
+		<text>I programmed it using C on Turbo C, near 2000 (yes, a long, long time ago).
+		The entire HUD was made using the BGI (Borland Graphic Interface)</text>
+		</history>
+  	</histories>
+
+	<features>
+		<feature>Retro graphics :D</feature>
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Gameplay</name>
+			<youtube>ibnpKDo0jDI</youtube>
+		</trailer>
+	</trailers>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Developer</role>
+		</credit>		
+	</credits>
+</product>
