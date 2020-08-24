@@ -12,15 +12,19 @@ Jekyll::Hooks.register :posts, :pre_render do |post|
 end
 
 Jekyll::Hooks.register :site, :post_write do
+  # APPS
   system("cp -R apps/unitytips-museum/_content _site/apps/unitytips-museum/_content/")
   system("cp -R apps/unitytips-museum/_framework _site/apps/unitytips-museum/_framework/")
 
   system("cp -R apps/geneticsharp-runner-blazorapp/_content _site/apps/geneticsharp-runner-blazorapp/_content/")
   system("cp -R apps/geneticsharp-runner-blazorapp/_framework _site/apps/geneticsharp-runner-blazorapp/_framework/")
 
+  # GAMES
+  system("cp -R games-src/index-replacement.html _site/games/index.html")
   system("cp -R games-src/nibble/play.html _site/games/nibble/play.html")
   system("cp -R games-src/nibble/NIBBLE.zip _site/games/nibble/NIBBLE.zip")
 
+  # TOOLS
   system("cp -R tools/meu-navegador _site/tools/my-browser")  
   system("
   cd _site/tools/my-browser
