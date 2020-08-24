@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Curseings</title>
+	<release-dates>
+		<release-date>Mac/Windows - 23 Aug, 2020</release-date>
+	</release-dates>
+
+	<website>https://giacomelli.itch.io/curseings</website>	
+
+	<platforms>
+		<platform>
+			<name>Mac</name>
+			<link>https://giacomelli.itch.io/curseings</link>
+		</platform>
+		<platform>
+			<name>Windows</name>
+			<link>https://giacomelli.itch.io/curseings</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>
+	If you have played Lemmings, you will identify some elements, but there are some new features in the Curseings mechanics.
+	</description>
+	
+	<histories>
+		<history>
+			<header>Kenney Jam 2020</header>
+			<text>Game developed during 48 hours for Kenney Jam 2020 https://itch.io/jam/kenney-jam-2020.</text>
+		</history>
+  	</histories>
+
+	<features>
+		<feature>Lemmings gameplay with some twists</feature>
+		<feature>Great puzzles</feature>		
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Gameplay</name>
+			<youtube>I3fRyrc6yrA</youtube>
+		</trailer>		
+	</trailers>
+
+	<quotes>
+		<quote>
+			<description>Neat idea, puzzles are interesting, well executed!</description>
+			<name>Witherik</name>
+			<website>itch.io</website>
+			<link>Neat idea, puzzles are interesting, well executed!</link>
+		</quote>		
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer, Unity developer and programmer</role>
+		</credit>
+
+		<credit>
+			<person>Kenney</person>
+			<role>All assets used in the game. https://kenney.nl</role>
+		</credit>
+
+		<credit>
+			<person>Kevin MacLeod</person>
+			<role>Transition One by Kevin MacLeod
+Link: https://incompetech.filmmusic.io/song/4544-transition-one
+License: http://creativecommons.org/licenses/by/4.0/FFF</role>
+		</credit>
+	</credits>
+</product>
