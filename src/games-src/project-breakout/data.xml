@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Project Breakout</title>
+	<release-dates>
+		<release-date>Prototype - 2005</release-date>
+	</release-dates>
+
+	<website>http://diegogiacomelli.com.br/games/project-breakout</website>	
+
+	<platforms>
+		<platform>
+			<name>Windows</name>
+		</platform>
+	</platforms>
+
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+	<description>
+	An unfinished breakout game made using C# and MDX (Managed DirectX)
+	</description>
+	
+	<histories>
+		<history>
+		<header>2005</header>
+		<text>In 2005 I (Hal), Wanderson Pereira (Kid Graphics) and Giusepe Casagrande (Guardian Skarabrae) started the development of a breakout game called "Project Breakout". The game was programmed using C# and MDX (Managed Direct X).</text>
+		</history>
+  	</histories>
+
+	<features>
+		<feature>Fast pace breakout game</feature>
+		<feature>A lot of visual effects</feature>
+	</features>
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Developer</role>
+		</credit>	
+		<credit>
+			<person>Wanderson Pereira</person>
+			<role>Artist</role>
+		</credit>	
+		<credit>
+			<person>Giusepe Casagrande</person>
+			<role>Artist</role>
+		</credit>		
+	</credits>
+</product>
