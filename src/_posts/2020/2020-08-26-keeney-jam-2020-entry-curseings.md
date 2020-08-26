@@ -6,7 +6,7 @@ categories: Article
 tags: game-jam games made-with-unity
 ---
 Last weekend I participated in **Kenney Jam 2020** (my first game jam).
-The experience was really good, when you have so strong boundaries to make a game, in this case, *48 hours and just use assets from [Kenney](http://Kenney.nl/assets)*, you need to turn your way of think and expectations to a very specific and clear objective: release a fun and playable game the target just the core mechanics.
+The experience was really good, when you have so strong boundaries to make a game, in this case, **48 hours and just use assets from [Kenney](http://Kenney.nl/assets)**, you need to turn your way of think and expectations to a very specific and clear objective: release a fun and playable game the target just the core mechanics.
 
 # The theme
 The theme for this game jam was **"Cursed"**.
@@ -14,7 +14,7 @@ I took some time thinking about what game I would like to play and develop with 
 
 With this in mind, I started developing the game and things happened very well and I delivered my entry right on time. I had the finished version some hours before, but I took some time to review it.
 
-The final result is **a simple game that takes the Lemmings core mechanic and adds some twist: in Curseings**, there are two kinds of walkers: the human and the cursed and you need to take each kind to different portals. If a cursed touch a human, that human becomes a cursed one too. The gamer will need to use this new mechanic to overcome some levels, sometimes the player will need to avoid they touch each other, sometimes don't.
+The final result is **a simple game that takes the Lemmings core mechanic and adds some twist**: in Curseings, there are two kinds of walkers: the human and the cursed and you need to take each kind to different portals. If a cursed touch a human, that human becomes a cursed one too. The gamer will need to use this new mechanic to overcome some levels, sometimes the player will need to avoid they touch each other, sometimes don't.
 
 {% youtube I3fRyrc6yrA %}
 
@@ -31,4 +31,4 @@ The game can be download for Windows and Mac here: [https://giacomelli.itch.io/c
 <br>
 
 # How to vote
-If you liked the game, **you can cast** a vote for the game jam here: [https://itch.io/jam/kenney-jam-2020/rate/737655](https://itch.io/jam/kenney-jam-2020/rate/737655).
+If you liked the game, **you can cast a vote** for the game jam here: [https://itch.io/jam/kenney-jam-2020/rate/737655](https://itch.io/jam/kenney-jam-2020/rate/737655).
