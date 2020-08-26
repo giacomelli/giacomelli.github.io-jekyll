@@ -10,7 +10,7 @@ The experience was really good, when you have so strong boundaries to make a gam
 
 # The theme
 The theme for this game jam was **"Cursed"**.
-I took some time thinking about what game I would like to play and develop with such a theme, then I remembered how much I loved to play Lemmings and how cursed those little ones were cursed to live in the small world where some of them should sacrifice for the others.
+I took some time thinking about what game I would like to play and develop with such a theme, then I remembered how much I loved to play Lemmings and how those little ones were cursed to live in the small world where some of them should sacrifice for the others.
 
 With this in mind, I started developing the game and things happened very well and I delivered my entry right on time. I had the finished version some hours before, but I took some time to review it.
 
