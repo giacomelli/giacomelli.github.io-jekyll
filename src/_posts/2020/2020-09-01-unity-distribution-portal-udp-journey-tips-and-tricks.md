@@ -7,7 +7,7 @@ tags: unity3d gamedev android self-publishing udp
 ---
 In this post, I will list some tips and tricks that I learned in my journey using the [Unity Distribution Portal (UDP)](https://github.com/playgameservices/play-games-plugin-for-unity) to publish my game [Puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals) to 4 new stores, reaching millions of new users, with a single build.
 
-{% logo unity3d.png default %}
+{% logo Unity3d.png default %}
 
 ## Introduction
 Unity has recently [launch to everyone the Unity Distribution Portal (UDP)](https://blogs.unity3d.com/2020/08/28/unlock-access-to-over-a-billion-new-players-for-your-android-mobile-game/) a platform that enable Unity developers to distribute Android games beyond Google Play, into stores like Samsung Galaxy Store, ONE Store, Mi GetApps, HUAWEI AppGallery, QooApp Game Store, SHAREit Game Store, TPAY MOBILE Stores, APPTUTTI, and VIVEPORT.
