@@ -81,10 +81,18 @@ h1 {
 
 h2 {
   font-size: 24px;
+
+  background-color: #c2c9d4;
+  border-radius: 30px;
+  padding-left: 17px;
 }
 
 h3 {
   font-size: 20px;
+  background-color: #c2c9d4;
+  border-radius: 30px;
+  padding-left: 17px;
+  margin-right: 50px;
 }
 
 h4 {
@@ -618,11 +626,10 @@ ul.pager li.selected { background-color: $theme-color; }
   color: darkgray;
   margin-bottom: 20px;
   padding: 10px;
-
-  border-width: 2px;
-  border-style: dashed;
-  border-color: darkgray;
-  border-radius: 10px;
+  border-width: 3px;
+  border-style: dotted;
+  border-color: #D9D3C7;
+  border-radius: 20px;
 }
 
 .note p {
@@ -634,7 +641,7 @@ ul.pager li.selected { background-color: $theme-color; }
 }
 
 .highlighter-rouge {
-  color: #6d0a0a;
+  color:#8C7E65;;
   font-style: italic;
   background-color: #d3d3d336;
   padding-left: 5px;

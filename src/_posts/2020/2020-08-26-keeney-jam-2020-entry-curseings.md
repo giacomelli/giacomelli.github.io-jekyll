@@ -8,7 +8,7 @@ tags: game-jam games made-with-unity
 Last weekend I participated in **Kenney Jam 2020** (my first game jam).
 The experience was really good, when you have so strong boundaries to make a game, in this case, **48 hours and just use assets from [Kenney](http://Kenney.nl/assets)**, you need to turn your way of think and expectations to a very specific and clear objective: release a fun and playable game the target just the core mechanics.
 
-# The theme
+## The theme
 The theme for this game jam was **"Cursed"**.
 I took some time thinking about what game I would like to play and develop with such a theme, then I remembered how much I loved to play Lemmings and how those little ones were cursed to live in the small world where some of them should sacrifice for the others.
 
@@ -18,7 +18,7 @@ The final result is **a simple game that takes the Lemmings core mechanic and ad
 
 {% youtube I3fRyrc6yrA %}
 
-# How to play
+## How to play
 The game can be download for Windows and Mac here: [https://giacomelli.itch.io/curseings](https://giacomelli.itch.io/curseings).
 
 * Just drag a behavior from the toolbar over a correspond walker to change his behavior.
@@ -30,5 +30,5 @@ The game can be download for Windows and Mac here: [https://giacomelli.itch.io/c
 {% screenshot cast-a-vote.png %}
 <br>
 
-# How to vote
+## How to vote
 If you liked the game, **you can cast a vote** for the game jam here: [https://itch.io/jam/kenney-jam-2020/rate/737655](https://itch.io/jam/kenney-jam-2020/rate/737655).

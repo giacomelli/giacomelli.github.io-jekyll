@@ -19,7 +19,7 @@ Let's see what Wikipedia says about:
 The following gif shows the evolution of a Maurer Rose (n = 2, d = 29°) from 1 point to 361 points.
 {% screenshot maurer-rose-sample.gif %}
 
-# Definition
+## Definition
 {% icon project.png %}
 
 A Maurer Rose is always defined by two input parameters: `n` and `d`.
@@ -35,7 +35,7 @@ A Maurer Rose is always defined by two input parameters: `n` and `d`.
 
 This definition talks about [polar coordinate system](https://en.wikipedia.org/wiki/Polar_coordinate_system). The more important thing to know about it is this: `each point on a plane is determined by a distance from a reference point and an angle from a reference direction`. So, if you want to draw a line from a point, we need to take that point, an angle, and distance to calculate the second point.
 
-# The formula
+## The formula
 {% icon math.png %}
 
 The basic formula is: `r = sin(nθ)` and we need to apply it to 361 points, where:
@@ -51,13 +51,13 @@ We calculate the angle for each point, then we get the `r` and find the `x` and 
 {% note The `Mathf.PI / 180f` is to convert from degrees to radians to work properly with the Mathf functions. %}
 
 
-# MaurerRoseLineRenderer
+## MaurerRoseLineRenderer
 Now the complete code for a MonoBehaviour that takes the formula we saw in the previous section and combine it with a LineRenderer to draw the Maurer Rose.
 
 {% gist f4aba5c5d7cbeb396ca784dff150e194 %}
 {% gistimporter %}
 
-# Using the MaurerRoseLineRenderer
+## Using the MaurerRoseLineRenderer
 To use it, just create a new GameObject and add the `MaurerRoseLineRenderer` component to it.
 
 If you just hit play button, you will see something like this:
@@ -67,7 +67,7 @@ If you just hit play button, you will see something like this:
 Go to the LineRenderer component and change the line width to `0.03`, then hit play button again.
 {% screenshot maurer-rose-second-try.png %}
 
-# Testing new inputs
+## Testing new inputs
 {% icon programmer.png %}
 
 If you change the values of `N` and `D` of the component in the inspector, you will see a new Maurer Rose been drawing.
@@ -75,7 +75,7 @@ If you change the values of `N` and `D` of the component in the inspector, you w
 The image below shows the result of 6 different inputs (the same inputs used on [Wikipedia](https://en.wikipedia.org/wiki/Maurer_rose)):
 {% screenshot maurer-roses.png %}
 
-# Going beyond
+## Going beyond
 {% icon beyond.png %}
 
 Now that you understand what is a Maurer Rose and how to code it inside Unity you can try to do some crazy things with it, like animate the input values or the number of points, or still using it to build a particle system.
