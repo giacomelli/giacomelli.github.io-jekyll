@@ -38,7 +38,7 @@ Please, if you did not read the official documentation yet, go and [read it](htt
 
 ### 1.1 Create a new game on UDP
 Go to the UDP dashboard and just create a new game. 
-At this moment just set the game tile.
+At this moment just set the game title.
 
 ### 1.2 IAP and Target UDP
 There is two way to use UDP on your project: using the UDP package or using the Unity IAP.
