@@ -26,6 +26,7 @@ At the time we dit not find any builtin or other solution to make this workflow 
 We decided to use `gulp`, becaused a Chrome Extensions is a bunch of .js, .html and .json files. Perfect to use gulp.
 
 ## The problem
+{% icon problem.png %}
 If we just try to open our download `Hello Extension` .zip file or the opened folder directly on Chrome extesions page, it will work and you see the extension's icon in the toolbar.
 {% screenshot basic-sample-chrome-extension.png %}
 
@@ -36,6 +37,8 @@ To purpose of this tutorial we will work with 3 environments: DEV, TEST, and PRO
 * DEV: Hello, World! (DEV)
 * TEST: Hello, World! (TEST)
 * PROD: Hello, World!
+
+{% screenshot all-extension-environments.png %}
 
 ## Files structure
 Move the `Hello Extensions` files to a subfolder called `src`.
@@ -53,6 +56,7 @@ Follow the instructions described on [Quick Start](https://gulpjs.com/docs/en/ge
 {% note You don't need perform section `Create a gulpfile`, because we will perform it in the next section. %}
 
 ## The gulpfile.js file
+{% icon gulp.svg %}
 Create a file called `gulpfile.js` in the root folder.
 
 {% gist 4f9d7289273222713933d8a95a077311 gulpfile.js %}
@@ -60,6 +64,7 @@ Create a file called `gulpfile.js` in the root folder.
 This is the full `gulpfile.js` file that will allow owner development workflow for different environments.<br>
 Now I will explain each section of it.
 
+{% icon project.png %}
 ### Requires section
 This section define the NPM packages need for our `gulpfile.js`.
 {% gist 4f9d7289273222713933d8a95a077311 requires.section.js %}
@@ -102,8 +107,9 @@ Transform our `manifest.json` file too.
 Watch for any change on the `src` folder and automatically repeat the previous steps.
 {% gist 4f9d7289273222713933d8a95a077311 watch.section.js %}
 
-
 ## packages.json file
+{% icon package.png %}
+
 Change the content of `packages.json` file to the content below to update the dependencies.
 {% gist 4f9d7289273222713933d8a95a077311 packages.json %}
 
@@ -114,6 +120,8 @@ Now, if you just run the command `gulp` in the root folder, you should see a out
 {% screenshot gulp-failed-config.png %}
 
 ## Creating the `config.json` files
+{% icon config.png %}
+
 We need to create our `config.json` files.
 They are 3 files:
 * `config.json`: the baseline file, our common configuration should be define here and will be used for DEV environment.
@@ -159,6 +167,7 @@ Open the `manifest.json` and change it to the content below:
 The line `"/scripts/config.js"` is what we need to access the configuration values.
 
 ## Creating the `manifest.json` files
+{% icon manifest.png %}
 We need to create our `manifest.json` files.
 They are 3 files:
 * `manifest.json`: the baseline file, our common manifest definition and used by DEV environment (already created).
@@ -172,6 +181,7 @@ Here is the content of each one:
 {% gist 4f9d7289273222713933d8a95a077311 manifest.PROD.json %}
 
 ## Running the gulp for each environment
+{% screenshot all-extension-environments.png %}
 Run the command `gulp` in the root folder.
 This will use `DEV` configuration from config.js and manifest.json
 {% note Is the same if you run `gulp --config DEV` %}
@@ -182,7 +192,7 @@ In the Chrome Extnsions page you should see somenthing like this:
 
 Your extension is using the TEST environment values.
 When you click on the extension icon on Chrome toolbar, you should see something like this:
-{%screenshot hello-world-test.png %}
+{% screenshot hello-world-test.png %}
 
 
 You can try to run `gulp --config PROD`. To see the `PROD` environment values on the extension.
@@ -199,6 +209,8 @@ You can download the full source code of the plugin of this tutorial: {% downloa
 In this .zip are all files mentioned in this tutorial, you just need to setup your gulp environment and call the `npm install` and `npm install gulp` before start to use it.
 
 ## Conclusion
+{% icon conclusion.png %}
+
 In this tutorial we will learned how to create a development workflow for a Chrome extension, with different configuration and manifest.json for each environment, like DEV, TEST and PROD.
 
 {% iconscopyright %}
