@@ -4,21 +4,21 @@ const merge = require('gulp-merge-json');
 const fs = require("fs");
 
 const argv = require('yargs').argv;
-const config = argv.config == undefined ? 'dev' : argv.config;
+const config = argv.config == undefined ? 'DEV' : argv.config;
 
 function clean() {
     return del(["./dist/"]);
 }
 
 function copyAllFiles() {
-    return gulp
-      .src([
-        "src/**/*.*",
-        "!src/config*.json",
-        "!src/manifest*.json"
-      ])
-      .pipe(gulp.dest("./dist/"));
-  };
+  return gulp
+    .src([
+      "src/**/*.*",
+      "!src/config*.json",
+      "!src/manifest*.json"
+    ])
+    .pipe(gulp.dest("./dist/"));
+}
  
 function transformConfig(cb) {
   return transformJson(cb, "config");
@@ -29,7 +29,7 @@ function transformManifest(cb) {
 }
 
 function transformJson(cb, fileName) {
-  if(config == "dev") {
+  if(config == "DEV") {
     return gulp
       .src(`src/${fileName}.json`)
       .pipe(gulp.dest("./dist/"));
@@ -53,10 +53,16 @@ function writeConfigJsFile(cb) {
   // DO NOT CHANGED IT DIRECTLY.
   // Edit config.*.json files instead.
   const config = ${content};`
-  fs.mkdir('dist/scripts', { recursive: true }, (err) => {
+
+  fs.mkdirSync('./dist/scripts', { recursive: true }, (err) => {
     if (err) throw err;
   });
-  fs.writeFileSync("dist/scripts/config.js", content);
+  fs.writeFileSync("./dist/scripts/config.js", content);
+
+  fs.mkdirSync('./src/scripts', { recursive: true }, (err) => {
+    if (err) throw err;
+  });
+  fs.writeFileSync("./src/scripts/config.js", content);
  
   return cb();
 }
@@ -66,7 +72,10 @@ function watch(cb) {
     return cb();
 
   return gulp.watch(
-    "src/**/*.*", 
+    [
+      "src/**/*.*", 
+      '!src/scripts/config.js'
+    ],
     gulp.series(copyAllFiles, transformConfig, writeConfigJsFile, transformManifest));
 }
 

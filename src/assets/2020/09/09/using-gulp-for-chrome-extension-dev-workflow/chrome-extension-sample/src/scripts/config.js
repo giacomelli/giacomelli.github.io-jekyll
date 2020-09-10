@@ -3,5 +3,5 @@
   // DO NOT CHANGED IT DIRECTLY.
   // Edit config.*.json files instead.
   const config = {
-    "menuText":  "Context Menu Sample"
+    "title":  "Hello, World! (DEV)"
 };
