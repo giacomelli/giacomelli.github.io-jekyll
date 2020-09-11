@@ -14,15 +14,15 @@ While we were developing it we needed to change some configurations on the exten
 
 ## Chrome Extension
 {% icon chrome-extension.png %}
-For this tutorial, I'll use a Chrome Extension basic sample called `Hello Extensions`. 
+For this tutorial, I'll use a Chrome Extension basic sample called `Hello Extensions`.<br> 
 You can download it from this page [https://developer.chrome.com/extensions/samples](https://developer.chrome.com/extensions/samples) or directly from [here](https://developer.chrome.com/extensions/examples/tutorials/hello_extensions.zip).
-
+<br><br><br><br>
 {% note Is not the intent of this tutorial explains how to create a Chrome Extension from scratch, for this you can use the official documentation: [Getting Started Tutorial](https://developer.chrome.com/extensions/getstarted) %}
 
 ## Gulp
 {% icon gulp.svg %}
 At that time we did not find any builtin or other solution to make this workflow easier and streamlined, so we decided to create our own solution using `Gulp`. This whole solution will be explaining below.
-
+<br><br><br><br><br>
 > gulp is an open-source JavaScript toolkit created by Eric Schoffstall used as a streaming build system in front-end web development.
 
 We decided to use `gulp`, because a Chrome Extensions is a bunch of .js, .html and .json files. Perfect to use gulp.
@@ -67,6 +67,7 @@ This is the full `gulpfile.js` file that will allow our development workflow for
 ## The gulpfile.js sections
 {% icon project.png %}
 Now I will explain each section of it.
+<br><br><br><br><br><br>
 
 ### Requires section
 This section define the NPM packages need for our `gulpfile.js`.
@@ -128,7 +129,7 @@ They are 3 files:
 * `config.json`: the baseline file, our common configuration should be defined here and will be used for the DEV environment.
 * `config.TEST.json`: the file that the define specific configuration values for the TEST environment
 * `config.PROD.json`: the file that the define specific configuration values for the PROD environment
-
+<br><br>
 {% note If you're familiar with [Web.config File Transformations](https://docs.microsoft.com/en-us/aspnet/web-forms/overview/deployment/visual-studio-web-deployment/web-config-transformations) or `appsettings.json` files transformation, the philosophy used here is the same: the baseline file (config.json) contains all the common configuration values, and the specific environment files, like config.TEST.json and config.PROD.json, need to define only the values that are different for that environment %}
 
 Create the 3 files inside the subfolder `src`.
@@ -170,7 +171,7 @@ The line `"/scripts/config.js"` is what we need to access the configuration valu
 ## Creating the `manifest.json` files
 {% icon manifest.png %}
 We need to create our `manifest.json` files, in the same way, we created our `config.json` files.
-
+<br><br><br><br><br>
 They are 3 files:
 * `manifest.json`: the baseline file, our common manifest definition, and used by DEV environment (already created).
 * `manifest.TEST.json`: the file that the define specific manifest configuration values for the TEST environment

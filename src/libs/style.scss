@@ -653,3 +653,24 @@ ul.pager li.selected { background-color: $theme-color; }
 code {
   color: dark;
 }
+
+.icon {
+  max-height: 128px !important;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 17px;
+  margin-right: 17px;
+  background-color: #eee;
+  float: left;
+}
+
+h1, h2, h3, .iconscopyright, .note, blockquote{
+  clear: both !important;
+  margin-top: 10px !important;
+}
+
+.gist {
+  clear: both !important;
+  padding-top: 10px !important;
+}
