@@ -6,10 +6,7 @@ module Jekyll
 
     def render(context)      
       site = context.registers[:site]
-      "<center>
-      <img class='lazy' src='#{site.baseurl}/assets/logos/#{@iconFile}' style='max-height:200px'>
-      </center>"
-
+      "<img class='lazy icon' src='#{site.baseurl}/assets/logos/#{@iconFile}' style='max-height:200px'>"
     end
   end
 end
