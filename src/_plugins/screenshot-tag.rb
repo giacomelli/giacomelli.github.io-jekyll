@@ -13,7 +13,7 @@ module Jekyll
 
       site = context.registers[:site]
       "<center>
-        <img class='lazy' src='#{site.baseurl}/assets/#{@text}'>
+        <img class='lazy screenshot' src='#{site.baseurl}/assets/#{@text}'>
       </center>"
     end
   end
