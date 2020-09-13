@@ -129,12 +129,20 @@ pagination:
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
+# https://rbuchberger.github.io/jekyll_picture_tag/users/configuration/
+picture:
+  source: ""
+  output: "assets/images/generated"
+  suppress_warnings: false
+
+
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate-v2  
   - jekyll-gist
+  - jekyll_picture_tag
  
 # Exclude these files from your production _site
 exclude:

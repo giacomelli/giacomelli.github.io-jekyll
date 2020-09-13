@@ -1,0 +1,5 @@
+presets:
+  default:
+    formats: [webp]
+    widths: [200]
+    link_source: true

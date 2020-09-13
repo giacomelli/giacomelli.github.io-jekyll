@@ -9,5 +9,9 @@ module Jekyll
 		def self.include(context, file)
 			Liquid::Template.parse("{% include #{file} %}").render(context)
 		end
+
+		def self.picture(context, image, className)
+			Liquid::Template.parse("{% picture #{image} class=\"#{className}\" %}").render(context)
+		end
 	end
 end
