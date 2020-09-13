@@ -83,7 +83,7 @@ Now that you understand what is a Maurer Rose and how to code it inside Unity yo
 Below I show my realtime try on this matter:
 
 <a href="/apps/maurer-rose/index.html" target="_blank">Open in a new window</a>
-<iframe src="/apps/maurer-rose/index.html" style="width: 960px;height: 700px;"></iframe>
+<iframe src="/apps/maurer-rose/index.html" style="width: 100%;min-height: 700px;"></iframe>
 
 ## Conclusion
 In this tutorial, we learned how to draw a Maurer Rose with a LineRenderer.
