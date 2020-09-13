@@ -7,7 +7,6 @@ environment:
 branches:
   only:
     - develop
-    - feature/upgrade-to-jekyll-4
     
 install:
 - sh: sudo rm -rf /var/lib/apt/lists/*
