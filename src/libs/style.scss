@@ -159,12 +159,6 @@ strong, b {
   font-weight: bold;
 }
 
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -230,6 +224,7 @@ img {
   img {
     border-radius: 5px;
     width: 128px !important;
+    height: auto !important;
   }
 }
 
@@ -654,7 +649,14 @@ code {
   color: dark;
 }
 
-.icon {
+img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+}
+
+.icon {  
+  width: auto;
   max-height: 128px !important;
   border-width: 3px;
   border-style: solid;
@@ -675,7 +677,14 @@ h1, h2, h3, .iconscopyright, .note, blockquote{
   padding-top: 10px !important;
 }
 
-.screenshot {
+.screenshot {  
   border: .75rem solid #dfe7f0;
   border-radius: .5625rem;
+}
+
+.logo {   
+  width: auto;
+  height: auto;
+  max-height: 256px;
+  max-width: 256px;
 }

@@ -6,7 +6,7 @@ module Jekyll
 
     def render(context)      
       site = context.registers[:site]
-      "<img class='icon' src='#{site.baseurl}/assets/logos/#{@iconFile}' style='max-height:200px'>"
+      Helper::picture(context, "#{site.baseurl}/assets/logos/#{@iconFile}", "icon");
     end
   end
 end

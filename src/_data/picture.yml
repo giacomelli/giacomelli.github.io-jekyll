@@ -1,5 +1,9 @@
 presets:
   default:
     formats: [webp]
-    widths: [200]
-    link_source: true
+    # widths: [32, 64, 128, 264, 400, 800, 1600]
+    widths: [5000]
+    link_source: false
+    nomarkdown: false
+    fallback_format: webp
+    dimension_attributes: true

@@ -11,7 +11,13 @@ module Jekyll
 		end
 
 		def self.picture(context, image, className)
-			Liquid::Template.parse("{% picture #{image} class=\"#{className}\" %}").render(context)
+			image = Liquid::Template.parse(image).render(context)
+
+			if image.include?(".svg") || image.include?(".gif")
+				Liquid::Template.parse("<img class='#{className}' src='/#{image}'>").render(context)
+			else
+				Liquid::Template.parse("{% picture #{image} class=\"#{className}\" %}").render(context)
+			end
 		end
 	end
 end

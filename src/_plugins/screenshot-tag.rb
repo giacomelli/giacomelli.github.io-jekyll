@@ -12,10 +12,9 @@ module Jekyll
       end
 
       site = context.registers[:site]
-      "<center>
+      "<center>                
         #{Helper::picture(context, "assets/#{@text}", "screenshot")}
       </center>"
-      
     end
   end
 end

@@ -14,7 +14,7 @@
       <div class="container">
         <header class="masthead clearfix">
           <nav class="greedy">
-            <a href="{{ site.baseurl }}/" class="site-avatar" title="{{ site.name }} | {{ site.description }}""><img src="{{ site.baseurl}}/assets/avatar-transparent.png" /></a>
+            <a href="{{ site.baseurl }}/" class="site-avatar" title="{{ site.name }} | {{ site.description }}"">{% images assets/avatar-transparent.png %}</a>
             <ul class='links'>
               <li><a href="{{ site.baseurl }}/" class="menu-item">Posts</a></li>
               <li><a href="{{ site.baseurl }}/games" class="menu-item">Games</a></li>
@@ -40,7 +40,7 @@
           {% include tools-box.html %}
           {% include games-box.html %}
           {% include highlight-box.html title="Tutorials" posts=site.posts category="Tutorial" %}
-          {% include highlight-box.html title="News" posts=site.posts category="News" %}
+          <!-- {% include highlight-box.html title="News" posts=site.posts category="News" %} -->
           {% include highlight-box.html title="Articles" posts=site.posts category="Article" %}
           {% include highlight-box.html title="Labs" posts=site.posts category="Lab" %}
           {% include see-too-box.html %}
