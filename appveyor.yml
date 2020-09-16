@@ -13,7 +13,7 @@ install:
 - sh: sudo rm -rf /var/lib/apt/lists/*
 - sh: sudo apt-get update
 - sh: sudo apt-get -y install curl
-- sh: sudo apt-get install imagemagick
+- sh: sudo apt-get -y install imagemagick
 - sh: \curl -L https://get.rvm.io | bash -s stable --ruby
 - sh: rvm reload
 - sh: rvm install ruby
