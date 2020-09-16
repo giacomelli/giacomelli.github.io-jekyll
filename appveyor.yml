@@ -17,7 +17,7 @@ install:
 - sh: rvm reload
 - sh: rvm install ruby
 - sh: gem install jekyll bundler
-- sh: brew install imagemagick
+- sh: apt-get install imagemagick
 
 build_script:
 - sh: cd src
