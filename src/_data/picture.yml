@@ -1,9 +1,27 @@
+media_queries:
+  wide_desktop: 'min-width: 1801px'
+  desktop: 'max-width: 1800px'
+  wide_tablet: 'max-width: 1200px'
+  tablet: 'max-width: 900px'
+  mobile: 'max-width: 600px'
+
 presets:
   default:
-    formats: [webp]
-    # widths: [32, 64, 128, 264, 400, 800, 1600]
-    widths: [5000]
+    formats: [webp, original]    
     link_source: false
     nomarkdown: false
     fallback_format: webp
     dimension_attributes: true
+
+    widths: [200, 400, 800, 1600] # Must be an array.
+    media_widths: # Because a cell phone doesn't want 1600 pixels.
+      mobile: [200, 400, 600] 
+      tablet: [400, 600, 800]
+
+    sizes: 
+      mobile: 100vw
+      tablet: 80vw
+    size: 800px
+
+    fallback_width: 800
+    fallback_format: original    
