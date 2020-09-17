@@ -15,7 +15,12 @@ module Jekyll
 
 			if image.include?(".svg") || image.include?(".gif")
 				site = context.registers[:site]
-				Liquid::Template.parse("<img class='#{className}' src='#{site.baseurl}#{image}'>").render(context)
+		
+				if !image.start_with?("/")
+					image = "/#{image}"
+				end
+
+				Liquid::Template.parse("<img class='#{className}' src='#{image}'>").render(context)
 			else
 				Liquid::Template.parse("{% picture #{image} class=\"#{className}\" %}").render(context)
 			end
