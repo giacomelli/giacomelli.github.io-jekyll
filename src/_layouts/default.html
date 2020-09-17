@@ -3,10 +3,7 @@
   <head>
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
     {% include meta.html %}
-    {% include resources-begin.html %}
-       
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>    
+    {% include resources-begin.html %}       
   </head>
 
   <body>
@@ -19,6 +16,8 @@
               <li><a href="{{ site.baseurl }}/" class="menu-item">Posts</a></li>
               <li><a href="{{ site.baseurl }}/games" class="menu-item">Games</a></li>
               <li><a href="{{ site.baseurl }}/about" class="menu-item">About</a></li>
+              <li><a href="https://github.com/giacomelli" class="menu-item"><i class='fab fa-github'></i></a></li>
+              <li><a href="https://twitter.com/ogiacomelli" class="menu-item"><i class='fab fa-twitter'></i></a></li>
             </ul>
             <button><i class="fas fa-bars"></i></button>
             <ul class='hidden-links hidden'></ul>
@@ -32,9 +31,7 @@
         {{ content }}
       </div>
       <div class="right-bar-container">
-          {% include portifolio-box-ad.html %}
-          <a class="github-button" href="https://github.com/giacomelli" aria-label="Follow @giacomelli on GitHub">Follow @giacomelli</a> 
-          <a href="https://twitter.com/ogiacomelli" class="twitter-follow-button" data-show-count="false">Follow @ogiacomelli</a>
+          {% include portifolio-box-ad.html %}          
           {% include search-input.html %}
           {% include apps-box.html %}
           {% include tools-box.html %}
