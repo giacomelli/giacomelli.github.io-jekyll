@@ -6,8 +6,7 @@ environment:
 
 branches:
   only:
-    - develop
-    - feature/picture-tag
+    - develop    
     
 install:
 - sh: sudo rm -rf /var/lib/apt/lists/*
