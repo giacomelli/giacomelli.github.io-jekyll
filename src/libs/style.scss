@@ -159,12 +159,6 @@ strong, b {
   font-weight: bold;
 }
 
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -230,6 +224,7 @@ img {
   img {
     border-radius: 5px;
     width: 128px !important;
+    height: auto !important;
   }
 }
 
@@ -625,7 +620,7 @@ ul.pager li.selected { background-color: $theme-color; }
 }
 
 .note {
-  color: darkgray;
+  color: #130000;
   margin-bottom: 20px;
   padding: 10px;
   border-width: 3px;
@@ -639,13 +634,13 @@ ul.pager li.selected { background-color: $theme-color; }
 }
 
 .note a {
-  color: darkgray;
+  color: #130000;
 }
 
 .highlighter-rouge {
-  color:#8C7E65;;
+  color:#130000;
   font-style: italic;
-  background-color: #d3d3d336;
+  background-color: #d3d3d3;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -654,7 +649,14 @@ code {
   color: dark;
 }
 
-.icon {
+img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+}
+
+.icon {  
+  width: auto;
   max-height: 128px !important;
   border-width: 3px;
   border-style: solid;
@@ -675,7 +677,56 @@ h1, h2, h3, .iconscopyright, .note, blockquote{
   padding-top: 10px !important;
 }
 
-.screenshot {
+.screenshot {  
   border: .75rem solid #dfe7f0;
   border-radius: .5625rem;
+}
+
+.logo {   
+  width: auto;
+  height: auto;
+  max-height: 256px;
+  max-width: 256px;
+}
+
+#disqus_thread {
+  min-height: 400px;
+  text-align: center;
+}
+
+.portifolio-slideshow {
+  border-color: black;
+  border-width: 1px;
+  border-style: dotted;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 118%;
+}
+.portifolio-slide {
+  display: none;
+}
+.portifolio-slide a {
+  text-decoration: none;          
+}
+
+.portifolio-slide a img {
+  height: auto;
+  max-width: 128px;
+  margin:auto;
+  margin-bottom:5px;          
+}
+
+.portifolio-slide a div {
+  margin:0;      
+  font-size: 14pt;
+  font-weight: bold;
+  background: lightgray;
+  border-radius: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;   
 }

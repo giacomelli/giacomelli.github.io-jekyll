@@ -12,8 +12,8 @@ module Jekyll
       end
 
       site = context.registers[:site]
-      "<center>
-        <img class='screenshot' src='#{site.baseurl}/assets/#{@text}'>
+      "<center>                
+        #{Helper::picture(context, "assets/#{@text}", "screenshot")}
       </center>"
     end
   end
