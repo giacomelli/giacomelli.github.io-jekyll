@@ -20,9 +20,9 @@ module Jekyll
 					image = "/#{image}"
 				end
 
-				Liquid::Template.parse("<img class='#{className}' src='#{image}'>").render(context)
+				Liquid::Template.parse("<img class='#{className}' src='#{image}' alt='post image'>").render(context)
 			else
-				Liquid::Template.parse("{% picture #{image} class=\"#{className}\" %}").render(context)
+				Liquid::Template.parse("{% picture #{image} class=\"#{className}\" --alt post image %}").render(context)
 			end
 		end
 	end
