@@ -14,7 +14,7 @@ I created this script to help to have **SpriteShape with ShadowCaster2D casting 
 To use it you need to add a [PolygonCollider2D](https://docs.unity3d.com/ScriptReference/PolygonCollider2D.html) or an [EdgeCollider2D](https://docs.unity3d.com/Manual/class-EdgeCollider2D.html) to your `SpriteShape's` gameobject and then add the `ShadowCaster2DFromCollider` component to the same gameobject.
 
 Below you can see a video showing a scene with some SpriteShapes before and after applying the ShadowCaster2DFromCollider component.
-{% video ShadowCaster2DFromCollider.mp4 %}
+{% youtube m8nnTek5U0Y %}
 
 ## Source code
 {% gist c208e20ecf75a77e0833f4c7671a0052 %}
