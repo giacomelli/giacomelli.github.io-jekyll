@@ -20,7 +20,7 @@ Triangles can be classified [by lengths of sides and by internal angles](https:/
 * [Right](https://en.wikipedia.org/wiki/Right_triangle): has one of its interior angles measuring 90°.
 * [Oblique](https://en.wikipedia.org/wiki/Oblique_triangle): do not have an angle measuring 90°.
 * [Acute](https://en.wikipedia.org/wiki/Acute_triangle): with all interior angles measuring less than 90°.
-* [Obtues](https://en.wikipedia.org/wiki/Obtuse_triangle): with one interior angle measuring more than 90°.
+* [Obtuse](https://en.wikipedia.org/wiki/Obtuse_triangle): with one interior angle measuring more than 90°.
 
 ## Triangle Classifier
 {% icon podium.png %}
