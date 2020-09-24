@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Drawing a Maurer Rose With Unity
 categories: Tutorial
-tags: unity3d gamedev math curves
+tags: unity3d gamedev math curves webgl
 ---
 In this tutorial we will learn how to draw a [Maurer Rose](https://en.wikipedia.org/wiki/Maurer_rose) with a [LineRenderer](https://docs.unity3d.com/ScriptReference/LineRenderer.html) in Unity.
 
@@ -82,8 +82,7 @@ Now that you understand what is a Maurer Rose and how to code it inside Unity yo
 
 Below I show my realtime try on this matter:
 
-<a href="/apps/maurer-rose/index.html" target="_blank">Open in a new window</a>
-<iframe src="/apps/maurer-rose/index.html" style="width: 100%;min-height: 700px;"></iframe>
+{% webgl maurer-rose %}
 
 ## Conclusion
 In this tutorial, we learned how to draw a Maurer Rose with a LineRenderer.
