@@ -19,6 +19,10 @@ Jekyll::Hooks.register :site, :post_write do
   system("cp -R apps/geneticsharp-runner-blazorapp/_content _site/apps/geneticsharp-runner-blazorapp/_content/")
   system("cp -R apps/geneticsharp-runner-blazorapp/_framework _site/apps/geneticsharp-runner-blazorapp/_framework/")
 
+  system("cp -R apps/arc-8/_content _site/apps/arc-8/_content/")
+  system("cp -R apps/arc-8/_framework _site/apps/arc-8/_framework/")
+
+
   # GAMES
   system("cp -R games-src/index-replacement.html _site/games/index.html")
   system("cp -R games-src/nibble/play.html _site/games/nibble/play.html")
