@@ -5,7 +5,7 @@ title: unitytips&colon; Sprites Collection
 categories: Lab
 tags: unity3d unitytips gamedev
 ---
-Sometimes we have related sprites that can be used in a prefab, like sprites for the environment, probs, and scenario. Would be cool if we can easily swap them directly on the prefab without need to find and set the sprite directly in the SpriteRenderer component? 
+Sometimes we have related sprites that can be used in a prefab, like sprites for the environment, props, and scenario. Would be cool if we can easily swap them directly on the prefab without need to find and set the sprite directly in the SpriteRenderer component? 
 
 {% youtube TJ-Ou9YMFdA %}
 
