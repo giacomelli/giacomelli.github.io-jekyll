@@ -5,7 +5,7 @@ title: OWASP ZAP Path Traversal and ASP .NET&colon; Notes
 categories: Tutorial
 tags: aspdotnet dotnet security owasp
 ---
-In this post, I will write some notes of my experience trying to understand the alerts about the [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) attack while running [OWASP ZAP](https://www.zaproxy.org/) against an ASP .NET project.
+In this post, I wrote some notes of my experience trying to understand the alerts about the [Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal) attack while running [OWASP ZAP](https://www.zaproxy.org/) against an ASP .NET project.
 
 {% logo owasp.svg default %}
 
