@@ -73,7 +73,7 @@ You can change the risk alert to `False Positive` for each URL in the context al
 {% icon conclusion.png %}
 In most cases ASP .NET Web APIs/Apps are not exposed to a Path Traversal attack, but a poor user input validation in file system handling action can easily expose the whole API/APP.
 
-These are the thumb of rule from OWASP ZAP docs:
+These are the basic rules of OWASP ZAP documents:
 
 ### How to identify if you are vulnerable
 * Be sure you understand how the underlying operating system will process filenames handed off to it.
