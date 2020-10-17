@@ -7,7 +7,7 @@ tags: geneticsharp dotnet
 ---
 Now GeneticSharp has a NuGet package called GeneticSharp.Templates, this package allows you to install GeneticSharp templates using the **dotnet new** command.
 
-# Installing the GeneticSharp.Templates
+## Installing the GeneticSharp.Templates
 Before you can use the `dotnet new` command to create the GeneticSharp projects from templates, you need to install it on your machine:
 ```shell
 dotnet new -i GeneticSharp.Templates
@@ -21,9 +21,9 @@ The GeneticSharp templates will be listed:
 
 {% screenshot dotnet-new-list-output.png %}
 
-# Creating a new GeneticSharp project from templates
+## Creating a new GeneticSharp project from templates
 
-## Console Application
+### Console Application
 Create a new console application template with GeneticSharp where you just need to implement the chromosome and fitness function.
 ```shell
 dotnet new GeneticSharpConsoleApp -n MyNamespace -o MyOutoputFolder

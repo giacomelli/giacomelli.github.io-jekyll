@@ -20,7 +20,7 @@ With big teams or even with the small ones is easy that some assets will be plac
 
 {% note Another advantage of keeping assets organized in their proper folders is that you can [apply defaults presets to assets by folder](https://docs.unity3d.com/Manual/DefaultPresetsByFolder.html). %}
 
-# Setup
+## Setup
 To setup the `Folder organizer` just download this [gist](https://gist.github.com/giacomelli/2d561e29beadab641a4f8b56954f53f7) and unzip it on an `Editor` folder inside your Unity project. 
 {% gistimporter %}
 

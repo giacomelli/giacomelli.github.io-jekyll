@@ -7,7 +7,7 @@ tags: unity3d editor-window animation-curve gamedev open-source gist
 ---
 I've coded an [EditorWindow](https://docs.unity3d.com/Manual/editor-EditorWindows.html) to create an [AnimationCurve](https://docs.unity3d.com/ScriptReference/AnimationCurve.html) using easing functions that define how much a value changes over time.
 
-# Introduction
+$# Introduction
 There are many classic easing functions, such as: InQuad, OutElastic, InOutSin, and InOutBounce. All of these are functions that have a `time` input parameter and a return value between 0 and 1.
 
 For example, the easing function `OutCirc` is coded like: 
@@ -34,7 +34,7 @@ In the `Easing2Curve` editor window you can see 31 easing function availables:
                
 In addition, you can add new easing functions just implementing the `IEasing` interface.
 
-# Setup
+## Setup
 To setup the `Easing2Curve` just download this [gist](https://gist.github.com/giacomelli/7324d63679c11529e1710a5470d9ee7f) and unzip it on an `Editor` folder inside your Unity project. 
 
 {% gist 7324d63679c11529e1710a5470d9ee7f Easing2CurveEditorWindow.cs %}

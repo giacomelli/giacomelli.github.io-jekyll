@@ -14,7 +14,7 @@ You can access it directly in my site, in this url: [http://diegogiacomelli.com.
 
 {% youtube B9eTNZWhojI %}
 
-# The #unitytips collection
+## The #unitytips collection
 Every week all #unitytips retweeted by [@unity3d](https://twitter.com/unity3d) will be included to the collection.
 
 If you know a really good #unitytips (at least 50 retweets) that should be added to the collection, please follow one of options above:
@@ -22,7 +22,7 @@ If you know a really good #unitytips (at least 50 retweets) that should be added
 * Contact me on Twitter [@ogiacomelli](https://twitter.com/ogiacomelli).
 * [Fork it on GitHub](https://github.com/giacomelli/unitytips-museum), add the #unitytips to the wwwroot/data/tips.json file and create a pull-request.
 
-# About Blazor
+## About Blazor
 > Blazor can run your client-side C# code directly in the browser, using WebAssembly. Because it's real .NET running on WebAssembly, you can re-use code and libraries from server-side parts of your application.
 
 In a future post I will discuss what I learned about Blazor while developing the #unitytips Museum, but I can give a spoiler: I really liked it!

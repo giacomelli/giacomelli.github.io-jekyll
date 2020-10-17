@@ -42,5 +42,5 @@ When I was trying to create the first templates I used this Microsoft documentat
 ### Publishing
 * If everything is right you can publish your `.nupkg` on [http://nuget.org]() or to your private NuGet feed: [sample](https://www.nuget.org/packages/GeneticSharp.Templates/)
 
-# Conclusion
+## Conclusion
 That's it, with just 9 steps you can create your own dotnet new template and jumpstart your next project setup.

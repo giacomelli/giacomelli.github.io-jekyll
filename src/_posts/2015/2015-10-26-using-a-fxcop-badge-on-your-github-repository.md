@@ -45,8 +45,6 @@ Edit your readme.md and add the line below:
 ![FxCop](https://badgessharp.apphb.com/badges/:owner/:repo/FxCop)
 ```
 
-Sample badges: ![](https://badgessharp.apphb.com/badges/giacomelli/BadgesSharp/FxCop) ![](https://badgessharp.apphb.com/badges/giacomelli/SampleProject/FxCop)
-
 ### How use it on your Continuous Integration?
 Probably you’re using some continuous integration service, below are some samples:
 

@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: Triangle Classifier Made With Unity
-categories: Labs
+categories: Lab
 tags: unity3d gamedev math webgl
 ---
 These days were studying polygons and thought that would be cool build a triangle classifier to help people learn and teach about types of triangle.
