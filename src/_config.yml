@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Diego Giacomelli
+name: Giacomelli
 
 # Short bio or description (displayed in the header)
-description: programmer
+description: C# programmer and Unity 3D gamedev
 
 title_separator: "&#124;"
 
@@ -34,6 +34,7 @@ footer-links:
   stackoverflow: users/956886/giacomelli
   youtube: user/dmgiacomelli
   googleplus: 
+  discord: 748716444715319358/748716446296571906
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
