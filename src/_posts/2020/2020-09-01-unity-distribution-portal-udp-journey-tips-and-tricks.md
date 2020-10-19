@@ -5,7 +5,7 @@ title: Unity Distribution Portal (UDP) Journey&colon; Tips & Tricks
 categories: Tutorial
 tags: unity3d gamedev android self-publishing udp
 ---
-In this post, I will list some tips and tricks that I learned in my journey using the [Unity Distribution Portal (UDP)](https://github.com/playgameservices/play-games-plugin-for-unity) to publish my game [Puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals) to 4 new stores, reaching millions of new users, with a single build.
+In this post, I will list some tips and tricks that I learned in my journey using the [Unity Distribution Portal (UDP)](https://unity.com/products/unity-distribution-portal) to publish my game [Puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals) to 4 new stores, reaching millions of new users, with a single build.
 
 {% logo Unity3d.png default %}
 
