@@ -652,7 +652,7 @@ ul.pager li.selected { background-color: $theme-color; }
 .highlighter-rouge {
   color:#130000;
   font-style: italic;
-  background-color: #d3d3d3;
+  background-color: #eee;
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -669,15 +669,15 @@ img {
 
 .icon {  
   width: auto;
-  max-height: 128px !important;
+  max-height: 78px !important;
   border-width: 3px;
   border-style: solid;
   border-radius: 20px;
-  padding: 17px;
-  margin-right: 17px;
+  padding: 5px;
+  margin-left: 17px;
   margin-bottom: 17px;
   background-color: #eee;
-  float: left;
+  float: right;
 }
 
 h1, h2, h3, .iconscopyright, .note, blockquote{
