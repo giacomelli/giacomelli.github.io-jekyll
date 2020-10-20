@@ -5,170 +5,119 @@ title: Unity Game Growth Program&colon; Tips & Tricks
 categories: Tutorial
 tags: unity3d gamedev android self-publishing udp
 ---
-In this post, I will list some tips and tricks that I learned in my apply my game  [Puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals) to the [Unity Game Growth Program](hhttps://unity.com/solutions/mobile/game-growth-program).
+In this post, I will list some tips and tricks that I learned while applying my game [Puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals) to the [Unity Game Growth Program](https://unity.com/solutions/mobile/game-growth-program).
 
 {% logo Unity3d.png default %}
 
 ## Introduction
-Unity has recently [launch the Unity Game Growth Program](https://blogs.unity3d.com/2020/10/13/introducing-the-game-growth-program/) an accelerator program for free-to-play indie games on mobile made with Unity.
+Unity has recently [launch the Unity Game Growth Program](https://blogs.unity3d.com/2020/10/13/introducing-the-game-growth-program/) an accelerator program for free-to-play indie iOS/Android games made with Unity.
 
 > Game Growth is a new game accelerator for mobile indie developers. We partner with indie game devs so they can quickly and effectively scale their games while remaining 100% independent. Becoming a partner gives you access to user acquisition funding alongside industry-leading tools and experts in game operations. The best part? You keep full ownership of your studio and intellectual property.
 
+> If you meet the criteria and we accept you into the program, Unity will fund user acquisition for your game and provide the technology and Unity experts to help manage player engagement and monetization. We take care of the process that helps grow your game while you concentrate on development. 
 
-## Available Stores
-As I write this post Unity is working to add even more stores to UDP.
-From the 9 stores supported, 7 are fully integrated with UDP. What this meaning? You just need to create your account on each store, via UDP (in some cases fill some forms and send some ID and bank docs), and UDP will perform all the steps need to make your game available on the store.
+> Game Growth is a revenue-sharing program – Unity and the developer team split the revenue from advertising and in-app purchases 50/50 after the user acquisition spend has been recouped. Put simply, Unity covers the cost of bringing in new players while we both share in the reward. 
+
+You can read more about the program here:
+* [Introducing the Game Growth program](https://blogs.unity3d.com/2020/10/13/introducing-the-game-growth-program/)
+* [Game Growth Program](https://unity.com/solutions/mobile/game-growth-program)
+
+## Steps
+{% icon route.png %}
+According to documentation, the Unity Game Growth Program works through 4 steps:
+
+### Submit Game & Integrate Package
+> Getting started is easy. All you need is a published free-to-play mobile game made with Unity. Begin your application by submitting your project, advertising assets, and installing the Game Growth package.
+
+### Evaluation
+> This stage determines if your game is a good candidate for the program. We take a look at your core game performance, project details and overall program fit. If everything looks good, Unity covers the cost of a full user acquisition test.
+
+### Optimize Game Operations
+> If you become a partner, we work with you to design features, integrate business services, and optimize player engagement and monetization. You will also have access to a dedicated game ops team that works with you every step of the way.
+
+### Accelerate your Game
+> Game Growth gives you access to the user acquisition funding and resources to take your game to the next level - with a 50/50 revenue sharing model. We acquire the right players then effectively manage those lifecycles and provide guidance for monetization.
+
+## Requirements
+{% icon requirements.png %}
+There are 7 requirements that your game must meet to apply to the program:
+
+* `Made with Unity`: game must be made with Unity 2018.4 or later.
+* `Mobile Free-to Play`: game must be free-to-play on iOS or Android.
+* `Published Games`: game must be currently live and published on the Google Play or Apple App Store.
+* `Connected to Unity Dashboard`: game must be connected to the Unity Dashboard and have a valid project ID.
+* `Age Restrictions`: not accepting games aimed at audiences under 13 years of age.
+* `Advertising Assets`: submit images and videos for use in Unity ads. 
+* `Language`: game must support English.
+
+{% note More details at: [Unity Dashboard / Game Growth](https://dashboard.unity3d.com/). %}
 
 ## Getting started
-Is not the intent of this post cover everything about how to publish your game using UDP, I guess this quite well documented on [UDP package documentation](https://docs.unity3d.com/Packages/com.unity.purchasing.udp@2.0/manual/index.html).
+{% icon start.png %}
+Is not the intent of this post cover everything about how to get through the Unity Game Growth Program, I guess this quite well documented on [Unity Game Growth Program page](https://unity.com/solutions/mobile/game-growth-program).
 
-The idea of this post is to point out some tips and tricks that can help you, as helped me, to understand how to use UDP.
+The idea of this post is focused on the first of the four-step: `Submit Game & Integrate Package`. 
 
-## Read the docs
-Please, if you did not read the official documentation yet, go and [read it](https://docs.unity3d.com/Packages/com.unity.purchasing.udp@2.0/manual/index.html), then come back here. You'll better understand this post and the whole UDP solution after educated yourself about it.
+### Read the docs
+Please, if you did not read the official documentation yet, go to [Game Growth Program page](https://unity.com/solutions/mobile/game-growth-program), click in the `Apply` button and follow the instructions
 
-{% screenshot udp-journey.png %}
+{% screenshot unity-game-growth-apply.png %}
 
-## 1. Implement
-> What docs says: Set up and configure UDP in the Unity Editor, implement UDP in your game project, and populate your IAP Catalog with your in-app purchase products (if any).
+After you finish the `6 - Confirm` come back here. You'll better understand this post and tips & tricks after that.
 
-### 1.1 Create a new game on UDP
-Go to the UDP dashboard and just create a new game. 
-At this moment just set the game title.
+## Submit Game & Integrate Package
+{% icon package.png %}
 
-### 1.2 IAP and Target UDP
-There is two way to use UDP on your project: using the UDP package or using the Unity IAP.
-In my case, I was using IAP already in the project.
+The `Submit Game & Integrate Package` step is divided into 3 sub-steps:
+* Download and Install Package
+* Run & Validate Integration
+* Publish & Validate Integration
 
-This tip is in the official [documentation](https://docs.unity3d.com/Packages/com.unity.purchasing.udp@2.0/manual/games-with-iap.html), but would like to reinforce it:
+## Download and Install Package
+> Download the Game Growth package and integrate it into your project. Once installed, refer to the package documentation for next steps.
 
-> In the Unity Editor, to choose UDP as the Android build target, select Window > Unity IAP > Android > Target Unity Distribution Portal (UDP).
+You need to download the package through the `Download Package`, then in Unity, open the `Package Manager` window install it from the `tarball` option.
+{% screenshot unity-package-manager-tarball.png %}
 
-You'll need this when you build to UDP and remember to use the `Target Google Play` when you build to Google Play.
-{% screenshot target-udp.png %}
+{% note if you are using Unity version previous 2019.4, you need to use the option `Add package from disk` %}
 
----
+### Tip & Trick
+{% icon tip.png %}
+After installing the package, if your using `UnityEngine.Purchasing` in your project and you use [Assembly Definitions](https://docs.unity3d.com/Manual/ScriptCompilationAssemblyDefinitionFiles.html) too you can see a lot of errors in the console about it, like `error CS0246: The type or namespace name 'IStoreController' could not be found (are you missing a using directive or an assembly reference?)`
 
-## 2. Build & deploy
-> What docs says: Build your UDP Android package (apk), test it in the UDP Sandbox environment, and deploy it to the UDP console where you’ll begin preparing your game for submission to the stores.
+To fix it, just reference again the `UnityEngine.Purchasing` on the `Assembly Definition references`:
+{% screenshot unity-assembly-definition-references.png %}
 
-### 2.1 Sandbox environment test
-In the `Sandbox Testing` section of your game page on UDP, you will find some instructions on how to test your game on the UDP sandbox.
+### Easy On-Boarding
+Now, open the menu `Game Growth / Easy onboarding` and follow the steps.
+{% screenshot unity-game-growth-eash-on-boarding.png %}
 
-{%note You will need to do this before repacking your game for the stores. %}
+## Run & Validate Integration
+> After the package has been installed and configured for sandbox, run your game on the devices . To confirm integration, make sure you remove the game from your device, reinstall, and then launch the game.
 
-Just build your `.apk` on Unity and open it on emulator (like [BlueStacks](https://www.bluestacks.com/)) or directly on your Android device.
-If you setup UDP right, you should see a screen like below when the game starts.
-{% screenshot udp-login.png %}
+Build, install, and run the game on your target device (iOS / Android).
+Then go to Unity Dashboard and try to confirm the `Run & Validate integration`, this can take minutes or even hours to allow you to confirm successfully.
 
-{% note To login in this screen, use the accounts in the setup on `Sandbox Test Account`. Remember those e-mails don't need to exist, they are just test accounts to validate UDP setup %}
+### Tip & Trick
+{% icon tip.png %}
+Running the shell `./adb logcat -s Unity PackageManager dalvikvm DEBUG` while running the game on an Android device I saw errors like this on the game log:
 
-Perform the login on the UDP sandbox and test your IAP. 
+`UriFormatException: Invalid URI: The hostname could not be parsed
+at DeltaDNA.Network+<SendRequest>
+[DDSDK] [WARNING] Event upload failed - try again later`
 
-After this, you can refresh your game page on UDP and you should see the result below on `Sandbox Testing` section:
-{% screenshot sandbox-testing.png %}
+I found out that the `collect_url` and `engagement_url` in the `/Assets/DeltaDNA/Resources/ddna_configuration.xml` file were empty and this was an error cause.
 
-{% note If you did not setup the UDP on your project, you should see a message like this on UDP dashboard notifications `apk analytics failed, caused by: analyse apk failed, caused by:Failed to find GameSettings.prop, please import udp sdk and generate GameSettings.` %}
+To fix it, I had to go to the `Game Growth / Configuration` menu, then click on the `Configure SDKs` button, so `collect_url` and `engagement_url` were correctly configured in the file.
 
-### 2.2 Package name extensions and Google Play Services
-When UDP repacks your game with store-specific SDK it will, most of the time, change the name of the package, adding a store-specific extension, like:
+## Publish & Validate Integration
+> The final step is to publish your project on the Apple App Store and Google Play Store. Don’t forget to switch the package environment dropdown from Sandbox to Store in GGLauncher prefab. Run your game on the devices.
 
- * `.gs` to Samsung Galaxy Store
- * `.unity.migc` to Mi GetApps
- * `.qooapp` QooApp to Game Store
-
-Because of this extension, we will need to configure a new OAuth credential to each extension on [Google API Console](https://console.developers.google.com/apis).
-
-In my case on the `App Signature` section of the game info, a used the recommend option `Export and upload your own key and certificate`. This is the same certificate used by Google Play Services and APIs.
-
-{% screenshot app-signature.png %}
-
-Go to [Google API Console](https://console.developers.google.com/apis), select your game project on the dropdown, then go to `Credentials` section, then on the `OAuth 2.0 Client IDs` section select the item with the name of your game, then copy the value of the field `SHA-1 certificate fingertip`.
-
-Now, go back to the `Credentials` section and click on the button `Create credentials`, then `OAuth client ID`.
-
-{% screenshot google-api-credentials.png %}
-
-In the new page, select `Android` on the `Application type` dropdown. 
-
-In the `Name` field you can write anything you want, but maybe use your game name following with the extension store can help to find it later.
-
-In the `Package name` field you should add the exact package name for the specific store on UDP. For example, in my case for Mi GetApps store, the package name was `br.com.diegogiacomelli.puzzimals.unity.migc`.
-
-
-{% note If you have doubted what is the exact package name for your game on a specific store on UDP, you can click on `Advanced` link of that store on the `Publish` tab of UDP %}
-
-Now in the field `SHA-1 certificate fingertip` you should paste the value you copy before from the original `OAuth 2.0 Client IDs` configuration.
-
-Then click on the button `Create`.
-
-You will need to repeat those steps for each store that change your package name.
-
----
-
-## 3. Game Info
-> What docs says: On the UDP console, provide app store listing information and resources for your game, such as multi-language descriptions, multi-currency price points, screenshots, video trailers, and create releases for distribution.
-
-### 3.1 Import from Google Play
-As you follow the UDP documentation you will reach the point will need to create your game on the UDP dashboard.
-If you already have the game published on Google Play, as was my case with [Puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals), you can use the right-top button `IMPORT FROM GOOGLE PLAY` in the game page.
-{% screenshot import-from-google.png %}
-
-After the import, you can edit the information as well.
-
-{% note You can add the argument `hl` to your Google Play url to import a specific translation, like `https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals&hl=pt` to import Portuguese translation %}
-
----
-
-## 4. Submission
-> What docs says: Sign up with the stores using your UnityID, and register your game with the app stores directly from inside the UDP console.
-
-Go to the `Publish` tab, select a store and click on `Sign up to...`.
-
-Follow the needed steps for each store you would like to publish.
-
----
-
-## 5. Publish
-> What docs says: Select the stores you want to submit your game to. UDP automatically repacks your game into store-specific builds and submits them to the stores along with the relevant game descriptions.
-
-### 5.1 Upload
-Now that you have a valid UDP `.apk` and game info filled, you can upload it on the UDP dashboard, inside the `Binary` section.
-
-### 5.2 Testing your repack .apk
-Now the specific store should show a `Repack game` dropdown on the UDP dashboard. 
-
-Select `Repack game` and UDP should generate a new `.apk` of your game with the store SDK. This `.apk` will be available to download on the `Advanced` link. Download it from the `Download APK Certificate`.
-
-For each store, you need to test your repack `.apk` to certificate that everything in your game is running ok.
-
-Open the repack `.apk` on an emulator or an Android device.
-
-Test your IAP and Google Play Services, they are working as expected?
-
-For each store, you will see different screens. For example, for QooApp you will see something like this:
-{%screenshot qooapp-login.png %}
-
-### 5.3 Send it to review
-Now you can select `Submit to Store` in the dropdown, then select the checkbox store on `Publish` page and click on the `Publish` button.
-UDP will send the game to store review and you can monitor the progress on the dashboard.
-UDP will send to you an e-mail when the game is approved.
-
-{% screenshot publish-button.png %}
-
----
-
-## 6. Performance
-> What docs says: When your game is published, monitor its performance across the different stores from the UDP reporting dashboard.
-
-Wait the game been published on the store and will see the `Reporting Dashboard` been populated with stats about the game.
-
+Build and publish the game to the store (App Store or Google Play), download/update the game and run it on your device.
+Then go to Unity Dashboard again and try to confirm the `Publish & Validate integration`, this can take minutes or even hours to allow you to confirm successfully.
 
 ## Conclusion
-With these tips and tricks that I learned while using UDP I hope I helped you to the UDP Journey:
-* Implement UDP in your Unity project
-* Build and deploy your game to UDP
-* Edit your game information
-* Prepare your game for submission
-* Publish to stores
-* Track game performance
+{% icon conclusion.png %}
+I hope that these tips and tricks that I learned while applying my game [Puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals) to the [Unity Game Growth Program](https://unity.com/solutions/mobile/game-growth-program) can be useful to you too.
+
+If you have any other tips & tricks you use on the Unity Game Growth Program process and you like to share it, please let me know in the comments section below.
