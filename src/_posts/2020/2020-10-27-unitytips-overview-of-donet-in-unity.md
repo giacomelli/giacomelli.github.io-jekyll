@@ -9,12 +9,15 @@ Unity Official documentation has an amazing page called [Overview of .NET in Uni
 
 I think it's important to any pro programmer in Unity quite understand those points, because of this I list them below, in a brief way. **You can (and should) read the full documentation to understand all the 8 points listed in more depth**.
 
-At the end of this page, you can **download an infographic** with these points in case you want to share or print them.
-
 {% logo Unity3d.png default %}
 
 ## Overview of .NET in Unity 
 Read the full documentation: [https://docs.unity3d.com/Manual/overview-of-dot-net-in-unity.html](https://docs.unity3d.com/Manual/overview-of-dot-net-in-unity.html).
+
+### Infographic
+* Download {% download overview-of-donet-in-unity-infographic.png overview-of-donet-in-unity-infographic.png %}
+* Download {% download overview-of-donet-in-unity-infographic.pdf overview-of-donet-in-unity-infographic.pdf %}
+{% screenshot overview-of-donet-in-unity-infographic.png %}
 
 ### Scripting backends
 * Mono uses just-in-time (JIT) compilation and compiles code on demand at runtime.
@@ -46,8 +49,3 @@ Read the full documentation: [https://docs.unity3d.com/Manual/overview-of-dot-ne
 ### Avoid using async and await
 * The Unity API is not thread safe and therefore, you should not use async and await tasks.
 * Async tasks often allocate objects when invoked, which might cause performance issues if you overuse them.
-
-## Infographic
-* Download {% download overview-of-donet-in-unity-infographic.png overview-of-donet-in-unity-infographic.png %}
-* Download {% download overview-of-donet-in-unity-infographic.pdf overview-of-donet-in-unity-infographic.pdf %}
-{% screenshot overview-of-donet-in-unity-infographic.png %}
