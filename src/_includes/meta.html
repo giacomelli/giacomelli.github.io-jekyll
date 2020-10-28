@@ -25,7 +25,9 @@
     {% endif %}
 
     {% if page.logo %}
-	    <meta property="twitter:image" content="{{ site.url }}/{{ page.logo }}" />
-	{% else %}
+        <meta property="og:image" content="{{ site.url }}/{{ page.logo }}">
+        <meta property="twitter:image" content="{{ site.url }}/{{ page.logo }}" />        
+    {% else %}
+        <meta property="og:image" content="{{ site.avatar }}">
 		<meta property="twitter:image" content="{{ site.avatar }}" />
     {% endif %}
