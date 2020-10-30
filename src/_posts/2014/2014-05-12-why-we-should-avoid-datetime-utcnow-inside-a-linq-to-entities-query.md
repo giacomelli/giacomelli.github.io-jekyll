@@ -5,40 +5,37 @@ title: "Why we should avoid DateTime.UtcNow inside a Linq to Entities query?"
 categories: Article
 tags: dotnet csharp linq-to-entities sql
 ---
-**Because we can get unexpected results! (after read this tip, will be expected results ;))**
+Why we should avoid `DateTime.UtcNow` inside a `Linq to Entities` query?
 
-### What is the diference between these two Linq queries?
-**Query 1**
+Because we can get unexpected results!<br>
+After read this tip, will be expected results 😉
 
-```csharp
-var filterDate = DateTime.UtcNow;
-ctx.Set.Where(m => m.DateTime > filterDate);
-```
+## What is the diference between these two Linq queries?
 
-**Query 2**
+#### Query 1
+{% gist 9a3a88fac354f3af8294381b30552ade sample1.cs %}
 
-```csharp
-ctx.Set.Where(m => m.DateTime > DateTime.UtcNow);
-```
+#### Query 2
+{% gist 9a3a88fac354f3af8294381b30552ade sample2.cs %}
+
+#### SQL generated
 The first one will generate a SQL with WHERE clause like this:
+{% gist 9a3a88fac354f3af8294381b30552ade sample3.cs %}
+Where `@p__linq__1` is the value of our filterDate variable.
 
-```sql
-DateTime > @p__linq__1
-```
-Where @p__linq__1 is the value of our filterDate variable.
+The second one will generate this `WHERE` clause:
+{% gist 9a3a88fac354f3af8294381b30552ade sample4.cs %}
 
-The second one will generate this WHERE clause:
-
-```sql
-DateTime > SysUtcDateTime()
-```
-
-### What is the problem?
+## What is the problem?
+{% icon problem.png %}
 Imagine that we're using the second query inside some sync algorithm in our C# code, this algorithm is very sensitive about time, now imagine that the server where our C# code is running has a difference about seconds or minutes with the database server?
 
 **YES, UNEXPECTED RESULTS!**
 
-### Conclusion
-Linq to Entities is very smart and it is able to translate our DateTime.Now or DateTime.UtcNow to a matching command on database side.
+## Conclusion
+{% icon conclusion.png %}
+Linq to Entities is very smart and it is able to translate our `DateTime.Now` or `DateTime.UtcNow` to a matching command on database side.
 
-**The important here is: we should remember that it can do this and we should use features like these with parsimony.**
+{% note The important here is: we should remember that it can do this and we should use features like these with parsimony. %}
+
+{% removegistlinks %}
