@@ -141,6 +141,9 @@ picture:
 gist:
   noscript: false
 
+feed:
+  posts_limit: 9999
+
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
