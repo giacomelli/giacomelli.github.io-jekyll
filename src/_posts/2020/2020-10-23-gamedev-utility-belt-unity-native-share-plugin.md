@@ -7,7 +7,7 @@ tags: unity3d open-source gamedev mobile android gamedev-utility-belt
 ---
 I decided to start a [series of posts](/tags/gamedev-utility-belt/) about some game development resources that are part of my gamedev utility belt and that helps me on my game projects.
 
-For this first post the choose one is the **[Unity Native Share Plugin](https://github.com/yasirkula/UnityNativeShare)** by [Süleyman Yasir KULA](https://twitter.com/yasirkula) that I used on my latest mobile game [Puzzimals](http://diegogiacomelli.com.br/games/puzzimals).
+For this first post, the chosen one is the **[Unity Native Share Plugin](https://github.com/yasirkula/UnityNativeShare)** by [Süleyman Yasir KULA](https://twitter.com/yasirkula) that I used on my latest mobile game [Puzzimals](http://diegogiacomelli.com.br/games/puzzimals).
 
 {% logo gamedev-utility-belt.png default %}
  
