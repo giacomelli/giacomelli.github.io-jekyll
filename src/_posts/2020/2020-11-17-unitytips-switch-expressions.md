@@ -5,7 +5,7 @@ title: unitytips&colon; Switch Expressions
 categories: Article
 tags: unity3d unitytips csharp
 ---
-Unity started to supporting the C# 8.0 with version [2020.2 beta](https://unity3d.com/beta/2020.2b) and now we can start to use some new features from this C# version, as the [Switch Expression](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression).
+Unity started to supporting C# 8.0 with version [2020.2 beta](https://unity3d.com/beta/2020.2b) and now we can start to use some new features like the [Switch Expression](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/switch-expression).
 
 {% screenshot unitytips-switch-expressions.png %}
 
