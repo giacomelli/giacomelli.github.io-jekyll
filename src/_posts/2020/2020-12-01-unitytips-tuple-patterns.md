@@ -15,5 +15,5 @@ Some algorithms depend on multiple inputs. Tuple patterns allow you to switch ba
 > The tuples provides concise syntax to group multiple data elements in a lightweight data structure.
 
 ## Sample
-In this sample, we will get the message to indicate the winner of the game rock, paper, scissors.
-{% gist 1e0053b26f5a8ff307fe35a6fa83cfc5 tuple-pattern.cs %}
+In this sample MonoBehaviour, we will get the message to indicate the winner of the game rock, paper, scissors.
+{% gist 1e0053b26f5a8ff307fe35a6fa83cfc5 TuplePatterns.cs %}
