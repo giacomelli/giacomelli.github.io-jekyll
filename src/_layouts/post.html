@@ -30,5 +30,8 @@ layout: default
     {{ content }}    
   </div>
   {% include tags.html %}
+  {% if content.size > 500 %}
+  {% include ad.html %} 
+  {% endif %}
   {% include disqus.html %}
 </article>
