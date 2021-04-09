@@ -15,6 +15,7 @@ install:
 - sh: sudo apt-get -y install curl
 - sh: sudo apt-get -y install imagemagick
 - sh: sudo apt-get -y install webp
+- sh: sudo apt-get install -y libvips
 - sh: \curl -L https://get.rvm.io | bash -s stable --ruby
 - sh: rvm reload
 - sh: rvm install ruby-2.7.2
