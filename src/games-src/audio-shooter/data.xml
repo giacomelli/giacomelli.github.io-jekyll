@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Audio Shooter</title>
+	<release-dates>
+		<release-date>Prototype - 2016</release-date>
+	</release-dates>
+
+	<website>https://github.com/giacomelli/AudioShooter</website>	
+
+	<platforms>
+		<platform>
+			<name>Windows</name>
+		</platform>
+	</platforms>
+
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+	<description>
+	A shoot 'em up game where the level designer is the audio.
+	</description>
+
+	<histories>
+		<history>
+			<header>Prototype</header>
+			<text>A prototype made using Unity in 2017.</text>
+		</history>
+  	</histories>
+
+	<features>
+		<feature>Level design changes with the music selected</feature>
+	</features>
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Developer</role>
+		</credit>			
+	</credits>
+</product>

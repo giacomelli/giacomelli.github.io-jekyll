@@ -9,7 +9,7 @@ I started a [series of posts](/tags/geneticsharp-in-the-wild/) about some outsta
 
 For this third post the choose one is the `Frixel: 2D framing / pixel structural optimization`.
 
-# Introduction
+## Introduction
 
 Frixel is a plugin for [Rhinoceros 6](https://rhino3d.com), a 3D computer graphics and computer-aided design (CAD) application.
 
@@ -21,12 +21,12 @@ Frixel is a plugin for [Rhinoceros 6](https://rhino3d.com), a 3D computer graphi
 
 {% logo geneticsharp-frixel-ui.gif %}
 
-# Usage
+## Usage
 GeneticSharp was used to design the [structural chromosomes](https://github.com/EmilPoulsen/Frixel/blob/7a80a96e2793fd3f4e32bcf01ba6ca13fcc6a06a/Frixel.Optimizer/Optimization/StructuralChromosome.cs) and [fitness function](https://github.com/EmilPoulsen/Frixel/blob/7a80a96e2793fd3f4e32bcf01ba6ca13fcc6a06a/Frixel.Optimizer/Optimization/StructuralFitness.cs) to allow framing / pixel structural optimization through the [Frixel optimizer](https://github.com/EmilPoulsen/Frixel/blob/7a80a96e2793fd3f4e32bcf01ba6ca13fcc6a06a/Frixel.Optimizer/Optimization/FrixelOptimizer.cs).
 
 {% screenshot geneticsharp-frixel-optimization.gif %}
 
-# Functionality
+## Functionality
 According to the developers, these are the features of Frixel:
 
 * A power-up for architect-engineer collaboration.
@@ -35,8 +35,8 @@ According to the developers, these are the features of Frixel:
 * Topology optimization for minimal displacement.
 * Platform agnostic
 
-# Authors
+## Authors
 The project was developed from scratch under 24 intense hours at the beyondAEC Hackathon July 2018, in Boston MA by [Leland Jobson](https://github.com/lelandjobson) and [Emil Poulsen](https://github.com/EmilPoulsen).
 
-# Further reading
+## Further reading
 You can access the project repository at: [https://github.com/EmilPoulsen/Frixel](https://github.com/EmilPoulsen/Frixel).

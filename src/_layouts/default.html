@@ -1,13 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
     {% include meta.html %}
-    {% include resources-begin.html %}
-    {% include share-buttons.html %}
-    <script data-ad-client="ca-pub-4531139417583317" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>    
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
-    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>    
+    {% include resources-begin.html %}       
   </head>
 
   <body>
@@ -15,12 +11,18 @@
       <div class="container">
         <header class="masthead clearfix">
           <nav class="greedy">
-            <a href="{{ site.baseurl }}/" class="site-avatar" title="{{ site.name }} | {{ site.description }}""><img src="{{ site.baseurl}}/assets/avatar-transparent.png" /></a>
+            <a href="{{ site.baseurl }}/" class="site-avatar" title="{{ site.name }} | {{ site.description }}">{% images assets/avatar-transparent.png %}</a>
             <ul class='links'>
               <li><a href="{{ site.baseurl }}/" class="menu-item">Posts</a></li>
+              <li><a href="{{ site.baseurl }}/games" class="menu-item">Games</a></li>
               <li><a href="{{ site.baseurl }}/about" class="menu-item">About</a></li>
+              <li><a href="https://github.com/giacomelli" class="menu-item" title="Follow me on GitHub"><i class='fab fa-github'></i></a></li>
+              <li><a href="https://twitter.com/ogiacomelli" class="menu-item" title="Follow me on Twitter"><i class='fab fa-twitter'></i></a></li>
+            <li><a href="https://www.reddit.com/user/{{ site.footer-links.reddit }}" class="menu-item" title="Follow me on Reddit" ><i class="fab fa-reddit"></i></a></li>
+              <li><a href="https://youtube.com/{{site.footer-links.youtube }}" class="menu-item" title="Follow me on YouTube"><i class='fab fa-youtube'></i></a></li>
+              <li><a href="{{ site.footer-links.discord }}" class="menu-item" title="Join my Discord server"><i class='fab fa-discord'></i></a></li>              
             </ul>
-            <button><i class="fas fa-bars"></i></button>
+            <button aria-label="Hidden button"><i class="fas fa-bars"></i></button>
             <ul class='hidden-links hidden'></ul>
           </nav>
         </header>
@@ -32,12 +34,14 @@
         {{ content }}
       </div>
       <div class="right-bar-container">
-          {% include portifolio-box-ad.html %}
-          <a class="github-button" href="https://github.com/giacomelli" aria-label="Follow @giacomelli on GitHub">Follow @giacomelli</a> 
-          <a href="https://twitter.com/ogiacomelli" class="twitter-follow-button" data-show-count="false">Follow @ogiacomelli</a>
+          <!-- {% include portifolio-box-ad.html %}           -->
+          {% include ad.html %}
           {% include search-input.html %}
+          {% include apps-box.html %}
+          {% include tools-box.html %}
+          {% include games-box.html %}
           {% include highlight-box.html title="Tutorials" posts=site.posts category="Tutorial" %}
-          {% include highlight-box.html title="News" posts=site.posts category="News" %}
+          <!-- {% include highlight-box.html title="News" posts=site.posts category="News" %} -->
           {% include highlight-box.html title="Articles" posts=site.posts category="Article" %}
           {% include highlight-box.html title="Labs" posts=site.posts category="Lab" %}
           {% include see-too-box.html %}
@@ -48,7 +52,6 @@
         {% include svg-icons.html %}
     </footer>
     {% include resources-end.html %}
-    {% include analytics.html %}
-    {% include lazy-load.html %}
+    {% include analytics.html %}    
   </body>
 </html>

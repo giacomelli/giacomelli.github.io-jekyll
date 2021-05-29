@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Puzzimals</title>
+	<release-dates>
+		<release-date>Android - 02 Set, 2020</release-date>
+	</release-dates>
+
+	<website>http://diegogiacomelli.com.br/games/puzzimals</website>	
+
+	<platforms>
+		<platform>
+			<name>Android - Google Play</name>
+			<link>https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals</link>
+		</platform>
+		<platform>
+			<name>Android - Samsung Galaxy Store</name>
+			<link>https://galaxy.store/puzzimals</link>
+		</platform>
+		<platform>
+			<name>Android - QooApp Game Store</name>
+			<link>https://apps.qoo-app.com/en/app/15005</link>
+		</platform>		
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>
+	Cute, but challenging! 
+
+	Don't let the cute look or super fun animations fool you, Puzzimals is a cube-matching game challenging you to match identical tiles in 100 levels of thought-provoking puzzles in a world map. 
+
+	Packed with features and creative puzzles you can combine cubes of ice, wild cards, bombs and so much more! 
+
+	Each level unlocks and increases in difficulty and offers an almost infinite number of combos. 
+
+	Fans of casual puzzle games will enjoy the crisp, colorful graphics featuring cute animals and the compelling music offers great relaxation.
+	</description>
+	
+	<histories>
+		<history>
+		<header>Puzzimals</header>
+		<text>Developed by indie game dev Diego Giacomelli from Porto Alegre, RS, Brazil.</text>
+		</history>		
+  	</histories>
+
+	<features>
+		<feature>100 levels</feature>
+		<feature>Creative puzzles</feature>		
+		<feature>Almost infinite combos</feature>		
+		<feature>Cute animals</feature>		
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Trailer</name>
+			<youtube>RmLcK4Z7EUY</youtube>
+		</trailer>
+		<trailer>
+			<name>Gameplay 01</name>
+			<youtube>mk9oKM6PZZE</youtube>
+		</trailer>
+		<trailer>
+			<name>Gameplay 02</name>
+			<youtube>s6bXLXbtgBo</youtube>
+		</trailer>
+		<trailer>
+			<name>Gameplay 03</name>
+			<youtube>AKhcDVZgUAA</youtube>
+		</trailer>
+	</trailers>
+
+	<widgets>		
+		<playstore>br.com.diegogiacomelli.puzzimals</playstore>
+	</widgets>
+
+	<quotes>
+		<quote>
+			<description>The cutest tile-matching puzzle of the season (pt-BR)</description>
+			<name>Luiz Silva</name>
+			<website>GameReporter</website>
+			<link>https://www.gamereporter.com.br/puzzimals</link>
+		</quote>	
+		
+		<quote>
+			<description>Puzzimals become more challenging as the levels progress, and can become addictive (pt-BR)</description>
+			<name>Inside The Gamer</name>
+			<website>Combo Infinito</website>
+			<link>https://www.comboinfinito.com.br/principal/gryphon-knight-epic/</link>
+		</quote>
+
+		<quote>
+			<description>The game features 100 different levels that offer many challenges to the player (pt-BR)</description>
+			<name>Jucélio Verissimo</name>
+			<website>Lenda Games</website>
+			<link>https://www.lendagames.com/2020/08/21/joga-brasil-88-gryphon-knight-epic-chegou-no-steam-mercado-nacional-e-mais/</link>
+		</quote>
+
+		<quote>
+			<description>Mobile puzzler Puzzimals now open for Beta registration on Android</description>
+			<name>Andrew Newton</name>
+			<website>Flickering Myth</website>
+			<link>https://www.flickeringmyth.com/2020/08/mobile-puzzler-puzzimals-now-open-for-beta-registration-on-android</link>
+		</quote>	
+
+		<quote>
+			<description>Mobile puzzler Puzzimals now open for Beta registration on Android</description>
+			<name>Editor</name>
+			<website>xAndroid</website>
+			<link>http://www.xandroid.info/mobile-puzzler-puzzimals-now-open-for-beta-registration-on-android</link>
+		</quote>
+		
+		<quote>
+			<description>Puzzimals : Open Bêta Sur Android, iOS à venir</description>
+			<name>Editor</name>
+			<website>GamesBetaTest</website>
+			<link>http://www.xandroid.info/mobile-puzzler-puzzimals-now-open-for-beta-registration-on-android</link>
+		</quote>
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer, Unity developer and programmer</role>
+		</credit>
+
+		<credit>
+			<person>Ricimi</person>
+			<role>Most of the assets used in the game. https://www.ricimi.com</role>
+		</credit>
+
+		<credit>
+			<person>Kenney</person>
+			<role>Some of the assets used in the game. https://kenney.nl</role>
+		</credit>
+
+		<credit>
+			<person>Kevin MacLeod</person>
+			<role>River Valley Breakdown
+Link: 
+https://incompetech.filmmusic.io/song/4295-river-valley-breakdown
+
+License:
+http://creativecommons.org/licenses/by/4.0</role>
+		</credit>
+	</credits>
+</product>

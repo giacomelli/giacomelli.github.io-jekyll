@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Atena</title>
+
+	<website>http://diegogiacomelli.com.br/games/puzzimals</website>		
+
+	<platforms>
+		<platform>
+			<name>Windows</name>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+	<description>
+	A shoot 'em up game made in 2001 with C++ and Allegro.
+	</description>
+	
+	<histories>
+		<history>
+			<header>2001</header>
+			<text>In 2001 Edison Henrique Andreassy, Diego Giacomelli (me), Giusepe Casagrande and Wanderson Pereira team upped to develop a shoot 'em up game using greek mythology as thematic.</text>
+		</history>
+  	</histories>
+
+	<features>
+		<feature>Bullet hell</feature>
+		<feature>Great graphics</feature>
+	</features>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Developer</role>
+		</credit>	
+		<credit>
+			<person>Edison Henrique Andreassy</person>
+			<role>Developer</role>
+		</credit>	
+		<credit>
+			<person>Giusepe Casagrande</person>
+			<role>Artist</role>
+		</credit>
+		<credit>
+			<person>Wanderson Pereira </person>
+			<role>Artist</role>
+		</credit>
+	</credits>
+</product>

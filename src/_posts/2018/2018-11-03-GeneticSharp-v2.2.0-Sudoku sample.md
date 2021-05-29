@@ -14,7 +14,7 @@ The additions of this version are the new whole sample and extensions showing ho
 
 The GeneticSharp.Extensions project receive those new features:
 
-# Multiple
+## Multiple
 ### MultipleChromosome
 Compound chromosome to artificially increase genetics diversity by evolving a list of chromosomes instead of just one.
 Sub-genes are inlined into a single compound list of genes.
@@ -22,7 +22,7 @@ Sub-genes are inlined into a single compound list of genes.
 ### MultipleFitness
 Fitness class that can evaluate a compound chromosome by summing over the evaluation of its sub-chromosomes. 
 
-# Sudoku
+## Sudoku
 ### ISudokuChromosome: 
 Represents each type of chromosome for solving a sudoku is simply required to output a list of candidate sudokus.
 
@@ -45,13 +45,13 @@ Permutations are computed once when a new Sudoku is encountered, and stored in a
 This chromosome aims at increasing genetic diversity of SudokuPermutationsChromosome, which exhibits only 9 permutation genes.
 Here, instead, an arbitrary number of Sudokus are generated where for each row, a random gene is picked amongst an arbitrary number of corresponding permutation genes.
 
-# Samples
+## Samples
 GTK# sample
 ![gtk-sudoku-sample](https://user-images.githubusercontent.com/177389/47957137-6bff2200-df8f-11e8-8b07-a144289389a0.png)
 
 <hr>
 
-# Thanks to
+## Thanks to
 I would like to thanks to Jean-Sylvain Boige (@jsboige) for contributing with those great new samples and extensions and for use GeneticSharp in his [Artificial Intelligence course in French engineering schools (course)](https://github.com/giacomelli/GeneticSharp/pull/43#issuecomment-433662175).
 
 Take a look on the pull-request for more details about those new features: [New Sudoku extension and GTK# sample #43](https://github.com/giacomelli/GeneticSharp/pull/43).

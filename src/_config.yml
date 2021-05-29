@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Diego Giacomelli
+name: Giacomelli
 
 # Short bio or description (displayed in the header)
-description: programmer
+description: C# programmer and Unity 3D gamedev
 
 title_separator: "&#124;"
 
@@ -32,8 +32,10 @@ footer-links:
   rss: feed.xml
   twitter: ogiacomelli
   stackoverflow: users/956886/giacomelli
-  youtube: channel/UC4YLK2apXuE7sUTb2dVaisA
-  googleplus: 
+  youtube: user/dmgiacomelli
+  googleplus:
+  discord: https://discord.gg/zVfU65dcrv
+  reddit: ogiacomelli
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
@@ -80,7 +82,7 @@ pagination:
   collection: 'posts'
 
   # How many objects per paginated page, used to be `paginate` (default: 0, means all)
-  per_page: 50
+  per_page: 10
 
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: '/:num/' # Pages are index.html inside this folder (default)
@@ -129,13 +131,29 @@ pagination:
 sass:
   style: :compressed # You might prefer to minify using :compressed
 
+# https://rbuchberger.github.io/jekyll_picture_tag/users/configuration/
+picture:
+  source: ""
+  output: "assets/images/generated"
+  suppress_warnings: true
+  ignore_missing_images: true
+
+gist:
+  noscript: false
+
+feed:
+  posts_limit: 9999
+
 # Use the following plug-ins
 plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-paginate-v2  
   - jekyll-gist
+  - jekyll_picture_tag
  
+include: [".well-known"]
+
 # Exclude these files from your production _site
 exclude:
     - Gemfile
@@ -149,3 +167,4 @@ exclude:
     - node_modules/cypress/
     - appveyor.yml
     - CODE_OF_CONDUCT.md   
+    - games-src

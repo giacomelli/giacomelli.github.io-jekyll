@@ -81,10 +81,20 @@ h1 {
 
 h2 {
   font-size: 24px;
+
+  background-color: #c2c9d4;
+  border-radius: 30px;
+  padding-left: 17px;
+  padding-right: 17px;
 }
 
 h3 {
   font-size: 20px;
+  background-color: #eee;
+  border-radius: 30px;
+  padding-left: 17px;
+  padding-right: 17px;
+  margin-right: 50px;
 }
 
 h4 {
@@ -147,12 +157,6 @@ em, i {
 
 strong, b {
   font-weight: bold;
-}
-
-img {
-  display: block;
-  height: auto;
-  max-width: 100%;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -219,6 +223,8 @@ img {
 
   img {
     border-radius: 5px;
+    width: 128px !important;
+    height: auto !important;
   }
 }
 
@@ -315,6 +321,18 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+.post > h2 {  
+  border-radius: 0px;
+  padding: 0px;
+  background-color: transparent;
+  color: #222;
+}
+
+.post > h2 > a {
+  color: #222;
+  font-size: 30px;
 }
 
 .wrapper-footer {
@@ -442,6 +460,7 @@ footer {
 }
 
 // Menu.
+//https://css-tricks.com/targetting-menu-elements-submenus-navigation-bar/
 .menu-item {
   color: $darkGray;
   font-family: 'Roboto', sans-serif;
@@ -613,14 +632,13 @@ ul.pager li.selected { background-color: $theme-color; }
 }
 
 .note {
-  color: darkgray;
+  color: #130000;
   margin-bottom: 20px;
   padding: 10px;
-
-  border-width: 2px;
-  border-style: dashed;
-  border-color: darkgray;
-  border-radius: 10px;
+  border-width: 3px;
+  border-style: dotted;
+  border-color: #D9D3C7;
+  border-radius: 20px;
 }
 
 .note p {
@@ -628,17 +646,100 @@ ul.pager li.selected { background-color: $theme-color; }
 }
 
 .note a {
-  color: darkgray;
+  color: #130000;
 }
 
 .highlighter-rouge {
-  color: #6d0a0a;
+  color:#130000;
   font-style: italic;
-  background-color: #d3d3d336;
+  background-color: #eee;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 code {
   color: dark;
+}
+
+img {
+  display: block;
+  max-width: 90%;
+  height: auto;
+}
+
+.icon {  
+  width: auto;
+  max-height: 78px !important;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  padding: 5px;
+  margin-left: 17px;
+  margin-bottom: 17px;
+  background-color: #eee;
+  float: right;
+}
+
+h1, h2, h3, .iconscopyright, .note, blockquote{
+  clear: both !important;
+  margin-top: 10px !important;
+}
+
+.gist {
+  clear: both !important;
+  padding-top: 10px !important;
+}
+
+.screenshot {  
+  border: .75rem solid #dfe7f0;
+  border-radius: .5625rem;
+}
+
+.logo {   
+  width: auto;
+  height: auto;
+  max-height: 256px;
+  max-width: 256px;
+}
+
+#disqus_thread {
+  min-height: 400px;
+  text-align: center;
+}
+
+.portifolio-slideshow {
+  border-color: black;
+  border-width: 1px;
+  border-style: dotted;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 118%;
+}
+.portifolio-slide {
+  display: none;
+}
+.portifolio-slide a {
+  text-decoration: none;          
+}
+
+.portifolio-slide a img {
+  height: auto;
+  max-width: 128px;
+  margin:auto;
+  margin-bottom:5px;          
+}
+
+.portifolio-slide a div {
+  margin:0;      
+  font-size: 14pt;
+  font-weight: bold;
+  background: lightgray;
+  border-radius: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  padding: 5px;
+  margin: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;   
 }

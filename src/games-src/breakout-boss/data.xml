@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Breakout Boss</title>
+	<release-dates>
+		<release-date>Development - 2018</release-date>
+	</release-dates>
+
+	<website>http://diegogiacomelli.com.br/games/breakout-boss</website>	
+
+	<platforms>
+		<platform>
+			<name>Android</name>
+		</platform>
+	</platforms>
+
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+	<description>
+	A breakout game with boss fight.
+	</description>
+
+	<histories>
+		<history>
+			<header>Development</header>
+			<text>Made using Unity in 2018.</text>
+		</history>
+  	</histories>
+
+	<features>
+		<feature>Fast paced breakout game</feature>
+		<feature>Boss fight</feature>
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Gameplay 01</name>
+			<youtube>4XRC4OcPVjI</youtube>
+		</trailer>
+		<trailer>
+			<name>Gameplay 02</name>
+			<youtube>cBspXZdEzCE</youtube>
+		</trailer>
+	</trailers>
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Developer</role>
+		</credit>			
+	</credits>
+</product>

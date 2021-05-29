@@ -7,6 +7,7 @@ tags: unity3d unitytips custom-editor gamedev open-source
 ---
 I'm working in a new game prototype and in this process I was creating some experimental levels to test the mechanics, but by the name of scene I was having dificult to remember which mechanic the level was about and I had to open each level to discover that one was looking for, so I thought: it will be cool have an image preview of the scene when we select the file in hierarchy.
 
+## Introduction
 I google and didn't find any project or asset in Asset Store that already did something like this (please, let me know if you know a similar tool) and, well, I prefer code something, than google something, then I coded a little inspector, that I named as ScenePreview:
 
 {% note UPDATED: I created a new Scene Preview solution, now using its own window editor: [Scene Preview Window](/unitytips-scene-preview-window/). %}

@@ -9,7 +9,7 @@ I started a [series of posts](/tags/geneticsharp-in-the-wild/) about some outsta
 
 For this fourth post the choose one is the `Design of a Warehouse Order Picking Policy - Using Genetic Algorithm`.
 
-# Introduction
+## Introduction
 The main motivation of the author about this paper was:
 *improving order-picking process is considered which is an essential
 operation critically impacting warehouse and supply chain performance.*
@@ -21,7 +21,7 @@ mathematical model is utilized to find the shortest path between each item pair 
 a pick list.*
 
  
-# Usage
+## Usage
 *A genetic algorithm based approach is developed to decide the picking
 sequence of all items in an order list, given the shortest distance between each pair
 of items. The performance of the proposed algorithms is compared to popular
@@ -30,7 +30,7 @@ heuristics used for multi-block warehouses, namely: S-Shape and Largest Gap.*
 Ahmet Can Saner, the paper author made [great contributions to GeneticSharp](http://diegogiacomelli.com.br/GeneticSharp-v1.2.0-sequence-mutations/), that him developed during his master degree, like: Displacement Mutation, Insertion Mutation and Partial Shuffle Mutation (PSM).
 
 
-# Results
+## Results
 * *For 25-item pick lists, all of the proposed
 GA algorithms are superior to S-Shape and Largest Gap heuristics, in terms of travelled
 distance. GA with order crossover operator, inversion mutation operator provides the best
@@ -45,9 +45,9 @@ both S-Shape and Largest Gap heuristics, in terms of travelled distance. GA with
 crossover operator, inversion mutation operator setting performs the best in terms of
 average travelled distance for pick lists of size 100.*
 
-# Author
+## Author
 Ahmet Can Saner, with Dr. Zehra
 Düzgi supervision, wrote the paper for his master degree at Istanbul Bilgi University.
 
-# Further reading
+## Further reading
 You can access the full paper directly on [Istanbul Bilgi University library](http://openaccess.bilgi.edu.tr:8080/xmlui/bitstream/handle/11411/1310/Design%20of%20a%20warehouse%20order%20picking%20policy%20using%20genetic%20algorithm.pdf?sequence=1&isAllowed=y).
