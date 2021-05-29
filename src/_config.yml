@@ -152,6 +152,8 @@ plugins:
   - jekyll-gist
   - jekyll_picture_tag
  
+include: [".well-known"]
+
 # Exclude these files from your production _site
 exclude:
     - Gemfile

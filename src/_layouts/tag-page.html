@@ -6,9 +6,10 @@ layout: default
 {% for categoryPost in categoriesPosts %}
     <ul>
       <h3>{{ categoryPost.name | categorytitle}} {{ categoryPost.name | categoryicon}}</h3>
+      {% include ad.html %}
       {% assign sortedPosts = categoryPost.items | sort:'date' | reverse %}
       {% for post in sortedPosts %}
-        <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d/%m/%Y" }})</li>
+        <li><i class="far fa-bookmark"></i> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%d/%m/%Y" }})</li>
       {% endfor %}  
     </ul>
 {% endfor %}
