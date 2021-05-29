@@ -1,7 +1,12 @@
 {% assign pager = include.pager | default:"true" %}
 
 <div class="posts">
+{% assign postCount = 0 %} 
 {% for post in include.posts %}
+    {% assign postCount = postCount | plus: 1 %}
+    {% if postCount == 5 %}
+        {% include ad.html %} 
+    {% endif %}
     <article class="post">
 
     <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>

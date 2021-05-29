@@ -27,7 +27,7 @@ So, I decided to try Tesseract 4 to see how could it impact in the performance o
 
 ## TesseractService
 I ended up developing the class below to call the `Tesseract 4` command-line `(tesseract.exe)` directly from the C# code. 
-
+{% include ad.html %}
 {% gist ae80c1ed9b374894b21890f1d2dee42a TesseractService.cs %}
  
 ## Setup
