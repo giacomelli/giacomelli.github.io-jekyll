@@ -27,6 +27,7 @@ Jekyll::Hooks.register :site, :post_write do
   system("cp -R games-src/index-replacement.html _site/games/index.html")
   system("cp -R games-src/nibble/play.html _site/games/nibble/play.html")
   system("cp -R games-src/nibble/NIBBLE.zip _site/games/nibble/NIBBLE.zip")
+  system("cp -R games-src/puzzimals/demo _site/games/puzzimals/demo")
 
   # TOOLS
   system("cp -R tools/meu-navegador _site/tools/my-browser")  
