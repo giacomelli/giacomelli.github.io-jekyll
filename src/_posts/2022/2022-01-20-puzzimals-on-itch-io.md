@@ -1,15 +1,15 @@
 ---
 published: true
 layout: post
-title: Puzzimals&colon; Open beta
+title: Puzzimals on itch.io
 categories: News
-tags: puzzimals unity3d gamedev games
+tags: puzzimals unity3d gamedev games itchio webgl
 ---
-After 4 months of work, I am finally starting the open beta of Puzzimals: [https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals)
+Now you can play my game [Puzzimals](/games/puzzimals) directly in the browser through itch.io: [https://giacomelli.itch.io/puzzimals](https://giacomelli.itch.io/puzzimals)
 
-{% youtube RmLcK4Z7EUY %}
+{% youtube AKhcDVZgUAA %}
 
-## Cute, but challenging!
+## What is Puzzimals?
 
 Don't let the cute look or super fun animations fool you, Puzzimals is a cube-matching game challenging you to match identical tiles in 100 levels of thought-provoking puzzles in a world map.
 

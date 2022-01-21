@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Unity Game Growth Program&colon; Tips & Tricks
 categories: Tutorial
-tags: unity3d gamedev android self-publishing unity-game-growth-program
+tags: puzzimals unity3d gamedev android self-publishing unity-game-growth-program
 ---
 In this post, I will list some tips and tricks that I learned while applying my game [Puzzimals](https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.puzzimals) to the [Unity Game Growth Program](https://unity.com/solutions/mobile/game-growth-program).
 

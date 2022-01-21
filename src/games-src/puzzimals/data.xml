@@ -3,6 +3,7 @@
 <product>
 	<title>Puzzimals</title>
 	<release-dates>
+		<release-date>itch.io - 20 Jan, 2022</release-date>
 		<release-date>Android - 02 Set, 2020</release-date>
 	</release-dates>
 
@@ -21,6 +22,11 @@
 			<name>Android - QooApp Game Store</name>
 			<link>https://apps.qoo-app.com/en/app/15005</link>
 		</platform>		
+
+		<platform>
+			<name>itch.io</name>
+			<link>https://giacomelli.itch.io/puzzimals</link>
+		</platform>	
 	</platforms>
 	
 	<prices>
