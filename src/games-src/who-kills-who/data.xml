@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Who Kills Who?</title>
+	<release-dates>
+		<release-date>Mac/Windows - 30 Feb, 2022</release-date>
+	</release-dates>
+
+	<website>https://giacomelli.itch.io/who-kills-who</website>	
+
+	<platforms>
+		<platform>
+			<name>Web</name>
+			<link>https://giacomelli.itch.io/curseings</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>
+	An Atari 2600 kind of game where 3 different elements are in the screen: Red, Green and Blue.
+
+	In the start Red kills Green, Green kills Blue and Blue kills Red. 
+	
+	The player can make a twist and change Who Kills Who, making Blue kills Green, Green Kills Red and Red kills Blue.
+	</description>
+	
+	<histories>
+		<history>
+			<header>Trijam #154</header>
+			<text>Game developed in 3 hours for Trijam #154 https://itch.io/jam/trijam-154.</text>
+		</history>
+  	</histories>
+
+	<features>
+		<feature>Atari 2600 kind of game</feature>
+		<feature>Fast and simple gameplay.</feature>		
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Gameplay</name>
+			<youtube>dpIJgO2fWDc</youtube>
+		</trailer>		
+	</trailers>
+
+	<quotes>
+		<quote>
+			<description>A very nice and satisfying game!</description>
+			<name>razzeddazzling</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/5302718</link>
+		</quote>
+
+		<quote>
+			<description>Nice concept!</description>
+			<name>toastyburk</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/5302718</link>
+		</quote>
+
+		<quote>
+			<description>It's kind of difficult to understand in the beginning, but once that step passed it's fun!</description>
+			<name>martincirice</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/5302718</link>
+		</quote>
+				
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer, Unity developer and programmer</role>
+		</credit>
+
+		<credit>
+			<person>Kenney</person>
+			<role>Sprite (only one) and font used in the game. https://kenney.nl</role>
+		</credit>
+		<credit>
+			<person>Peter Wayne</person>
+			<role>Sound FX. https://assetstore.unity.com/publishers/16891</role>
+		</credit>
+	</credits>
+</product>
