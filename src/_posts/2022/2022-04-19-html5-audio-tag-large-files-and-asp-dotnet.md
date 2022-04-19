@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: HTML5 audio tag, large files and ASP .NET
-categories: Article
+categories: Lab
 tags: dotnet audio html asp-net csharp
 ---
 ## Introduction
