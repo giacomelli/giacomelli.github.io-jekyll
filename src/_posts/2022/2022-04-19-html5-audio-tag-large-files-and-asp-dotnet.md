@@ -3,7 +3,7 @@ published: true
 layout: post
 title: HTML5 audio tag, large files and ASP .NET
 categories: Lab
-tags: dotnet audio html asp-net csharp
+tags: dotnet audio html aspdotnet csharp
 ---
 ## Introduction
 If you have tried to change the current playback position (currentTime) of large audio files using the HTML5 audio tag, even using the preload attribute, you probably struggled with the fact that the audios would never play at that position but would start playing again from the beginning of the audio.
