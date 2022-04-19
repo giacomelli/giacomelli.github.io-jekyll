@@ -6,7 +6,7 @@ categories: Lab
 tags: dotnet audio html asp-net csharp
 ---
 ## Introduction
-If you tried to change the current playback position (currentTime) of large audio files using the HTML5 audio tag, even using the preload attribute, you probably struggled with the fact that the audios would never play at that position but would start playing again from the beginning of the audio.
+If you have tried to change the current playback position (currentTime) of large audio files using the HTML5 audio tag, even using the preload attribute, you probably struggled with the fact that the audios would never play at that position but would start playing again from the beginning of the audio.
 
 This happens because most browsers, Chrome included, request that the headers `accept-ranges` and `content-range` should be in the audio file response.
 
