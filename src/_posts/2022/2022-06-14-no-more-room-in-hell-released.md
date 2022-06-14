@@ -39,6 +39,6 @@ Daniel HDR also has a sound side project called [D3FCON1](https://open.spotify.c
 Daniel was very kind to give me permission to use the music in the game, as well as providing an art to be used as the cover of the game (as you can see at the top of this post)
 
 #### Sound FX
-The sound fx are from [Peter Wayne](https://www.gamemasteraudio.com/) and his amazing sound effects packages on Unity Asset Store, called [Pro Sound Collection](https://assetstore.unity.com/publishers/16891)
+The sound fx are from [Peter Wayne](https://www.gamemasteraudio.com) and his amazing sound effects packages on Unity Asset Store, called [Pro Sound Collection](https://assetstore.unity.com/publishers/16891)
 
 {% youtube QKbeli5Jn0I %}

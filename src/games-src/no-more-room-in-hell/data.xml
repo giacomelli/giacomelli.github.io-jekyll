@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>NO MORE ROOM IN HELL</title>
+	<release-dates>
+		<release-date>itch.io - 14 Jun, 2022</release-date>		
+	</release-dates>
+
+	<website>http://diegogiacomelli.com.br/games/no-more-room-in-hell</website>	
+
+	<platforms>
+		<platform>
+			<name>itch.io</name>
+			<link>https://giacomelli.itch.io/no-more-room-in-hell</link>
+		</platform>	
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>
+	A 2D top-down survival shooter game where you will be a rookie soldier in a secret government laboratory when a zombie apocalypse started out of blue and now you need to find your way to the docks to have a chance to be your wife and son again.
+
+	The player starts with a very small inventory and alongside the game a better outfit with an even bigger inventory can be found and you will need its whole space to store the 7 different weapons, painkillers, maps, walkman, and music available during the 4 levels.
+
+	You can use a map, surveillance monitor, and cameras that allow you to find your mission targets to finish the levels.
+
+	Besides all this, you can make your way by exploding and shooting walls, because a lot of the game scenarios are fully destructible, and, of course, you will kill a lot of zombies with guns or drive a car over them while trying to discover what really happened to this government black site facility.
+	</description>
+	
+	<histories>
+		<history>
+		<header>NO MORE ROOM IN HELL</header>
+		<text>Developed by indie gamedev Diego Giacomelli from Porto Alegre, RS, Brazil.</text>
+		</history>		
+  	</histories>
+
+	<features>
+		<feature>7 weapons</feature>
+		<feature>destructible environment</feature>		
+		<feature>drive a car</feature>		
+		<feature>kill a lot of zombies</feature>		
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Trailer</name>
+			<youtube>QKbeli5Jn0I</youtube>
+		</trailer>
+		<trailer>
+			<name> S01E01 - Gameplay</name>
+			<youtube>wKHpxzaaC2Y</youtube>
+		</trailer>
+		<trailer>
+			<name>S01E03 - Gameplay</name>
+			<youtube>n2A5SP1-xxk</youtube>
+		</trailer>
+	
+	</trailers>
+
+	<quotes>		
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer, Unity developer and programmer</role>
+		</credit>
+
+		<credit>
+			<person>Kenney</person>
+			<role>Almost all sprites used in the game. https://kenney.nl</role>
+		</credit>
+
+		<credit>
+			<person>Daniel HDR</person>
+			<role>Soundtracks. https://www.danielhdr.com.br</role>
+		</credit>
+
+		<credit>
+			<person>Peter Wayne</person>
+			<role>Sound FX. https://www.gamemasteraudio.com</role>
+		</credit>
+	</credits>
+</product>
