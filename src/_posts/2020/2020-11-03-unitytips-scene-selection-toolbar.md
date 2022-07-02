@@ -13,7 +13,7 @@ I created a gist, called `Scene Selection Toolbar`, that uses the [Unity Toolbar
 
 ### Usage
 * Import the `Unity Toolbar Extender` as described in the [Import section](https://github.com/marijnz/unity-toolbar-extender#importing) on GitHub.
-* Then, just add it the gist below to any `Editor` folder of your project or use the [Gist Importer](http://localhost:4000/unitytips-gist-importer/).
+* Then, just add it the gist below to any `Editor` folder of your project or use the [Gist Importer](/unitytips-gist-importer).
 
 {% gist 4122c117c927d5c370dd562e619129e6 SceneSelectionToolbar.cs %}
 {% gistimporter %}
