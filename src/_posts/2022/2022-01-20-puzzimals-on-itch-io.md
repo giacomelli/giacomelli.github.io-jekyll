@@ -7,6 +7,8 @@ tags: puzzimals unity3d gamedev games itchio webgl
 ---
 Now you can play my game [Puzzimals](/games/puzzimals) directly in the browser through itch.io: [https://giacomelli.itch.io/puzzimals](https://giacomelli.itch.io/puzzimals)
 
+{% itchio 1361011 %}
+
 {% youtube AKhcDVZgUAA %}
 
 ## What is Puzzimals?

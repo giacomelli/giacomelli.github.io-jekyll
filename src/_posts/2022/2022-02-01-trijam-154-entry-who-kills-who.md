@@ -9,6 +9,8 @@ Last weekend I participated in **[Trijam #154](https://itch.io/jam/trijam-154)**
 
 > Trijam is a weekly game jam where your goal is to make something playable (and fun!) in just 3 hours.
 
+{% itchio 1376314 %}
+
 ## The theme
 The theme for this game jam was **"There is a twist...!"**.
 

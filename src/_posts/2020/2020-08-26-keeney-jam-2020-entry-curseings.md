@@ -8,6 +8,8 @@ tags: game-jam games made-with-unity
 Last weekend I participated in **Kenney Jam 2020** (my first game jam).
 The experience was really good, when you have so strong boundaries to make a game, in this case, **48 hours and just use assets from [Kenney](http://Kenney.nl/assets)**, you need to turn your way of think and expectations to a very specific and clear objective: release a fun and playable game the target just the core mechanics.
 
+{% itchio 737655 %}
+
 ## The theme
 The theme for this game jam was **"Cursed"**.
 I took some time thinking about what game I would like to play and develop with such a theme, then I remembered how much I loved to play Lemmings and how those little ones were cursed to live in the small world where some of them should sacrifice for the others.

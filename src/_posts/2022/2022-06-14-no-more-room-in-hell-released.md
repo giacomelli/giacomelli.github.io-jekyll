@@ -7,7 +7,9 @@ tags: nmrh unity3d gamedev games itchio mac win
 ---
 On June 14th I released my newest solo game called "NO MORE ROOM IN HELL".
 
-You can download it for Windows and macOS directly from its itch.io page: [https://giacomelli.itch.io/no-more-room-in-hell](https://giacomelli.itch.io/no-more-room-in-hell)
+You can download it for Windows, MacOS, Linux or play directly on browser from its itch.io page: [https://giacomelli.itch.io/no-more-room-in-hell](https://giacomelli.itch.io/no-more-room-in-hell).
+
+{% itchio 1573240 %}
 
 ## What is it?
 A 2D top-down survival shooter game where you will be a rookie soldier in a secret government lab when a zombie apocalypse starts out of blue and now you need to find your way to the docks for a chance to be with your wife and son again.
@@ -41,4 +43,5 @@ Daniel was very kind to give me permission to use the music in the game, as well
 #### Sound FX
 The sound fx are from [Peter Wayne](https://www.gamemasteraudio.com) and his amazing sound effects packages on Unity Asset Store, called [Pro Sound Collection](https://assetstore.unity.com/publishers/16891)
 
+{% itchio 1573240 %}
 {% youtube QKbeli5Jn0I %}

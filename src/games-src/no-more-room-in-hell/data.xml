@@ -59,9 +59,12 @@
 		<trailer>
 			<name>S01E03 - Gameplay</name>
 			<youtube>n2A5SP1-xxk</youtube>
-		</trailer>
-	
+		</trailer>	
 	</trailers>
+
+	<widgets>	
+		<itch>1573240</itch>
+	</widgets>
 
 	<quotes>		
 	</quotes>	
