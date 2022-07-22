@@ -14,7 +14,7 @@ module Jekyll
       site = context.registers[:site]
       "<center>                
         #{Helper::picture(context, "assets/#{@text}", "screenshot")}
-      </center>"
+      </center><br>"
     end
   end
 end
