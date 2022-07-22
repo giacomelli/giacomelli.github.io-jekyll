@@ -15,7 +15,7 @@ In this post, we’ll cover the common properties and behaviors of 2D colliders,
 
 {% note I originally wrote this post as a guest writer for [LogRocket's blog](https://blog.logrocket.com/fundamentals-unity-2d-colliders/) %}
 
-## Tuorial sections
+## Tutorial sections
 * Setting up our Unity project
 * What are colliders?
 * Common properties and behaviors of colliders
