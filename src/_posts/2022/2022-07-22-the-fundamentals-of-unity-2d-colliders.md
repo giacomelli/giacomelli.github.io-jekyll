@@ -16,6 +16,8 @@ In this post, we’ll cover the common properties and behaviors of 2D colliders,
 {% note I originally wrote this post as a guest writer for [LogRocket's blog](https://blog.logrocket.com/fundamentals-unity-2d-colliders/) %}
 
 ## Tutorial sections
+{% icon manifest.png %}
+
 * Setting up our Unity project
 * What are colliders?
 * Common properties and behaviors of colliders
@@ -39,6 +41,7 @@ The following prerequisites are required to follow along with this tutorial:
 
 
 ## Setting up our Unity project
+{% icon config.png %}
 First, we need to create our Unity project. For this tutorial, we’ll use the version 2021.3.4f1, which, at the moment I’m writing, is the newest LTS Unity version.
 
 On the project templates list, choose 2D(core), give it a name, and click the Create project button. We’ll call ours `SampleScene`.
@@ -49,6 +52,7 @@ With the project started, create two folders called `Scripts` and `Physic Materi
 {% screenshot folders.png %}
 
 ## What are colliders?
+{% icon problem.png %}
 Before we start using our Unity project, we need to take a little dive into the basic concepts of colliders.
 
 Colliders are the way that Unity (and most of the available game engines, if not all) manages collisions between GameObjects. For the sake of this tutorial, we are only using the 2D colliders, but a lot of the rules mentioned below are applicable to 3D colliders, too.
@@ -139,6 +143,7 @@ Hit the `Play` button again. Now we should see this happen:
 
 
 ## Collision callbacks
+{% icon programmer.png %}
 When one collider interacts with another collider, Unity sends some messages (e.g., call a method on any `MonoBehavior` attached to the `GameObject`). In the case of a 2D collider, there are six available messages:
 
 ### When IsTrigger is not checked:
@@ -219,6 +224,7 @@ An important thing to note is that all `OnCollision` and `OnTrigger` methods rec
 If we don’t need to use this information in our script, we can declare the `OnCollision/OnTrigger` methods without the logging parameter.
 
 ## Collider interactions
+{% icon component.png %}
 You probably noticed in the last section that there is parity between the `OnCollision` and `OnTrigger` methods the physics engine calls on the GameObjects involved in the collision. Knowing when each kind of interaction raises each kind of message/method in the involved GameObjects can be a little tricky; despite this apparent similarity, there are some rules for interaction possibilities between different collider setups.
 
 There are six different setups a collider can have that will differently affect how it interacts with other colliders. These setups can be done by a combination of the properties `IsTrigger` of the `Collider2D` and the property `Body Type` of the `Rigidbody2D` attached to the same GameObject. Below is a list of similar setups:
@@ -260,10 +266,10 @@ These tables can be very useful during game development, when we get stuck with 
 
 To help us to better understand the colliders’ interactions, now and when we face the kind of problem mentioned above, I created a sample where we can move the GameObjects through each of the six possible interaction setups, see how they interact with each other, and what callbacks messages are sent.
 
-{% screenshot collider-interactions.gif %}
-{% caption [https://diegogiacomelli.com.br/apps/collider-interactions](https://diegogiacomelli.com.br/apps/collider-interactions) %}
+> Try it and move each collider setup to better understand what messages are sent for each interaction
 
-[Try the online sample here](https://diegogiacomelli.com.br/apps/collider-interactions) and move each collider setup to better understand what messages are sent for each interaction
+{% webgl collider-interactions %}
+{% caption [https://diegogiacomelli.com.br/apps/collider-interactions](https://diegogiacomelli.com.br/apps/collider-interactions) %}
 
 ## Physics2D settings
 For the last part of this tutorial, I would like to mention the Physics2D settings.
@@ -285,4 +291,8 @@ The bottom line is: make sure to only change these settings after studying and u
 * [Online Collision Interactions sample](https://diegogiacomelli.com.br/apps/collider-interactions)
 
 ## Conclusion
+{% icon conclusion.png %}
 In this tutorial, we’ve explained the fundamentals of Unity 2D Colliders: what they are, what their common properties and behaviors are, how to add a `BoxCollider2D` and `CircleCollider2D` to a GameObject, what a `Rigidbody2D` is and how to use `PhysicsMaterial2D`, what the collision callbacks are and how to use them on our scripts, and, finally, the kinds of collider setups and how they interact.
+
+{% iconscopyright %}
+The sprites used on the WebGL sample are from [Kenney](http://kenney.nl).
