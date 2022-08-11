@@ -7,7 +7,7 @@ tags: unity3d gamedev ebook
 ---
 Throughout all these years using Unity I’ve collected a lot of eBooks that Unity’s team has created. These ebooks are an incredible source of knowledge, but for some reason, I haven't found any place on the Unity site or blog where all these eBooks are listed.
 
-For this reason, I created this post to list those eBooks. If you know any other of these free eBooks created by Unity’s team let me know in the comments and I’ll update the post.
+Thereupon, I created this post to list those eBooks. If you know any other of them created by Unity’s team let me know in the comments and I’ll update the post.
 
 {% logo Unity3d.png default %}
 
