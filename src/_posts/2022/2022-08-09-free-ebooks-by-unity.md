@@ -30,6 +30,9 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [The hidden productivity costs disrupting your release timelines](https://images.response.unity3d.com/Web/Unity/%7B47e54d3b-d51f-4e09-b3c1-1ab84453779e%7D_Unity-HiddenProductivityCosts-Ebook.pdf)
 * [The true costs of creating, Launching, and Operating a Game](https://images.response.unity3d.com/Web/Unity/%7B954cce4a-4166-45e7-b270-df28300bc67f%7D_UNITY-The_True_Costs_of_Creating__Launching_and_Operating_a_Game.pdf)
 
+### Multiplatform
+* [Five foundations for successful multiplatform games](https://content.cdntwrk.com/files/aT0xNDc2NDkxJnY9MSZpc3N1ZU5hbWU9dW5pdHktNW11bHRpcGxhdGZvcm1lYm9vay1maW5hbDgxMSZjbWQ9ZCZzaWc9M2FmMGFkYTRhZThiNDg2Yjg1MmY3ZWMxOWM1YzljZDI%253D)
+
 ### Mobile
 * [Mobile Game Trends - What you need to know for 2022](https://images.response.unity3d.com/Web/Unity/%7B53677c96-8761-4852-9699-67fb3702e97c%7D_Unity-MobileTrends2022-Ebook.pdf)
 
