@@ -16,6 +16,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [The definitive guide to lighting in the High Definition Render Pipeline (HDRP)](https://content.cdntwrk.com/files/aT0xNDY3OTc3JnY9MSZpc3N1ZU5hbWU9dGhlLWRlZmluaXRpdmUtZ3VpZGUtdG8tbGlnaHRpbmctaW4tdGhlLWhpZ2gtZGVmaW5pdGlvbi1yZW5kZXItcGlwZWxpbmUtdW5pdHktMjAyMS1sdHMtZWRpdGlvbiZjbWQ9ZCZzaWc9MGM5YTE4M2IyZmE3ZDYzMjcxMTljZDQ4YTQyYjYxZjM%253D)
 
 ### Case study
+* [Gameloft - Bringing new ideas to reality faster](https://images.response.unity3d.com/Web/Unity/%7B16c8de91-64fe-46c7-899a-5a45ace2ba60%7D_Gameloft_-_Bringing_new_ideas_to_reality_faster.pdf)
 * [Lost in Random by Zoink Studios](https://images.response.unity3d.com/Web/Unity/%7B67c2b39e-0d60-4c68-bb6f-7db7196f7781%7D_Unity-LostInRandom-CaseStudy-v4.pdf)
 
 ### DevOps
