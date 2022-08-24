@@ -15,6 +15,9 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [2D game art, animation, and lighting for artists](https://content.cdntwrk.com/files/aT0xNDYwMzg1JnY9MSZpc3N1ZU5hbWU9MkQgZ2FtZSBhcnQsIGFuaW1hdGlvbiwgYW5kIGxpZ2h0aW5nIGZvciBhcnRpc3RzIGVCb29rJmNtZD1kJnNpZz05NTM2NDg4NjI3YjNhNTkyMGU1YTBjMjFjNjg0YmRhMg%253D%253D)
 * [The definitive guide to lighting in the High Definition Render Pipeline (HDRP)](https://content.cdntwrk.com/files/aT0xNDY3OTc3JnY9MSZpc3N1ZU5hbWU9dGhlLWRlZmluaXRpdmUtZ3VpZGUtdG8tbGlnaHRpbmctaW4tdGhlLWhpZ2gtZGVmaW5pdGlvbi1yZW5kZXItcGlwZWxpbmUtdW5pdHktMjAyMS1sdHMtZWRpdGlvbiZjbWQ9ZCZzaWc9MGM5YTE4M2IyZmE3ZDYzMjcxMTljZDQ4YTQyYjYxZjM%253D)
 
+### Case study
+* [Lost in Random by Zoink Studios](https://images.response.unity3d.com/Web/Unity/%7B67c2b39e-0d60-4c68-bb6f-7db7196f7781%7D_Unity-LostInRandom-CaseStudy-v4.pdf)
+
 ### DevOps
 * [Four essential DevOps practices to make all your games stand out](https://images.response.unity3d.com/Web/Unity/%7Ba58bfd8b-fc4d-4a60-a340-328a4a994c90%7D_2022-01-DG-Essential-Dev-Ops-Practices-e-book.pdf)
 * [Version control and project organization best practices for game developers](https://content.cdntwrk.com/files/aT0xNDUzNTMwJnY9MSZpc3N1ZU5hbWU9VmVyc2lvbiBjb250cm9sIGFuZCBwcm9qZWN0IG9yZ2FuaXphdGlvbiBiZXN0IHByYWN0aWNlIGd1aWRlJmNtZD1kJnNpZz00NzZiN2VjYzNlOGY3ZTNhNThhYzdjYzFiNTg4NTBiMA%253D%253D)
