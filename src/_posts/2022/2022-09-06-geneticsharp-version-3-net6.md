@@ -3,7 +3,7 @@ published: true
 layout: post
 title: GeneticSharp v3.0.0 - .NET 6
 categories: News
-tags: geneticsharp
+tags: geneticsharp dotnet release
 ---
 I've just released the [GeneticSharp version 3.0.0](https://github.com/giacomelli/GeneticSharp/releases/tag/3.0.0).
 
