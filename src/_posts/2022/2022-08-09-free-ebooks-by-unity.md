@@ -12,7 +12,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 {% logo Unity3d.png default %}
 
 
-* `Last updated at 13/09/2022`
+* `Last updated on 13/09/2022`
 * `Currently listing 43 eBooks`
 
 ### 2D
@@ -49,7 +49,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [Curricular Framework](https://images.response.unity3d.com/Web/Unity/%7B118ba1e1-7999-4731-aecb-222c8f648ba1%7D_Unity-CurricularFramework-052820_FINAL.pdf)
 
 ### Game design
-* [The Unity Game Designer Playbooy](https://cdn.unity3d.com/media/TheGameDesignerPlaybook_EBook.pdf)
+* [The Unity Game Designer Playbook](https://cdn.unity3d.com/media/TheGameDesignerPlaybook_EBook.pdf)
 
 ### Misc
 * [Myths vs reality: What you need to know about developing for the Mac](https://images.response.unity3d.com/Web/Unity/%7B1f2fcf3b-d60d-44e1-b646-818d32bfa030%7D_Unity-Mac-Development-Ebook-v4.2.pdf)
