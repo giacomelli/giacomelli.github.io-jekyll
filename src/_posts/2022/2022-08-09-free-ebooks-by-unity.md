@@ -12,8 +12,8 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 {% logo Unity3d.png default %}
 
 
-* `Last updated on 13/09/2022`
-* `Currently listing 43 eBooks`
+* `Last updated on 18/10/2022`
+* `Currently listing 45 eBooks`
 
 ### 2D
 * [SouthPAW masters the rogue-lite genre with powerful 2D tools](https://content.cdntwrk.com/files/aT0xNDY3Njc3JnY9MSZpc3N1ZU5hbWU9c2t1bC10aGUtaGVyby1zbGF5ZXItY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9NGVkZWYzYWE4N2FhNTJiMTAyYWRhYmM5M2Y0ODBjNGE%253D)
@@ -78,10 +78,14 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 ### Performance
 * [9 ways to optimize your game development: Unity expert tips to help you ship](https://images.response.unity3d.com/Web/Unity/%7B5dc4de9b-9e59-4860-b933-eb6daae82ecd%7D_Unity_Games_Optimization_Best_Practices-v5.pdf)
 * [Optimize your game performance for consoles and PC](https://content.cdntwrk.com/files/aT0xNDI0NjkzJnY9MSZpc3N1ZU5hbWU9b3B0aW1pemUteW91ci1jb25zb2xlLWFuZC1wYy1nYW1lLXBlcmZvcm1hbmNlJmNtZD1kJnNpZz1hYjFkYjE2OTRhZWZhNzI4OTFkM2FiZjIyNTIyNTkyMQ%253D%253D)
+* [Optimize your mobile game performance](https://content.cdntwrk.com/files/aT0xMzg4ODYxJnY9MSZpc3N1ZU5hbWU9dW5pdHktZS1ib29rLW9wdGltaXplLXlvdXItbW9iaWxlLWdhbWUtcGVyZm9ybWFuY2UmY21kPWQmc2lnPWU3NWYzMDQxZjdkNTk4ZDc4NjVhMjZiZTVmM2E1ODQ4)
 * [Ultimate guide to profiling Unity games](https://content.cdntwrk.com/files/aT0xNDY3MDM1JnY9MyZpc3N1ZU5hbWU9dWx0aW1hdGUtZ3VpZGUtdG8tcHJvZmlsaW5nLXVuaXR5LWdhbWVzJmNtZD1kJnNpZz1kZGY3OThlNTBlYjA3YzljODU1MDA2NWFlNjlhM2NmNw%253D%253D)
 
 ### Porting
 * [Five mistakes to avoid when porting your game to Nintendo Switch](https://images.response.unity3d.com/Web/Unity/%7B2472c6b0-ed28-46c3-bd7a-12eed8ce3805%7D_Five-mistakes-to-avoid-when-porting-your-game-to-switch.pdf)
+
+### Programming
+* [Create C# Style Guide: Write cleaner code that scales](https://content.cdntwrk.com/files/aT0xNDc4MTU1JnY9MSZpc3N1ZU5hbWU9Y3JlYXRlLWEtYy1zdHlsZS1ndWlkZS13cml0ZS1jbGVhbmVyLWNvZGUtdGhhdC1zY2FsZXMmY21kPWQmc2lnPTU5NjljY2NjZmUwYWM3YjUzNTlmNjAyMGVmOGY5MmQ3)
 
 ### Testing
 * [Bugs & automation: The next generation of QA](https://images.response.unity3d.com/Web/Unity/%7B4233ae60-18e9-498e-bf6d-226e47a75932%7D_Unity_Bugs_Automation_EBook.pdf)
