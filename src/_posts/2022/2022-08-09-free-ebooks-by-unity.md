@@ -86,6 +86,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 
 ### Programming
 * [Create C# Style Guide: Write cleaner code that scales](https://content.cdntwrk.com/files/aT0xNDc4MTU1JnY9MSZpc3N1ZU5hbWU9Y3JlYXRlLWEtYy1zdHlsZS1ndWlkZS13cml0ZS1jbGVhbmVyLWNvZGUtdGhhdC1zY2FsZXMmY21kPWQmc2lnPTU5NjljY2NjZmUwYWM3YjUzNTlmNjAyMGVmOGY5MmQ3)
+* [Level up your code with game programming patterns](https://content.cdntwrk.com/files/aT0xNDgxMzIzJnY9MSZpc3N1ZU5hbWU9bGV2ZWwtdXAteW91ci1jb2RlLXdpdGgtZ2FtZS1wcm9ncmFtbWluZy1wYXR0ZXJucyZjbWQ9ZCZzaWc9YjU2NzExOGI3MWZiMWZjN2ZkMzdhMDE2NDkwMDE4Nzk%253D)
 
 ### Testing
 * [Bugs & automation: The next generation of QA](https://images.response.unity3d.com/Web/Unity/%7B4233ae60-18e9-498e-bf6d-226e47a75932%7D_Unity_Bugs_Automation_EBook.pdf)
