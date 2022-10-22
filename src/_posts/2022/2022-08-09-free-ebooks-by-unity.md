@@ -12,8 +12,8 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 {% logo Unity3d.png default %}
 
 
-* `Last updated on 18/10/2022`
-* `Currently listing 45 eBooks`
+* `Last updated on 22/10/2022`
+* `Currently listing 46 eBooks`
 
 ### 2D
 * [SouthPAW masters the rogue-lite genre with powerful 2D tools](https://content.cdntwrk.com/files/aT0xNDY3Njc3JnY9MSZpc3N1ZU5hbWU9c2t1bC10aGUtaGVyby1zbGF5ZXItY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9NGVkZWYzYWE4N2FhNTJiMTAyYWRhYmM5M2Y0ODBjNGE%253D)
