@@ -7,11 +7,12 @@ tags: dotnet database sql code-generator ado dapper
 ---
 
 ## Introduction
-If you already worked in a project where the data access solution wore SQL commands, instead of some ORM solution, you probably saw some SQL commands inserted directly inside the C# code. I worked in projects with that approach too, but I saw a great **problem with that: We were treating a complete language (SQL) as just a string inside our C# code. No intellisense, code completation, syntax validation, format, etc.**
+If you already worked on a project where the data access solution has used SQL commands, instead of some ORM solution, you probably saw some SQL commands inserted directly inside the C# code. I worked on projects with that approach too, but I saw a great **problem with that: We were treating a complete language (SQL) as just a string inside our C# code. No IntelliSense, code completion, syntax validation, format, etc.**
+If
 
-Sometime ago, with that problem in mind, I created a small library to help us to use SQL commands in our project at that time. As we were using [Dapper](https://github.com/DapperLib/Dapper) as our facilitator to access the SQL Server database, we needed write SQL commands as our daily base activities.
+Some time ago, with that problem in mind, I created a small library to help us to use SQL commands in our project at that time. As we were using [Dapper](https://github.com/DapperLib/Dapper) as our facilitator to access the SQL Server database, we needed to write SQL commands as our daily base activities.
 
-*That library, called SqlAsFile, helped us to write SQL commands in separated .sql files and use them inside the C# as typed string property of a static class (using T4 generator). This allowed us to write SQL with the whole help of IDE and with no chance to reference a invalid SQL file path.*
+*That library, called SqlAsFile, helped us to write SQL commands in separated .sql files and use them inside the C# as typed string property of a static class (using T4 generator). This allowed us to write SQL with the whole help of IDE and with no chance to reference an invalid SQL file path.*
 
 {% logo netcore.svg default %}
 
@@ -23,7 +24,7 @@ Sometime ago, with that problem in mind, I created a small library to help us to
 {% gist 4dda230a09941b6300468a71ee3812ab change-template.cs %}
 * Add your .sql files inside any folder or subfolder of your Data project.
 * The Build Action property of the .sql files should be changed to Embedded Resource.
-* Run the `SqlInfoGenerator.tt` (right click, Run Custom Tool)
+* Run the `SqlInfoGenerator.tt` every time you add or remove .sql file from the project. You don't need to that when you just change the content of already existing .sql file. (right click, Run Custom Tool)
 
 
 ## Usage
