@@ -12,8 +12,8 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 {% logo Unity3d.png default %}
 
 
-* `Last updated on 22/10/2022`
-* `Currently listing 46 eBooks`
+* `Last updated on 06/11/2022`
+* `Currently listing 47 eBooks`
 
 ### 2D
 * [SouthPAW masters the rogue-lite genre with powerful 2D tools](https://content.cdntwrk.com/files/aT0xNDY3Njc3JnY9MSZpc3N1ZU5hbWU9c2t1bC10aGUtaGVyby1zbGF5ZXItY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9NGVkZWYzYWE4N2FhNTJiMTAyYWRhYmM5M2Y0ODBjNGE%253D)
@@ -66,6 +66,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [How to deal with latency in your multiplayer game](https://images.response.unity3d.com/Web/Unity/%7B0602c119-6b5c-4011-9583-86120cb73bb0%7D_Latency_in_your_multiplayer_game_ebook.pdf)
 
 ### Mobile
+* [Best practices from successful mobile indies](https://cdn.unity3d.com/media/2022-bestpracticesmobile-ebook.pdf)
 * [How Alt Shift brought their story-rich spacefaring experience to mobile](https://content.cdntwrk.com/files/aT0xNDcxOTMzJnY9MSZpc3N1ZU5hbWU9Y3J5aW5nLXN1bnMtY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9NTI2NTFjYzQxNDAwMDk5NTA3MmI4YmY5MDZmYWFhY2E%253D)
 * [Mobile Game Trends - What you need to know for 2022](https://images.response.unity3d.com/Web/Unity/%7B53677c96-8761-4852-9699-67fb3702e97c%7D_Unity-MobileTrends2022-Ebook.pdf)
 
