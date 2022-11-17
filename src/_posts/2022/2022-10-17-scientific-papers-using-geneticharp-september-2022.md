@@ -5,7 +5,7 @@ title: Scientific papers using GeneticSharp (september 2022)
 categories: news
 tags: geneticsharp papers
 ---
-In September 2022 I discovered (TBH, Google Scholar notified me) that five new scientific papers using GeneticSharp have been developed.
+In September 2022 I discovered (TBH, Google Scholar notified me) that five new scientific papers using  [GeneticSharp](https://github.com/giacomelli/GeneticSharp) have been developed.
 
 Below you can appreciate them:
 
