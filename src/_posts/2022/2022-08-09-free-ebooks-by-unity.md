@@ -12,8 +12,8 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 {% logo Unity3d.png default %}
 
 
-* `Last updated on 06/11/2022`
-* `Currently listing 47 eBooks`
+* `Last updated on 25/11/2022`
+* `Currently listing 48 eBooks`
 
 ### 2D
 * [SouthPAW masters the rogue-lite genre with powerful 2D tools](https://content.cdntwrk.com/files/aT0xNDY3Njc3JnY9MSZpc3N1ZU5hbWU9c2t1bC10aGUtaGVyby1zbGF5ZXItY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9NGVkZWYzYWE4N2FhNTJiMTAyYWRhYmM5M2Y0ODBjNGE%253D)
@@ -21,6 +21,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 ### Art
 * [2D game art, animation, and lighting for artists](https://content.cdntwrk.com/files/aT0xNDYwMzg1JnY9MSZpc3N1ZU5hbWU9MkQgZ2FtZSBhcnQsIGFuaW1hdGlvbiwgYW5kIGxpZ2h0aW5nIGZvciBhcnRpc3RzIGVCb29rJmNtZD1kJnNpZz05NTM2NDg4NjI3YjNhNTkyMGU1YTBjMjFjNjg0YmRhMg%253D%253D)
 * [The definitive guide to lighting in the High Definition Render Pipeline (HDRP)](https://content.cdntwrk.com/files/aT0xNDY3OTc3JnY9MSZpc3N1ZU5hbWU9dGhlLWRlZmluaXRpdmUtZ3VpZGUtdG8tbGlnaHRpbmctaW4tdGhlLWhpZ2gtZGVmaW5pdGlvbi1yZW5kZXItcGlwZWxpbmUtdW5pdHktMjAyMS1sdHMtZWRpdGlvbiZjbWQ9ZCZzaWc9MGM5YTE4M2IyZmE3ZDYzMjcxMTljZDQ4YTQyYjYxZjM%253D)
+* [Unity for technical artists - Key toolsets and workflows](https://content.cdntwrk.com/files/aT0xNDgxODQ0JnY9MSZpc3N1ZU5hbWU9dW5pdHktZm9yLXRlY2huaWNhbC1hcnRpc3RzLWtleS10b29sc2V0cy1hbmQtd29ya2Zsb3dzJmNtZD1kJnNpZz1jODAyYmUxZGY2MjdmYTg5YzVkZGVmMjVlOTQzOGVjMw%253D%253D)
 
 ### Case study
 * [Cookie Jam: Unlocking the recipe for a successful migration](https://content.cdntwrk.com/files/aT0xNDc0Njg2JnY9MSZpc3N1ZU5hbWU9dW5pdHktY29va2llamFtLWNhc2VzdHVkeS12MyZjbWQ9ZCZzaWc9ZmJkZWJkNzQ2OTU5Njg4ZWNjZjFmNjg3ZWEyYjgwY2I%253D)
