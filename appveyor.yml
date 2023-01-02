@@ -6,7 +6,8 @@ environment:
 
 branches:
   only:
-    - develop    
+    - develop
+    - feature/*   
     
 install:
 - sh: sudo rm -rf /var/lib/apt/lists/*
