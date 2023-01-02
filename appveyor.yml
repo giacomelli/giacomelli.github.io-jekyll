@@ -18,7 +18,7 @@ install:
 - sh: sudo apt-get -y install libvips
 - sh: \curl -L https://get.rvm.io | bash -s stable --ruby
 - sh: rvm reload
-- sh: rvm install ruby-2.7.5
+- sh: rvm install ruby-3.0.0
 - sh: gem update --system
 - sh: gem install sass-embedded -v 1.57.1
 - sh: gem install jekyll bundler
