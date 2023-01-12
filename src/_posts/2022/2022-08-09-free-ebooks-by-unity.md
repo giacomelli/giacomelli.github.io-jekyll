@@ -12,8 +12,8 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 {% logo Unity3d.png default %}
 
 
-* `Last updated on 02/01/2023`
-* `Currently listing 49 eBooks`
+* `Last updated on 12/01/2023`
+* `Currently listing 52 eBooks`
 
 ### 2D
 * [SouthPAW masters the rogue-lite genre with powerful 2D tools](https://content.cdntwrk.com/files/aT0xNDY3Njc3JnY9MSZpc3N1ZU5hbWU9c2t1bC10aGUtaGVyby1zbGF5ZXItY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9NGVkZWYzYWE4N2FhNTJiMTAyYWRhYmM5M2Y0ODBjNGE%253D)
@@ -56,6 +56,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [Myths vs reality: What you need to know about developing for the Mac](https://images.response.unity3d.com/Web/Unity/%7B1f2fcf3b-d60d-44e1-b646-818d32bfa030%7D_Unity-Mac-Development-Ebook-v4.2.pdf)
 * [The hidden productivity costs disrupting your release timelines](https://images.response.unity3d.com/Web/Unity/%7B47e54d3b-d51f-4e09-b3c1-1ab84453779e%7D_Unity-HiddenProductivityCosts-Ebook.pdf)
 * [The true costs of creating, Launching, and Operating a Game](https://images.response.unity3d.com/Web/Unity/%7B954cce4a-4166-45e7-b270-df28300bc67f%7D_UNITY-The_True_Costs_of_Creating__Launching_and_Operating_a_Game.pdf)
+* [Unity Game Dev Field Guide](https://content.cdntwrk.com/files/aT0xNDMwNzIwJnY9MSZpc3N1ZU5hbWU9dW5pdHktZ2FtZS1kZXYtZmllbGQtZ3VpZGUmY21kPWQmc2lnPTJmNGI2NGQzMzEyNDU4ODA1ODA0MWFiOTAwOTU3M2Qz) 🆕
 
 ### Multiplatform
 * [Five foundations for successful multiplatform games](https://content.cdntwrk.com/files/aT0xNDc2NDkxJnY9MSZpc3N1ZU5hbWU9dW5pdHktNW11bHRpcGxhdGZvcm1lYm9vay1maW5hbDgxMSZjbWQ9ZCZzaWc9M2FmMGFkYTRhZThiNDg2Yjg1MmY3ZWMxOWM1YzljZDI%253D)
@@ -98,3 +99,9 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 
 ### Universal Render Pipeline (URP)
 * [Introduction to the Universal Render Pipeline for advanced Unity creators](https://content.cdntwrk.com/files/aT0xNDc2NTcwJnY9MSZpc3N1ZU5hbWU9aW50cm9kdWN0aW9uLXRvLXRoZS11bml2ZXJzYWwtcmVuZGVyLXBpcGVsaW5lLWZvci1hZHZhbmNlZC11bml0eS1jcmVhdG9ycy0yMDIxLWx0cy1lZGl0aW9uJmNtZD1kJnNpZz1kMjZkZmQ1Njg1NWUyZjZhMDc5OGJmY2M0OTllZWQ3YQ%253D%253D)
+
+### VFX
+* [The definitive guide to creating advanced visual effects in Unity](https://content.cdntwrk.com/files/aT0xNDg1OTkyJnY9MiZpc3N1ZU5hbWU9dGhlLWRlZmluaXRpdmUtZ3VpZGUtdG8tY3JlYXRpbmctYWR2YW5jZWQtdmlzdWFsLWVmZmVjdHMtaW4tdW5pdHkmY21kPWQmc2lnPTcxYTU3NGI5ZDZhZmI5MmU0MzIxOThjNDRjZWM2MmMy) 🆕
+
+### Workflow
+* [Top tips for improving your workflows and productivity with Unity 2020 LTS](https://content.cdntwrk.com/files/aT0xNDA1MzY3JnY9MSZpc3N1ZU5hbWU9dG9wLXRpcHMtZm9yLWltcHJvdmluZy15b3VyLXdvcmtmbG93cy1hbmQtcHJvZHVjdGl2aXR5LXdpdGgtdW5pdHktMjAyMC1sdHMmY21kPWQmc2lnPTdlMzQxNTEyOTY2ZWVhZTg3YmYyZjc5OTI4ZTRjNzE0) 🆕
