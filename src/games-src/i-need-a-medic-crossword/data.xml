@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>I need a medic - crossword</title>
+	<release-dates>
+		<release-date>itch.io - 1 Oct, 2023</release-date>
+	</release-dates>
+
+	<website>https://giacomelli.itch.io/i-need-a-medic-crossword</website>	
+
+	<platforms>
+		<platform>
+			<name>Web</name>
+			<link>https://giacomelli.itch.io/i-need-a-medic-crossword</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>	
+	A GameBoy classic kind of game where you try to complete the quote "I need a doctor" as fast as you can while the board changes the current letter.
+
+	The goal is to complete the quote before losing all the 3 lives. 	
+	</description>
+	
+	<histories>
+		<history>
+			<header>Trijam #239</header>
+			<text>Game developed in 3 hours for Trijam #239 https://itch.io/jam/trijam-239.</text>
+		</history>
+  	</histories>
+
+	<features>
+		<feature>GameBoy classic kind of game</feature>
+		<feature>Fast and simple gameplay.</feature>		
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Gameplay</name>
+			<youtube>ndOU3bpwpk4</youtube>
+		</trailer>		
+	</trailers>
+
+	<widgets>	
+		<itch>2291731</itch>
+	</widgets>
+
+	<quotes>
+
+		<quote>
+			<description>It would have been a perfect casual word game during the gameboy era haha! Nice work!</description>
+			<name>Hallow_West</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/8679720</link>
+		</quote>
+
+		<quote>
+			<description>Twitch movement and crossword puzzles are two things that don't necessarily get put together often, good job on that!</description>
+			<name>Burnerknight Studios</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/8669794</link>
+		</quote>
+		
+		<quote>
+			<description>This is really good idea. You should make it into a full game with random sentences and words getting progressively harder with each level.</description>
+			<name>Tõnu</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/8679560</link>
+		</quote>
+
+		<quote>
+			<description>Fun twist to a crossword style game. Love all the sound effects. It definitely started to get tricky towards the end to get all the letters! Great game :)</description>
+			<name>Willow Flame</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/8672767</link>
+		</quote>
+				
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer and developer.</role>
+		</credit>
+
+		<credit>
+			<person>Kenney</person>
+			<role>Sound FX</role>
+		</credit>
+		<credit>
+			<person>Peter Wayne</person>
+			<role>Sound FX. https://assetstore.unity.com/publishers/16891</role>
+		</credit>
+	</credits>
+</product>
