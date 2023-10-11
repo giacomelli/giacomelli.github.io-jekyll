@@ -32,7 +32,13 @@
 	<histories>
 		<history>
 			<header>Trijam #239</header>
-			<text>Game developed in 3 hours for Trijam #239 https://itch.io/jam/trijam-239.</text>
+			<text>Game developed in 3 hours for Trijam #239 (https://itch.io/jam/trijam-239). Theme: "I need a medic!"</text>
+		</history>
+		<history>
+			<header>Development</header>
+			<text>
+				The game was developed using C# and Blazor WebAssembly.
+			</text>
 		</history>
   	</histories>
 
