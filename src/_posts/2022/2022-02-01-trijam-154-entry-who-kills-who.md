@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Trijam 154 entry&colon; Who Kills Who?
 categories: Article
-tags: game-jam games made-with-unity
+tags: game-jam games made-with-unity trijam
 ---
 Last weekend I participated in **[Trijam #154](https://itch.io/jam/trijam-154)**.
 
