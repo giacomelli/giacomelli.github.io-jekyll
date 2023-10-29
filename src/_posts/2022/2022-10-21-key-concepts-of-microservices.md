@@ -9,7 +9,7 @@ tags: microservice
 ## Independent deployability
 > Independent deployability is the idea that we can make a change to a microservie, deploy it, and release that change to our users, without having to deploy any other microservies.
 
-## Modeled aroudn a business domain
+## Modeled around a business domain
 > By modeling services around business domains, we can make it easier to roll out new functionality and to recombine microservices ind different ways to deliver new functionality to our users. 
 
 
