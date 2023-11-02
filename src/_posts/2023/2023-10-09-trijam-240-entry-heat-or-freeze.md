@@ -3,7 +3,7 @@ published: true
 layout: post
 title: Trijam 240 entry&colon; Heat or Freeze 
 categories: Article
-tags: game-jam games made-with-unity trijam blazorame
+tags: game-jam games trijam blazorame
 ---
 Last weekend I participated in **[Trijam #240](https://itch.io/jam/trijam-240)**.
 
