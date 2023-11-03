@@ -12,8 +12,8 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 {% logo Unity3d.png default %}
 
 
-* `Last updated on 08/06/2023`
-* `Currently listing 57 eBooks`
+* `Last updated on 03/11/2023`
+* `Currently listing 59 eBooks`
 
 ### 2D
 * [SouthPAW masters the rogue-lite genre with powerful 2D tools](https://content.cdntwrk.com/files/aT0xNDY3Njc3JnY9MSZpc3N1ZU5hbWU9c2t1bC10aGUtaGVyby1zbGF5ZXItY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9NGVkZWYzYWE4N2FhNTJiMTAyYWRhYmM5M2Y0ODBjNGE%253D)
@@ -24,15 +24,15 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [Unity for technical artists - Key toolsets and workflows](https://content.cdntwrk.com/files/aT0xNDgxODQ0JnY9MSZpc3N1ZU5hbWU9dW5pdHktZm9yLXRlY2huaWNhbC1hcnRpc3RzLWtleS10b29sc2V0cy1hbmQtd29ya2Zsb3dzJmNtZD1kJnNpZz1jODAyYmUxZGY2MjdmYTg5YzVkZGVmMjVlOTQzOGVjMw%253D%253D)
 
 ### AR/VR
-* [Four big construction problems solved by AR and VR](https://content.cdntwrk.com/files/aT0xNDIxMDAwJnY9MSZpc3N1ZU5hbWU9Zm91ci1iaWctY29uc3RydWN0aW9uLXByb2JsZW1zLXNvbHZlZC1ieS1hci1hbmQtdnImY21kPWQmc2lnPWUwNWViMmY1MmNjNTQ3NGQ3YjM1YjQwZTc1OWJiMTIx) 🆕
-* [The energy transition: How real-time 3D technology can support a low-carbon economy](https://content.cdntwrk.com/files/aT0xNDc3NjMwJnY9MSZpc3N1ZU5hbWU9MjAyMi10aGUtZW5lcmd5LXRyYW5zaXRpb24tZWJvb2smY21kPWQmc2lnPTNlNGIwMTc1YzNjYmZkMzgwZjk0Mjc1M2QwNGU0YTNk) 🆕
+* [Four big construction problems solved by AR and VR](https://content.cdntwrk.com/files/aT0xNDIxMDAwJnY9MSZpc3N1ZU5hbWU9Zm91ci1iaWctY29uc3RydWN0aW9uLXByb2JsZW1zLXNvbHZlZC1ieS1hci1hbmQtdnImY21kPWQmc2lnPWUwNWViMmY1MmNjNTQ3NGQ3YjM1YjQwZTc1OWJiMTIx)
+* [The energy transition: How real-time 3D technology can support a low-carbon economy](https://content.cdntwrk.com/files/aT0xNDc3NjMwJnY9MSZpc3N1ZU5hbWU9MjAyMi10aGUtZW5lcmd5LXRyYW5zaXRpb24tZWJvb2smY21kPWQmc2lnPTNlNGIwMTc1YzNjYmZkMzgwZjk0Mjc1M2QwNGU0YTNk)
 
 ### Case study
 * [Cookie Jam: Unlocking the recipe for a successful migration](https://content.cdntwrk.com/files/aT0xNDc0Njg2JnY9MSZpc3N1ZU5hbWU9dW5pdHktY29va2llamFtLWNhc2VzdHVkeS12MyZjbWQ9ZCZzaWc9ZmJkZWJkNzQ2OTU5Njg4ZWNjZjFmNjg3ZWEyYjgwY2I%253D)
 * [Gameloft - Bringing new ideas to reality faster](https://images.response.unity3d.com/Web/Unity/%7B16c8de91-64fe-46c7-899a-5a45ace2ba60%7D_Gameloft_-_Bringing_new_ideas_to_reality_faster.pdf)
 * [How Nifty Games keeps live operations lean and flexible](https://content.cdntwrk.com/files/aT0xMzg1NTc2JnY9NCZpc3N1ZU5hbWU9dWdzLW5pZnR5LWdhbWVzLWNhc2Utc3R1ZHktMSZjbWQ9ZCZzaWc9YmIyN2Q5OTUwZDAxNTFiNmZiZDhkMWI0OWNhMzZlMzM%253D)
 * [Find out how Unico boosted their KPIs and improved player engagement](https://content.cdntwrk.com/files/aT0xNDQ5MzQ1JnY9MSZpc3N1ZU5hbWU9dW5pY28tc3R1ZGlvLWNhc2Utc3R1ZHkmY21kPWQmc2lnPTA4NmVmNDFkNTE2YzY3ZWE5NzZjN2FjNDNlZTU1MDgy)
-* [How Unity’s flexibility helps power IMMORTALITY’s unique gameplay and storytelling](https://content.cdntwrk.com/files/aT0xNDk1MTkyJnY9MSZpc3N1ZU5hbWU9MjAyMy11bml0eS1pbW1vcnRhbGl0eS1jYXNlLXN0dWR5JmNtZD1kJnNpZz1jNTlhMTBmYzRhYTZjZTc0N2M0MGQ5NjBiYTU1YmYyYQ%253D%253D) 🆕
+* [How Unity’s flexibility helps power IMMORTALITY’s unique gameplay and storytelling](https://content.cdntwrk.com/files/aT0xNDk1MTkyJnY9MSZpc3N1ZU5hbWU9MjAyMy11bml0eS1pbW1vcnRhbGl0eS1jYXNlLXN0dWR5JmNtZD1kJnNpZz1jNTlhMTBmYzRhYTZjZTc0N2M0MGQ5NjBiYTU1YmYyYQ%253D%253D)
 * [How Mimimi made Desperados III a huge success with a small team](https://content.cdntwrk.com/files/aT0xNDQ5MDU0JnY9MSZpc3N1ZU5hbWU9SG93IFVuaXR5IGhlbHBlZCBNaW1pbWnigJlzIERlc3BlcmFkb3MgSUlJIHJpdmFsIG1lZ2Etc3R1ZGlvIHJlbGVhc2VzJmNtZD1kJnNpZz1iYjBlMDEyYmIyYjVhMjQ1MjVkMGYzMDFhNmE2YjNmZg%253D%253D)
 * [How Thunderful Games rolled a AAA hit with “dice opera” fantasy Lost in Random](https://content.cdntwrk.com/files/aT0xNDY3ODE0JnY9MSZpc3N1ZU5hbWU9bG9zdC1pbi1yYW5kb20tY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9MjEwM2Q3N2Y5NTVhYTFiOTIyN2IxMTBlNGQ1ZTYyYjE%253D)
 * [How Team17 uses Unity Integrated Success to ship their games on time](https://content.cdntwrk.com/files/aT0xNDM2ODE0JnY9MSZpc3N1ZU5hbWU9dGVhbS0xNy1jYXNlLXN0dWR5JmNtZD1kJnNpZz1iYjY1NTlmMzQ5MjFiMzFiY2UzNDM0NjVlYmUzN2JjZg%253D%253D)
@@ -73,8 +73,9 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [How to deal with latency in your multiplayer game](https://images.response.unity3d.com/Web/Unity/%7B0602c119-6b5c-4011-9583-86120cb73bb0%7D_Latency_in_your_multiplayer_game_ebook.pdf)
 
 ### Mobile
+* [6 solutions to future proof your mobile game optimization and operation](https://images.response.unity3d.com/Web/Unity/%7B24ec70e4-1024-46a4-a7c3-24834e26afcb%7D_Unity_Games_ABM_E-book.pdf)🆕
 * [Best practices from successful mobile indies](https://cdn.unity3d.com/media/2022-bestpracticesmobile-ebook.pdf)
-* [Five strategies to ensure your next mobile game is a success](https://content.cdntwrk.com/files/aT0xNDgyMTMxJnY9MSZpc3N1ZU5hbWU9MjAyMi1maXZlc3RyYXRlZ2llc21vYmlsZWdhbWV3aW5uZXItZWJvb2stdjQtMSZjbWQ9ZCZzaWc9OGJiOTM0ZjM5ZmQ0ZTYwOTJlYzQ5Y2I4OTU2M2YwZWM%253D) 🆕
+* [Five strategies to ensure your next mobile game is a success](https://content.cdntwrk.com/files/aT0xNDgyMTMxJnY9MSZpc3N1ZU5hbWU9MjAyMi1maXZlc3RyYXRlZ2llc21vYmlsZWdhbWV3aW5uZXItZWJvb2stdjQtMSZjbWQ9ZCZzaWc9OGJiOTM0ZjM5ZmQ0ZTYwOTJlYzQ5Y2I4OTU2M2YwZWM%253D)
 * [How Alt Shift brought their story-rich spacefaring experience to mobile](https://content.cdntwrk.com/files/aT0xNDcxOTMzJnY9MSZpc3N1ZU5hbWU9Y3J5aW5nLXN1bnMtY2FzZS1zdHVkeSZjbWQ9ZCZzaWc9NTI2NTFjYzQxNDAwMDk5NTA3MmI4YmY5MDZmYWFhY2E%253D)
 * [Mobile Game Trends - What you need to know for 2022](https://images.response.unity3d.com/Web/Unity/%7B53677c96-8761-4852-9699-67fb3702e97c%7D_Unity-MobileTrends2022-Ebook.pdf)
 
@@ -95,7 +96,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 
 ### Programming
 * [Create C# Style Guide: Write cleaner code that scales](https://content.cdntwrk.com/files/aT0xNDc4MTU1JnY9MSZpc3N1ZU5hbWU9Y3JlYXRlLWEtYy1zdHlsZS1ndWlkZS13cml0ZS1jbGVhbmVyLWNvZGUtdGhhdC1zY2FsZXMmY21kPWQmc2lnPTU5NjljY2NjZmUwYWM3YjUzNTlmNjAyMGVmOGY5MmQ3)
-* [Create modular game architecture in Unity with ScriptableObjects](https://content.cdntwrk.com/files/aT0xNDk3MDQ2JnY9MiZpc3N1ZU5hbWU9Y3JlYXRlLW1vZHVsYXItZ2FtZS1hcmNoaXRlY3R1cmUtaW4tdW5pdHktd2l0aC1zY3JpcHRhYmxlb2JqZWN0cyZjbWQ9ZCZzaWc9MmUwMTAzMjA1ZjczZWRiYmQzNmUxODViOTZkYTQ0MTk%253D) 🆕
+* [Create modular game architecture in Unity with ScriptableObjects](https://content.cdntwrk.com/files/aT0xNDk3MDQ2JnY9MiZpc3N1ZU5hbWU9Y3JlYXRlLW1vZHVsYXItZ2FtZS1hcmNoaXRlY3R1cmUtaW4tdW5pdHktd2l0aC1zY3JpcHRhYmxlb2JqZWN0cyZjbWQ9ZCZzaWc9MmUwMTAzMjA1ZjczZWRiYmQzNmUxODViOTZkYTQ0MTk%253D)
 * [Level up your code with game programming patterns](https://content.cdntwrk.com/files/aT0xNDgxMzIzJnY9MSZpc3N1ZU5hbWU9bGV2ZWwtdXAteW91ci1jb2RlLXdpdGgtZ2FtZS1wcm9ncmFtbWluZy1wYXR0ZXJucyZjbWQ9ZCZzaWc9YjU2NzExOGI3MWZiMWZjN2ZkMzdhMDE2NDkwMDE4Nzk%253D)
 
 ### Testing
@@ -108,6 +109,7 @@ Thereupon, I created this post to list those eBooks. If you know any other of th
 * [Introduction to the Universal Render Pipeline for advanced Unity creators](https://content.cdntwrk.com/files/aT0xNDc2NTcwJnY9MSZpc3N1ZU5hbWU9aW50cm9kdWN0aW9uLXRvLXRoZS11bml2ZXJzYWwtcmVuZGVyLXBpcGVsaW5lLWZvci1hZHZhbmNlZC11bml0eS1jcmVhdG9ycy0yMDIxLWx0cy1lZGl0aW9uJmNtZD1kJnNpZz1kMjZkZmQ1Njg1NWUyZjZhMDc5OGJmY2M0OTllZWQ3YQ%253D%253D)
 
 ### VFX
+* [Recipes for shaders and visual effects](https://content.cdntwrk.com/files/aT0xNTAyMDQ2JnY9MSZpc3N1ZU5hbWU9dGhlLXVuaXZlcnNhbC1yZW5kZXItcGlwZWxpbmUtY29va2Jvb2stcmVjaXBlcy1mb3Itc2hhZGVycy1hbmQtdmlzdWFsLWVmZmVjdHMtdW5pdHktMjAyMi1sdHMtZWRpdGlvbiZjbWQ9ZCZzaWc9MzZjZTkwMDVkNWI3ODU5M2JhNDEyMmVmNjMxMWE5Mzc%253D) 🆕
 * [The definitive guide to creating advanced visual effects in Unity](https://content.cdntwrk.com/files/aT0xNDg1OTkyJnY9MiZpc3N1ZU5hbWU9dGhlLWRlZmluaXRpdmUtZ3VpZGUtdG8tY3JlYXRpbmctYWR2YW5jZWQtdmlzdWFsLWVmZmVjdHMtaW4tdW5pdHkmY21kPWQmc2lnPTcxYTU3NGI5ZDZhZmI5MmU0MzIxOThjNDRjZWM2MmMy)
 
 ### Workflow
