@@ -7,7 +7,7 @@ tags: geneticsharp geneticsharp-in-the-wild
 ---
 I started a [series of posts](/tags/geneticsharp-in-the-wild/) about some outstanding scientific papers and projects using [GeneticSharp](https://github.com/giacomelli/GeneticSharp).
 
-For this third post the choose one is the `Frixel: 2D framing / pixel structural optimization`.
+For this third post the chosen one is the `Frixel: 2D framing / pixel structural optimization`.
 
 ## Introduction
 

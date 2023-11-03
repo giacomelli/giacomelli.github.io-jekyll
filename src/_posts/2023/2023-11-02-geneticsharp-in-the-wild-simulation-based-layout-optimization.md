@@ -7,7 +7,7 @@ tags: geneticsharp geneticsharp-in-the-wild
 ---
 I started a [series of posts](/tags/geneticsharp-in-the-wild/) about some outstanding scientific papers and projects using [GeneticSharp](https://github.com/giacomelli/GeneticSharp).
 
-For this sixth post the choose one is the `Simulation-based layout optimization for multi-station assembly lines`.
+For this sixth post the chosen one is the `Simulation-based layout optimization for multi-station assembly lines`.
 
 ## Introduction
 *Presents a novel approach for the automated 3D-layout planning of multi-station assembly lines. The planning method is based on a comprehensive model of the used production resources, including their geometry, kinematic properties, and general characteristics. Different resource types can be included in the planning system. A genetic algorithm generates and optimizes possible layouts for a line.*

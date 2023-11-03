@@ -7,7 +7,7 @@ tags: geneticsharp geneticsharp-in-the-wild
 ---
 I decided to start a [series of posts](/tags/geneticsharp-in-the-wild/) about some outstanding scientific papers and projects using [GeneticSharp](https://github.com/giacomelli/GeneticSharp).
 
-For this first post the choose one is the `AeroVision - Aircraft Trajectories Optimization and Visualization`.
+For this first post the chosen one is the `AeroVision - Aircraft Trajectories Optimization and Visualization`.
 
 ## Introduction
 The main motivation of the authors about the AeroVision was:

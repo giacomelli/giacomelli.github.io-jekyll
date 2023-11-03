@@ -7,7 +7,7 @@ tags: geneticsharp geneticsharp-in-the-wild
 ---
 I decided to start a [series of posts](/tags/geneticsharp-in-the-wild/) about some outstanding scientific papers and projects using [GeneticSharp](https://github.com/giacomelli/GeneticSharp).
 
-For this second post the choose one is the `Context-Sensitive Code
+For this second post the chosen one is the `Context-Sensitive Code
 Completion: Improving Predictions with Genetic Algorithms`.
 
 ## Introduction

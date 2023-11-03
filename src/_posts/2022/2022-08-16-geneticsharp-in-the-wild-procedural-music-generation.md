@@ -7,7 +7,7 @@ tags: geneticsharp geneticsharp-in-the-wild audio
 ---
 I started a [series of posts](/tags/geneticsharp-in-the-wild/) about some outstanding scientific papers and projects using [GeneticSharp](https://github.com/giacomelli/GeneticSharp).
 
-For this fifth post the choose one is the `State of the Art in Procedural Music Generation using Genetic Algorithms and Rule Based GA Implementation with Attractor Waves`.
+For this fifth post the chosen one is the `State of the Art in Procedural Music Generation using Genetic Algorithms and Rule Based GA Implementation with Attractor Waves`.
 
 ## Introduction
 *The act of composing a piece of music in regarded as a creative process which encompasses objective and subjective rules. Objective rules can be pointed as the minimum necessary ones so that a given composition is considered structurally valid –

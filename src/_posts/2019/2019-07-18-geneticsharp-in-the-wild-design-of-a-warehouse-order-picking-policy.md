@@ -7,7 +7,7 @@ tags: geneticsharp geneticsharp-in-the-wild
 ---
 I started a [series of posts](/tags/geneticsharp-in-the-wild/) about some outstanding scientific papers and projects using [GeneticSharp](https://github.com/giacomelli/GeneticSharp).
 
-For this fourth post the choose one is the `Design of a Warehouse Order Picking Policy - Using Genetic Algorithm`.
+For this fourth post the chosen one is the `Design of a Warehouse Order Picking Policy - Using Genetic Algorithm`.
 
 ## Introduction
 The main motivation of the author about this paper was:
