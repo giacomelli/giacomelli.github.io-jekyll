@@ -11,7 +11,7 @@ branches:
 install:
 - sh: sudo rm -rf /var/lib/apt/lists/*
 - sh: sudo apt-key adv --refresh-keys --keyserver keyserver.ubuntu.com
-- sh: sudo apt-get update --ignore-missing
+- sh: sudo apt-get update 
 - sh: sudo apt-get -y install curl
 - sh: sudo apt-get -y install imagemagick
 - sh: sudo apt-get -y install webp
