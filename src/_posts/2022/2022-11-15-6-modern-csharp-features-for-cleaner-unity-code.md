@@ -3,7 +3,7 @@ published: true
 layout: post
 title: 6 modern C# features for cleaner Unity code
 categories: Tutorial
-tags: unity3d gamedev logrocket
+tags: dotnet csharp logrocket
 ---
 Since C# 7.0, many code improvements that help us write less code have been added to the language.
 
