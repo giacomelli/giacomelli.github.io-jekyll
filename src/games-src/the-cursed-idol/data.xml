@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>The Cursed Idol</title>
+	<release-dates>
+		<release-date>itch.io - 29 Oct, 2023</release-date>
+	</release-dates>
+
+	<website>https://giacomelli.itch.io/the-cursed-idol</website>	
+
+	<platforms>
+		<platform>
+			<name>Web</name>
+			<link>https://giacomelli.itch.io/the-cursed-idol</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>	
+	This quick-time event game is based on the famous Indiana Jones - Raiders of the Lost Ark scene where Indy needs to swap a bag with the Golden Idol to try not to activate the temple traps (we all know how it turns out).
+	The game's objective is to hit any key at the exact moment that Indy should swap the items.
+	You can try to collect as many Cursed Idols as you want, but if you miss the right moment you will lose them all and will be cursed.
+	</description>
+	
+	<histories>
+		<history>
+			<header>Trijam #243</header>
+			<text>
+				Game developed in 3 hours for Trijam #240 (https://itch.io/jam/trijam-243.). Theme: "Cursed Relics"	
+			</text>
+		</history>
+		<history>
+			<header>Development</header>
+			<text>
+				The game was developed using C# and Blazor WebAssembly.
+			</text>
+		</history>
+  	</histories>
+
+	<features>
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Gameplay</name>
+			<youtube>PUb9wU3zwko</youtube>
+		</trailer>		
+	</trailers>
+
+	<widgets>	
+		<itch>2337551</itch>
+	</widgets>
+
+	<quotes>
+		<quote>
+			<description>This a pretty unique concept it's a nice small game. The art style and music blend so well together!</description>
+			<name>ChickenGamer</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/8813901</link>
+		</quote>
+
+		<quote>
+			<description>I laughed a lot over the voice acting. I was playing with my team and you did a great job. It was hard getting the timing.</description>
+			<name>Mareoceu</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/8813544</link>
+		</quote>				
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer and developer.</role>
+		</credit>
+
+		<credit>
+			<person>Vít Čondák: https://www.dafont.com/pt/indiana-jonas.font?text=Indiana+Jones</person>
+			<role>Font</role>
+		</credit>
+	</credits>
+</product>

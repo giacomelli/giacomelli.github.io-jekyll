@@ -87,6 +87,9 @@ In this case, it will be generate a `InvalidOperationException` with the message
 If you want to use this technique in an ASP.NET project remember to enable localization in the `Startup.cs` or `Program.cs` file:
 {% gist 6297f4ca7b0be353d92203e5b6364e40 Startup.cs %}
 
+## Without throwing exceptions
+In many projects, throwing exceptions is not possible or desired due to performance and design issues, in these cases you can use the same technique shown in this tutorial, but instead of throwing exceptions, you can adapt T4 to generate an error object business that can go through all layers of your architecture until reaching the UI or the serialization.
+
 ## Conclusion
 T4 is a powerful tool to help create an efficient development flow in the .NET stack. In cases like this tutorial, it drastically reduces the amount of code and improves the overall availability of the codebase.
 
