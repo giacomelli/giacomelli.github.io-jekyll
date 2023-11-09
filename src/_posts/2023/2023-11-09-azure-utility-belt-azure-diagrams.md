@@ -5,9 +5,9 @@ title: Azure Utility Belt&colon; Azure Diagrams
 categories: Article
 tags: azure diagrams architecture azure-utility-belt
 ---
-I decided to start a [series of posts](/tags/azure-utility-belt/) about some Azure resources that are part of my Azure utility belt and that helps me on my projects.
+I decided to start a [series of posts](/tags/azure-utility-belt/) about some Azure resources and tools that are very useful to have in our Azure Utility Belt.
 
-For this first post, the chosen one is the **[Azure Diagrams](https://azurediagrams.com/)** by [Shane Ochotny](https://www.linkedin.com/in/shaneochotny/), [Harsha Konduri](https://www.linkedin.com/in/harshasks/), and [Bret Myers]( Bret Myers).
+For this first post, the chosen one is the **[Azure Diagrams](https://azurediagrams.com/)** by [Shane Ochotny](https://www.linkedin.com/in/shaneochotny/), [Harsha Konduri](https://www.linkedin.com/in/harshasks/), and [Bret Myers](https://www.linkedin.com/in/bretamyers/).
 
 {% logo azure-utility-belt.png default %}
  
