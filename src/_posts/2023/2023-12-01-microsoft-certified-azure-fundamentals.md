@@ -33,7 +33,6 @@ You can see more details about each topic on [AZ-900 study guide](https://learn.
 {% icon route.png %}
 * It will be easier if you already have some experience with Azure.
 * Read the [certification page](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals)
-* Watch the [What to expect on your Microsoft Fundamentals exam](https://learn.microsoft.com/en-us/shows/exam-readiness-zone/what-to-expect-on-your-microsoft-fundamentals-exam)
 * Microsoft created a series of learning paths for the AZ-900, each one covering the three main skills measured by the exam:
   * [Microsoft Azure Fundamentals: Describe cloud concepts](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts)
   * [Microsoft Azure Fundamentals: Describe Azure architecture and services](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services)
