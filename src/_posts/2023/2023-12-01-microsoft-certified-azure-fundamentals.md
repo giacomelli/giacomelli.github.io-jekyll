@@ -5,7 +5,7 @@ title: Microsoft Certified&colon; Azure Fundamentals
 categories: Article
 tags: azure microsoft certification
 ---
-{% logo certifications/diego-giacomelli-microsoft-certifified-azure-fundamentals-az-900.svg default %}
+{% logo certifications/diego-giacomelli-microsoft-certifified-azure-fundamentals-az-900.png default %}
 
 I've been working with Azure for years, but I had never stopped trying an official Microsoft certification until last month and after a month of studies, yesterday (30/11/2023) **I successfully passed the exam for the [Microsoft Certified: Azure Fundamentals (AZ-900)](https://learn.microsoft.com/en-us/users/giacomelli/credentials/e58521b3d1420cef)**.
 
@@ -32,13 +32,13 @@ You can see more details about each topic on [AZ-900 study guide](https://learn.
 ## Learning path
 {% icon route.png %}
 * It will be easier if you already have some experience with Azure.
-* Read the [certification page](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals)
+* Read the [certification page](https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals).
 * Microsoft created a series of learning paths for the AZ-900, each one covering the three main skills measured by the exam:
   * [Microsoft Azure Fundamentals: Describe cloud concepts](https://learn.microsoft.com/en-us/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts)
   * [Microsoft Azure Fundamentals: Describe Azure architecture and services](https://learn.microsoft.com/en-us/training/paths/azure-fundamentals-describe-azure-architecture-services)
   * [Microsoft Azure Fundamentals: Describe Azure management and governance](https://learn.microsoft.com/en-us/training/paths/describe-azure-management-governance/)
 * Another good source of knowledge for the AZ-900 is the online course [AZ-900: Microsoft Azure Fundamentals Exam Prep](https://www.udemy.com/course/az900-azure/) by Scott Duffy. I took the course myself and it is very useful to make information more clear. The more than 1 million students the course has are also a good sign of its quality.
-* If you are a Portuguese speaker, you can watch this series of videos from the [Canal da Cloud](https://www.youtube.com/playlist?list=PLz3hnOImntANgM1EyWSGkY4v-7dhWURWt)
+* If you are a Portuguese speaker, you can watch this series of videos from the [Canal da Cloud](https://www.youtube.com/playlist?list=PLz3hnOImntANgM1EyWSGkY4v-7dhWURWt).
 
 ## Cheking your knowledge
 {% icon test.png %}
