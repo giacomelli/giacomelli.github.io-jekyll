@@ -18,6 +18,7 @@ install:
 - sh: sudo apt-get -y install libvips
 - sh: sudo rm -f /usr/bin/rvm
 - sh: \curl -L https://get.rvm.io | bash
+- sh: source /home/appveyor/.rvm/scripts/rvm
 - sh: rvm reload
 - sh: rvm install ruby-2.7.2
 - sh: gem update --system 3.3.22
