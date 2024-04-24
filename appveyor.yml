@@ -16,7 +16,7 @@ install:
 - sh: sudo apt-get -y install imagemagick
 - sh: sudo apt-get -y install webp
 - sh: sudo apt-get -y install libvips
-- sh: rm -f /usr/bin/rvm
+- sh: sudo rm -f /usr/bin/rvm
 - sh: \curl -L https://get.rvm.io | bash
 - sh: source /home/appveyor/.rvm/scripts/rvm
 - sh: rvm reload
