@@ -17,7 +17,7 @@ install:
 - sh: sudo apt-get -y install webp
 - sh: sudo apt-get -y install libvips
 - sh: sudo rm -f /usr/bin/rvm
-- sh: \curl -L https://get.rvm.io | bash
+- sh: \curl -L https://get.rvm.io | bash -s stable --ruby
 - sh: source /home/appveyor/.rvm/scripts/rvm
 - sh: rvm reload
 - sh: rvm install ruby-2.7.2
