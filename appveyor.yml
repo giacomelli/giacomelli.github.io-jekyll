@@ -16,7 +16,7 @@ install:
 - sh: sudo apt-get -y install imagemagick
 - sh: sudo apt-get -y install webp
 - sh: sudo apt-get -y install libvips
-- sh: sudo apt install rbenv
+- sh: sudo apt-get -y install rbenv
 - sh: rbenv global 2.7.8 
 - sh: rbenv rehash
 - sh: gem update --system 3.3.22
