@@ -24,6 +24,8 @@ install:
 - sh: \curl -L https://get.rvm.io | bash
 - sh: source ~/.rvm/scripts/rvm
 - sh: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+- sh: (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/appveyor/.bashrc
+- sh: eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 - sh: brew install openssl@1.1
 - sh: rvm install ruby-2.7.2 --with-openssl-dir=$(brew --prefix openssl@1.1)
 - sh: gem update --system 3.2.2
