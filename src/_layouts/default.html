@@ -3,7 +3,16 @@
   <head>
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.description }}</title>
     {% include meta.html %}
-    {% include resources-begin.html %}       
+    {% include resources-begin.html %}     
+    <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+    <script>
+      window.googletag = window.googletag || {cmd: []};
+      googletag.cmd.push(function() {
+        googletag.defineSlot('/21030289/VerticalBanner', [160, 600], 'div-gpt-ad-1720643281438-0').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script>  
   </head>
 
   <body>
@@ -57,5 +66,12 @@
     </footer>
     {% include resources-end.html %}
     {% include analytics.html %}    
+
+    <!-- /21030289/VerticalBanner -->
+    <div id='div-gpt-ad-1720643281438-0' style='min-width: 160px; min-height: 600px;'>
+      <script>
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1720643281438-0'); });
+      </script>
+    </div>
   </body>
 </html>
