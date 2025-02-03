@@ -39,7 +39,6 @@ build_script:
     echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
     echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
     source ~/.bashrc
-- sh: sudo gem install jekyll bundler
 - sh: cd src
 - sh: sudo bundle install
 - sh: git config --global credential.helper "store --file ~/.git-credentials"
