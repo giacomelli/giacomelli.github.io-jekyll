@@ -60,3 +60,7 @@ build_script:
       git add .
       git commit -m "$($env:APPVEYOR_REPO_COMMIT_MESSAGE)"
       git push
+
+artifacts:
+  - path: /home/appveyor/.rvm/log/*_ruby-2.7.8/install.log
+    name: rvm_log
