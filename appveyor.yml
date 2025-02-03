@@ -40,7 +40,7 @@ install:
 
 build_script:
 - sh: cd src
-- sh: bundle install
+- sh: sudo bundle install
 - sh: git config --global credential.helper "store --file ~/.git-credentials"
 - ps: git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
 - ps: git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
