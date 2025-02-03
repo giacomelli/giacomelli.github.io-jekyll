@@ -35,7 +35,7 @@ install:
     echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
     source ~/.bashrc
 - sh: rbenv global 2.7.8
-- sh: rbenv global 2.7.8 && rbenv rehash
+- sh: rbenv rehash
 - sh: sudo gem install jekyll bundler
 
 build_script:
