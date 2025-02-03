@@ -9,7 +9,6 @@ branches:
     - develop   
     
 install:
-- sh: gem install jekyll bundler  
 - sh: sudo rm -rf /var/lib/apt/lists/*
 - sh: sudo apt-key adv --refresh-keys --keyserver keyserver.ubuntu.com
 - sh: sudo apt-get update
