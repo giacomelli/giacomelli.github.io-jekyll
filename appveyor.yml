@@ -9,13 +9,13 @@ branches:
     - develop   
     
 install:
-- sh: sudo apt-get install --no-upgrade ruby-full build-essential zlib1g-dev
+- sh: sudo apt-get install ruby-full build-essential zlib1g-dev
 - sh: |
     echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
     echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
     echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
     source ~/.bashrc
--sh: gem install jekyll bundler
+- sh: gem install jekyll bundler
 
 build_script:
 - sh: cd src
