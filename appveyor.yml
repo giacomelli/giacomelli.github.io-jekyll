@@ -9,7 +9,26 @@ branches:
     - develop   
     
 install:
+- sh: gem install jekyll bundler  
+- sh: sudo rm -rf /var/lib/apt/lists/*
+- sh: sudo apt-key adv --refresh-keys --keyserver keyserver.ubuntu.com
 - sh: sudo apt-get update
+- sh: sudo apt-get -y install curl
+- sh: sudo apt-get -y install imagemagick
+- sh: sudo apt-get -y install webp
+- sh: sudo apt-get -y install libvips
+- sh: sudo apt-get install gnupg2 -y
+- sh: sudo gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+- sh: \curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
+- sh: \curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
+- sh: sudo rm -f /usr/bin/rvm
+- sh: \curl -L https://get.rvm.io | bash
+- sh: source ~/.rvm/scripts/rvm
+- sh: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+- sh: (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/appveyor/.bashrc
+- sh: eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+- sh: brew install openssl@3
+- sh: rvm get stable
 - sh: sudo apt-get install -y --fix-missing ruby-full build-essential zlib1g-dev
 - sh: |
     echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
