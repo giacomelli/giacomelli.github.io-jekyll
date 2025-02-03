@@ -9,7 +9,7 @@ branches:
     - develop   
     
 install:
-- sh: sudo apt-get install ruby-full build-essential zlib1g-dev --skip-existing
+- sh: sudo apt-get install --no-upgrade ruby-full build-essential zlib1g-dev
 - sh: |
     echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
     echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
