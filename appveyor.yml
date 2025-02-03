@@ -29,16 +29,16 @@ build_script:
 - sh: eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 - sh: brew install openssl@3
 - sh: rvm get stable
-- sh: sudo apt-get install -y --fix-missing ruby-full build-essential zlib1g-dev
+- sh: rvm install 2.7.8    
+- sh: rbenv global 2.7.8
+- sh: rbenv local 2.7.8
+- sh: rbenv rehash
+- sh: sudo apt-get install -y --fix-missing build-essential zlib1g-dev
 - sh: |
     echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
     echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
     echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
     source ~/.bashrc
-- sh: rvm install "ruby-2.7.8"    
-- sh: rbenv global 2.7.8
-- sh: rbenv local 2.7.8
-- sh: rbenv rehash
 - sh: sudo gem install jekyll bundler
 - sh: cd src
 - sh: sudo bundle install
