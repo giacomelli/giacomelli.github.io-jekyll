@@ -41,6 +41,7 @@ install:
 
 build_script:
 - sh: cd src
+- sh: rvm install "ruby-2.7.8"
 - sh: rbenv global 2.7.8
 - sh: rbenv local 2.7.8
 - sh: sudo bundle install
