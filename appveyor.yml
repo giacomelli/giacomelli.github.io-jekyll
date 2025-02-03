@@ -8,7 +8,8 @@ branches:
   only:
     - develop   
     
-install:
+
+build_script:
 - sh: sudo rm -rf /var/lib/apt/lists/*
 - sh: sudo apt-key adv --refresh-keys --keyserver keyserver.ubuntu.com
 - sh: sudo apt-get update
@@ -39,12 +40,7 @@ install:
 - sh: rbenv local 2.7.8
 - sh: rbenv rehash
 - sh: sudo gem install jekyll bundler
-
-build_script:
 - sh: cd src
-- sh: sudo rvm install "ruby-2.7.8"
-- sh: sudo rbenv global 2.7.8
-- sh: sudo rbenv local 2.7.8
 - sh: sudo bundle install
 - sh: git config --global credential.helper "store --file ~/.git-credentials"
 - ps: git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
