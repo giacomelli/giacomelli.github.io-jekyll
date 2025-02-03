@@ -18,6 +18,7 @@ build_script:
 - sh: sudo apt-get -y install webp
 - sh: sudo apt-get -y install libvips
 - sh: sudo apt-get install gnupg2 -y
+- sh: sudo apt install -y libssl-dev
 - sh: sudo gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 - sh: \curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
 - sh: \curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
@@ -29,7 +30,7 @@ build_script:
 - sh: eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 - sh: brew install openssl@3
 - sh: rvm get stable
-- sh: rvm install 2.7.8    
+- sh: rvm install 2.7.8 --with-openssl 
 - sh: rbenv global 2.7.8
 - sh: rbenv local 2.7.8
 - sh: rbenv rehash
