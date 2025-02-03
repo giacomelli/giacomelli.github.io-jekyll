@@ -42,8 +42,9 @@ install:
 
 build_script:
 - sh: cd src
-- sh: rbenv global 2.7.8
-- sh: rbenv local 2.7.8
+- sh: sudo rvm install "ruby-2.7.8"
+- sh: sudo rbenv global 2.7.8
+- sh: sudo rbenv local 2.7.8
 - sh: sudo bundle install
 - sh: git config --global credential.helper "store --file ~/.git-credentials"
 - ps: git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
