@@ -34,6 +34,7 @@ install:
     echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
     echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
     source ~/.bashrc
+- sh: rvm install "ruby-2.7.8"    
 - sh: rbenv global 2.7.8
 - sh: rbenv local 2.7.8
 - sh: rbenv rehash
@@ -41,7 +42,6 @@ install:
 
 build_script:
 - sh: cd src
-- sh: rvm install "ruby-2.7.8"
 - sh: rbenv global 2.7.8
 - sh: rbenv local 2.7.8
 - sh: sudo bundle install
