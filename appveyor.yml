@@ -61,6 +61,11 @@ build_script:
       git commit -m "$($env:APPVEYOR_REPO_COMMIT_MESSAGE)"
       git push
 
+on_finish:
+  - ps: >-
+      if (!(Test-Path "artifacts")) { mkdir artifacts }
+      Copy-Item "/home/appveyor/.rvm/log/*_ruby-2.7.8/install.log" "artifacts\"
+
 artifacts:
-  - path: /home/appveyor/.rvm/log/*_ruby-2.7.8/install.log
-    name: rvm_log
+  - path: artifacts\install.log
+    name: ruby-install-log
