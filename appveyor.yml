@@ -63,9 +63,19 @@ build_script:
 
 on_finish:
   - ps: >-
-      if (!(Test-Path "artifacts")) { mkdir artifacts }
-      Copy-Item "/home/appveyor/.rvm/log/*_ruby-2.7.8/install.log" "artifacts\"
+      if (!(Test-Path "artifacts")) { 
+        Write-Host "Creating artifacts directory..."
+        mkdir artifacts 
+      } else { 
+        Write-Host "Artifacts directory already exists."
+      }
+
+      Write-Host "Copying files to artifacts folder..."
+      Copy-Item "/home/appveyor/.rvm/log/*_ruby-2.7.8/install.log" "artifacts\" -Verbose
+
+      Write-Host "Listing files in artifacts folder..."
+      Get-ChildItem -Path "artifacts" -Recurse
 
 artifacts:
-  - path: artifacts
+  - path: artifacts/*
     name: full-artifacts
