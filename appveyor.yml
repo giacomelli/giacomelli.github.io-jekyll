@@ -71,7 +71,7 @@ on_finish:
       }
 
       Write-Host "Copying files to artifacts folder..."
-      Copy-Item "/home/appveyor/.rvm/log/ "artifacts\" -Recurse -Verbose
+      Copy-Item -Path "/home/appveyor/.rvm/log/*" -Destination "artifacts\" -Recurse -Verbose
 
       Write-Host "Listing files in artifacts folder..."
       Get-ChildItem -Path "artifacts" -Recurse
