@@ -8,7 +8,8 @@ branches:
   only:
     - develop   
     
-install:
+
+build_script:
 - sh: sudo rm -rf /var/lib/apt/lists/*
 - sh: sudo apt-key adv --refresh-keys --keyserver keyserver.ubuntu.com
 - sh: sudo apt-get update
@@ -17,6 +18,7 @@ install:
 - sh: sudo apt-get -y install webp
 - sh: sudo apt-get -y install libvips
 - sh: sudo apt-get install gnupg2 -y
+- sh: sudo apt install -y libssl-dev
 - sh: sudo gpg --keyserver hkp://keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 - sh: \curl -sSL https://rvm.io/mpapis.asc | gpg2 --import -
 - sh: \curl -sSL https://rvm.io/pkuczynski.asc | gpg2 --import -
@@ -28,13 +30,19 @@ install:
 - sh: eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 - sh: brew install openssl@3
 - sh: rvm get stable
-- sh: rvm install ruby-2.7.8 --with-openssl-dir=$(brew --prefix openssl@3)
-- sh: gem update --system 3.2.3
+- sh: rvm install 2.7.8 --with-openssl 
+- sh: rbenv global 2.7.8
+- sh: rbenv local 2.7.8
+- sh: rbenv rehash
+- sh: sudo apt-get install -y --fix-missing build-essential zlib1g-dev
+- sh: |
+    echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+    echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+    echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
 - sh: gem install jekyll bundler
-
-build_script:
 - sh: cd src
-- sh: bundle install
+- sh: sudo bundle install
 - sh: git config --global credential.helper "store --file ~/.git-credentials"
 - ps: git config --global user.email $env:APPVEYOR_REPO_COMMIT_AUTHOR_EMAIL
 - ps: git config --global user.name $env:APPVEYOR_REPO_COMMIT_AUTHOR
@@ -52,3 +60,22 @@ build_script:
       git add .
       git commit -m "$($env:APPVEYOR_REPO_COMMIT_MESSAGE)"
       git push
+
+on_finish:
+  - ps: >-
+      if (!(Test-Path "artifacts")) { 
+        Write-Host "Creating artifacts directory..."
+        mkdir artifacts 
+      } else { 
+        Write-Host "Artifacts directory already exists."
+      }
+
+      Write-Host "Copying files to artifacts folder..."
+      Copy-Item -Path "/home/appveyor/.rvm/log/*" -Destination "artifacts\" -Recurse -Verbose
+
+      Write-Host "Listing files in artifacts folder..."
+      Get-ChildItem -Path "artifacts" -Recurse
+
+artifacts:
+  - path: artifacts/*
+    name: full-artifacts
