@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Web Of Bugs</title>
+	<release-dates>
+		<release-date>itch.io - 02 Feb, 2025</release-date>
+	</release-dates>
+
+	<website>https://giacomelli.itch.io/web-of-bugs</website>	
+
+	<platforms>
+		<platform>
+			<name>Web</name>
+			<link>https://giacomelli.itch.io/tweb-of-bugsl</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>	
+	An Atari 2600-style arcade game where you play as a hungry spider, fighting to survive the relentless waves of insects invading your web at night.
+
+	🕷️ Survive, Hunt, and Weave!
+	* Every time you throw a web, you lose a portion of your web (bottom bar).
+	* Hit a bug with your web to turn it into a cocoon.
+	* Eat cocoons to regain the web and stay in the fight.
+	* Bugs that collide with a cocoon also get trapped—use this to your advantage!
+	</description>
+	
+	<histories>
+		<history>
+			<header>Trijam #307</header>
+			<text>
+				Game developed in 3 hours for Trijam #240 (https://itch.io/jam/trijam-307.). Theme: "Web Of Bugs"	
+			</text>
+		</history>
+		<history>
+			<header>Development</header>
+			<text>
+				The game was developed using C# and Blazor WebAssembly.
+			</text>
+		</history>
+  	</histories>
+
+	<features>
+	</features>
+
+	<trailers>
+		<trailer>
+			<name>Gameplay</name>
+			<youtube>fjEEVqovQMM</youtube>
+		</trailer>		
+	</trailers>
+
+	<widgets>	
+		<itch>3296230</itch>
+	</widgets>
+
+	<quotes>
+		<quote>
+			<description>Enjoyed it! Gives me asteroid vibes.</description>
+			<name>CokeGaming Studios</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/11962512</link>
+		</quote>
+
+		<quote>
+			<description>Amazing game...you are the highest ive rated a game so far (:</description>
+			<name>Tallham789</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/11979726</link>
+		</quote>				
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer and developer.</role>
+		</credit>
+
+		<credit>
+			<person>Peter Wayne</person>
+			<role>Sound FX. https://assetstore.unity.com/publishers/16891</role>
+		</credit>
+	</credits>
+</product>

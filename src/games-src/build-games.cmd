@@ -1,8 +1,8 @@
 echo press-kit build...
-call presskit build --pretty-links 
+call npx presskit build --pretty-links 
 
 echo Removing games folder...
-rm -fR ../games
+rmdir /S /Q "../games"
 
 echo Copying games folder
-mv build ../games
+move build ../games
