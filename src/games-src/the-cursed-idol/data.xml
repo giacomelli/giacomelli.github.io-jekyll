@@ -45,7 +45,9 @@
   	</histories>
 
 	<features>
-	</features>
+		<feature>Atari 2600 style game.</feature>
+		<feature>Time event.</feature>
+	</features>	
 
 	<trailers>
 		<trailer>

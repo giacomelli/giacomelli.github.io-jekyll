@@ -11,7 +11,7 @@
 	<platforms>
 		<platform>
 			<name>Web</name>
-			<link>https://giacomelli.itch.io/tweb-of-bugsl</link>
+			<link>https://giacomelli.itch.io/web-of-bugs</link>
 		</platform>
 	</platforms>
 	
@@ -37,7 +37,7 @@
 		<history>
 			<header>Trijam #307</header>
 			<text>
-				Game developed in 3 hours for Trijam #240 (https://itch.io/jam/trijam-307.). Theme: "Web Of Bugs"	
+				Game developed in 3 hours for Trijam #307 (https://itch.io/jam/trijam-307.). Theme: "Web Of Issues"	
 			</text>
 		</history>
 		<history>
@@ -49,7 +49,11 @@
   	</histories>
 
 	<features>
-	</features>
+		<feature>Every time you throw a web, you lose a portion of your web (bottom bar).</feature>
+		<feature>Hit a bug with your web to turn it into a cocoon.	</feature>
+		<feature>Eat cocoons to regain the web and stay in the fight.</feature>
+		<feature>Bugs that collide with a cocoon also get trapped—use this to your advantage!</feature>		
+	</features>	
 
 	<trailers>
 		<trailer>
