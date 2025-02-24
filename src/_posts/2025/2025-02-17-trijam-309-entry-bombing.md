@@ -5,7 +5,7 @@ title: Trijam 309 entry&colon; Bombing
 categories: Article
 tags: game-jam games trijam blazorame blazor
 ---
-Last weekend I participated in **[Trijam #307](https://itch.io/jam/trijam-309)**.
+Last weekend I participated in **[Trijam #309](https://itch.io/jam/trijam-309)**.
 
 > Trijam is a weekly game jam where your goal is to make something playable (and fun!) in just 3 hours.
 

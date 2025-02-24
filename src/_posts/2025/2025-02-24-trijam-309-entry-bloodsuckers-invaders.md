@@ -5,7 +5,7 @@ title: Trijam 310 entry&colon; Bloodsuckers Invaders
 categories: Article
 tags: game-jam games trijam blazorame blazor
 ---
-Last weekend I participated in **[Trijam #307](https://itch.io/jam/trijam-310)**.
+Last weekend I participated in **[Trijam #310](https://itch.io/jam/trijam-310)**.
 
 > Trijam is a weekly game jam where your goal is to make something playable (and fun!) in just 3 hours.
 
