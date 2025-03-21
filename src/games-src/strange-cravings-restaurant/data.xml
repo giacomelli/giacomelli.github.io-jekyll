@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Strange Cravings Restaurant</title>
+	<release-dates>
+		<release-date>itch.io - 16 March, 2025</release-date>
+	</release-dates>
+
+	<website>https://giacomelli.itch.io/strange-cravings-restaurant</website>	
+
+	<platforms>
+		<platform>
+			<name>Web</name>
+			<link>https://giacomelli.itch.io/strange-cravings-restaurant</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>	
+	Welcome to Strange Cravings Restaurant, where you play as a krab running an undersea diner that caters to the bizarre cravings of deep-sea creatures! Your goal? Fulfill as many strange orders as possible before time runs out—while managing a chaotic kitchen conveyor system.
+
+	Food arrives from the kitchen on four food mats, but not everything is part of the current order. If it’s the wrong dish, quickly recycle it to save money. Drop food on the floor, and you’ll lose cash! Inspired by classic Atari 2600 arcade gameplay, this fast-paced challenge will test your reflexes and decision-making. Can you out-earn the other krab restaurant owners and become the ultimate deep-sea chef?
+
+	</description>	
+	
+	<histories>
+		<history>
+			<header>Trijam #313</header>
+			<text>
+				Game developed in 3 hours for Trijam #313 (https://itch.io/jam/trijam-313). Theme: "Strange Cravings"	
+			</text>
+		</history>
+		<history>
+			<header>Development</header>
+			<text>
+				The game was brought to life with C# and Blazor WebAssembly, powered by my own game engine, Blazorame!
+			</text>
+		</history>
+  	</histories>
+	
+	<features>
+		<feature>Classic Atari 2600-style arcade action with pixel-perfect retro visuals!</feature>
+	</features>	
+
+	<trailers>
+		<trailer>
+			<name>Gameplay</name>
+			<youtube>B4MDAYZhIkI</youtube>
+		</trailer>		
+	</trailers>
+
+	<widgets>	
+		<itch>3401145</itch>
+	</widgets>
+
+	<quotes>
+		<quote>
+			<description>I love the art style! Great game.</description>
+			<name>I_AM_STUPID</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12436256</link>
+		</quote>
+
+		<quote>
+			<description>Cool concept! I'd liked it to be faster in a way...</description>
+			<name>hyltia</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12430083</link>
+		</quote>
+
+		<quote>
+			<description>Fantastic style! I feel like speeding up the movement of the crab and the belts would surely add to the fun.</description>
+			<name>Matt!</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12449501</link>
+		</quote>
+
+		<quote>
+			<description>Very cool retro style game :D Well made!</description>
+			<name>Tõnu</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12448983</link>
+		</quote>
+
+		<quote>
+			<description>The game has the feel of an arcade old retrogame, with sounds and graphics that are really cool.</description>
+			<name>Korgen</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12440609</link>
+		</quote>	
+
+		<quote>
+			<description>I have to be the worst crab restauranteur in the sea. Very well done. You captured the essence of those games perfectly!</description>
+			<name>Gerald Burke</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12437020</link>
+		</quote>	
+
+		<quote>
+			<description>Cool game.</description>
+			<name>Ortty</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12436631</link>
+		</quote>
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer and developer.</role>
+		</credit>
+
+		<credit>
+			<person>Peter Wayne</person>
+			<role>Sound FX. https://assetstore.unity.com/publishers/16891</role>
+		</credit>
+	</credits>
+</product>
