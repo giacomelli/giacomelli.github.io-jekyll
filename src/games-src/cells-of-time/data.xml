@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<product>
+	<title>Cells of Time</title>
+	<release-dates>
+		<release-date>itch.io - 11 May, 2025</release-date>
+	</release-dates>
+
+	<website>https://giacomelli.itch.io/cells-of-time</website>	
+
+	<platforms>
+		<platform>
+			<name>Web</name>
+			<link>https://giacomelli.itch.io/cells-of-time</link>
+		</platform>
+	</platforms>
+	
+	<prices>
+		<price>
+			<currency></currency>
+			<value>Free</value>
+		</price>
+   	</prices>
+
+
+	<description>	
+	In Cells of Time, you're the architect of a cellular world governed by the rules of Conway’s Game of Life. With just a few initial strokes, you shape the first generation—and then let time take over. Your challenge: design a pattern that will endure through 1,000 years of evolution... or maybe even longer.
+
+	</description>	
+	
+	<histories>
+		<history>
+			<header>Trijam #321</header>
+			<text>
+				Game developed in 3 hours for Trijam #321 (https://itch.io/jam/trijam-321). Theme: "1000 years"	
+			</text>
+		</history>
+		<history>
+			<header>Development</header>
+			<text>
+				The game was brought to life with C# and Blazor WebAssembly, powered by my own game engine, Blazorame!
+			</text>
+		</history>
+  	</histories>
+	
+	<trailers>
+		<trailer>
+			<name>Gameplay</name>
+			<youtube>cIOQOy9_ROc</youtube>
+		</trailer>		
+	</trailers>
+
+	<widgets>	
+		<itch>3547070</itch>
+	</widgets>
+
+	<quotes>
+		<quote>
+			<description>It is really a cool game and it was satisfying to watch it evolve after the drawing. Also it is a nice touch to have a high score table. Very well made, great job!</description>
+			<name>elifnazlib</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12857935</link>
+		</quote>
+		<quote>
+			<description>this DOWNRIGHT AWESOME SAUCE!!!</description>
+			<name>westnilevirus</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12845250</link>
+		</quote>
+		<quote>
+			<description>Conway's game of life, it never gets old. I like the color palette that you chose, together with the musics, fonts, sounds, gives the game a whole new feel. And having a high score table is really great.</description>
+			<name>kwikrick</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12842306</link>
+		</quote>
+		<quote>
+			<description>I got up to 969 years. It is nice to see you implement a scoreboard.</description>
+			<name>Ronkad</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12838315</link>
+		</quote>
+		<quote>
+			<description>Very nice! Simple concept but implements a well known algorithm and adds some fun.</description>
+			<name>Vmpwje</name>
+			<website>http://itch.io</website>
+			<link>https://itch.io/post/12838034</link>
+		</quote>
+	</quotes>	
+
+	<credits>
+		<credit>
+			<person>Diego Giacomelli</person>
+			<role>Game designer and developer.</role>
+		</credit>
+
+		<credit>
+			<person>Peter Wayne</person>
+			<role>Sound FX. https://assetstore.unity.com/publishers/16891</role>
+		</credit>
+		
+		<credit>
+			<person>Kevin MacLeod (incompetech.com)</person>
+			<role>Soundtrack: "Galactic Rap". Licensed under Creative Commons: By Attribution 4.0 License http://creativecommons.org/licenses/by/4.0/</role>
+		</credit>
+	</credits>
+</product>
