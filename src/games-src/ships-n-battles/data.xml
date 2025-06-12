@@ -6,6 +6,7 @@
 		<release-date>iOS - 04 Jan, 2011</release-date>
 		<release-date>MacOs - 27 Jun 2012</release-date>
 		<release-date>Android - 02 Jul 2012</release-date>
+		<release-date>itch.io - 11 Jun, 2025</release-date>
 	</release-dates>
 
 	<website>http://skahal.github.io/games/ships-n-battles</website>
@@ -24,6 +25,10 @@
 		<platform>
 			<name>Android</name>
 			<link>https://play.google.com/store/apps/details?id=com.skahal.shipsnbattlesfree</link>
+		</platform>
+		<platform>
+			<name>Web</name>
+			<link>https://giacomelli.itch.io/snb</link>
 		</platform>
 	</platforms>
 	
