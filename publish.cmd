@@ -31,6 +31,8 @@ call bundle exec jekyll build --future --limit_posts 1
 @copy games-src\index-replacement.html _site\games\index.html
 @copy games-src\nibble\play.html _site\games\nibble\play.html
 @copy games-src\nibble\NIBBLE.zip _site\games\nibble\NIBBLE.zip
+
+@copy games-src\puzzlord\privacy-policy.html _site\games\puzzlord\privacy-policy.html
  
 @copy ..\CNAME _site\CNAME
 @echo ".nojekyll" > _site\.nojekyll
