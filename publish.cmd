@@ -1,21 +1,19 @@
 @echo PUBLISHING
 
-@echo CLONING THE REPOSITORY...
-@cd src
-@rmdir /S /Q _site
-@git clone https://github.com/giacomelli/giacomelli.github.io.git _site
+@REM @echo CLONING THE REPOSITORY...
+@REM @cd src
+@REM @rmdir /S /Q _site
+@REM @git clone https://github.com/giacomelli/giacomelli.github.io.git _site
 
-@echo GENERTING BUNDLE...
-@mkdir _site 
-@mkdir _site\libs
-@echo "" > _site\libs\style.css
-call bundle exec jekyll build --future --limit_posts 1
+@REM @echo GENERTING BUNDLE...
+@REM @echo "" > _site\libs\style.css
+@REM call bundle exec jekyll build --future --limit_posts 1
 
-@echo BUILDING jekyll...
-@call bundle exec jekyll build
+@REM @echo BUILDING jekyll...
+@REM @call bundle exec jekyll build
 
 @echo COPYING EXTRA FILES...
-@xcopy apps/unitytips-museum/_content _site/apps/unitytips-museum/_content /E /I /Y
+@xcopy apps\unitytips-museum\_content _site\apps\unitytips-museum\_content /E /I /Y
 @xcopy apps\unitytips-museum\_content _site\apps\unitytips-museum\_content /E /I /Y
 @xcopy apps\unitytips-museum\_framework _site\apps\unitytips-museum\_framework /E /I /Y
 
