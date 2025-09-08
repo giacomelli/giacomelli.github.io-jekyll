@@ -1,11 +1,11 @@
 @echo PUBLISHING
 
 @REM @echo CLONING THE REPOSITORY...
-@REM @cd src
+@cd src
 @REM @rmdir /S /Q _site
 @REM @git clone https://github.com/giacomelli/giacomelli.github.io.git _site
 
-@REM @echo GENERTING BUNDLE...
+@REM @echo GENERATING BUNDLE...
 @REM @echo "" > _site\libs\style.css
 @REM call bundle exec jekyll build --future --limit_posts 1
 
