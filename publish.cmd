@@ -20,6 +20,8 @@
 @xcopy apps\geneticsharp-runner-blazorapp\_content _site\apps\geneticsharp-runner-blazorapp\_content /E /I /Y
 @xcopy apps\geneticsharp-runner-blazorapp\_framework _site\apps\geneticsharp-runner-blazorapp\_framework /E /I /Y
 
+@xcopy apps\geneticsharp-unity3d-samples _site\apps\geneticsharp-unity3d-samples /E /I /Y
+
 @xcopy apps\arc-8\_content _site\apps\arc-8\_content /E /I /Y
 @xcopy apps\arc-8\_framework _site\apps\arc-8\_framework /E /I /Y
 
