@@ -3,12 +3,17 @@
 <product>
 	<title>Who Kills Who?</title>
 	<release-dates>
+		<release-date>Android - 15 Set, 2025</release-date>
 		<release-date>Mac/Windows - 30 Feb, 2022</release-date>
 	</release-dates>
 
-	<website>https://giacomelli.itch.io/who-kills-who</website>	
+	<website>http://diegogiacomelli.com.br/games/who-kills-who</website>	
 
 	<platforms>
+		<platform>
+			<name>Android - Google Play</name>
+			<link>https://play.google.com/store/apps/details?id=br.com.diegogiacomelli.whokillswho</link>
+		</platform>
 		<platform>
 			<name>Web</name>
 			<link>https://giacomelli.itch.io/curseings</link>
