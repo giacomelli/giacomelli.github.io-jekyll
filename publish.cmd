@@ -34,6 +34,7 @@
 
 @copy games-src\puzzlord\privacy-policy.html _site\games\puzzlord\privacy-policy.html
 @copy games-src\puzzimals\privacy-policy.html _site\games\puzzimals\privacy-policy.html
+@copy games-src\who-kills-who\privacy-policy.html _site\games\who-kills-who\privacy-policy.html
  
 @copy ..\CNAME _site\CNAME
 @echo ".nojekyll" > _site\.nojekyll
