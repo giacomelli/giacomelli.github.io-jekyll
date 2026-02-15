@@ -26,7 +26,7 @@
 @xcopy apps\arc-8\_framework _site\apps\arc-8\_framework /E /I /Y
 
 @xcopy games-src\puzzimals\demo _site\games\puzzimals\demo /E /I /Y
-@xcopy tools\meu-navegador _site\tools\my-browser /E /I /Y
+@xcopy tools\my-browser _site\tools\my-browser /E /I /Y
 
 @copy games-src\index-replacement.html _site\games\index.html
 @copy games-src\nibble\play.html _site\games\nibble\play.html
